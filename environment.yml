@@ -1,0 +1,7 @@
+name: project-rotmg-layout
+dependencies:
+  - python=3.11
+  - nodejs
+  - pip
+  - pip:
+      - pre-commit
