@@ -1,0 +1,23 @@
+Image link,Tier,Name,Cost,Damage and Effects,Stat Multiplier,Dash Distance,Trail Damage,Stat Bonus,XP Bonus,Feed Power
+https://i.imgur.com/fnfDBcm.png,0,Slashing Sheath,60 MP,150–250 (200)Shots: 1,1/5/10/16/23%ATT boostEach stack lasts for 10 second,1–3.5,200,,,4
+https://i.imgur.com/cTyifSb.png,1,Timber Sheath,70 MP,250–350 (300)Shots: 1,2/6/11/17/24%ATT boostEach stack lasts for 10 second,1–4,300,+1 DEF,,8
+https://i.imgur.com/YfM029H.png,2,Vineland Sheath,80 MP,350–450 (400)Shots: 1,3/7/12/18/25%ATT boostEach stack lasts for 10 second,1–4.5,400,+2 DEF,,15
+https://i.imgur.com/F2HBqDq.png,3,Haze Sheath,90 MP,300–350 (325)Shots: 2,4/8/13/19/26%ATT boostEach stack lasts for 10 second,1–5,600,+3 DEF,1%,34
+https://i.imgur.com/ZNkj3Wm.png,4,Ichor Sheath,100 MP,350–400 (375)Shots: 2,5/9/14/20/27%ATT boostEach stack lasts for 10 second,1–5.5,800,+4 DEF,2%,68
+https://i.imgur.com/Wnqvh8k.png,5,Serpentine Sheath,110 MP,400–450 (425)Shots: 2,6/10/15/21/28%ATT boostEach stack lasts for 10 second,1–6,1000,+5 DEF,4%,139
+https://i.imgur.com/tyVJOPL.png,6,Great Shinobi Sheath,125 MP,350–400 (375)Shots: 3,7/11/16/22/29%ATT boostEach stack lasts for 10 second,1–6.5,1400,+6 DEF+20 HP+20 MP,6%,380
+https://i.imgur.com/wDwogTe.png,7,Sonic Wave Sheath,140 MP,450–500 (475)Shots: 3,8/12/17/23/30%ATT boostEach stack lasts for 10 second,1–7,1600,+7 DEF+40 HP+40 MP,8%,570
+https://i.imgur.com/9ajqtl6.png,UT,Paper Machete,80 MP,,10/20/30/40/50%VIT boostEach stack lasts for 10 second,8,100,,4%,500
+https://i.imgur.com/b66TXPg.png,UT,Volcanic Sheath,100 MP,400ExplosionRadius: 4 squares,8/12/17/23/30%WIS boostEach stack lasts for 10 second,1–6,1200,+5 WIS,6%,700
+https://i.imgur.com/92vwpqV.png,UT,Blitz Sheath,110 MP,400Shots: 3Shots hit multiple targetsOn hit:DEF boost(+10 DEF) for 5 secondsCooldown:10 seconds,8/12/17/23/30%DEF boostEach stack lasts for 10 second,1–7,500,+8 DEF,7%,700
+https://i.imgur.com/IyEy6lE.png,UT,Quartermaster Scabbard,110 MP,500Shots: 2Shots hit multiple targetsShots boomerangOn Channeling:Summons a stationary decoyOn dash:Healingfor 5 seconds,8/12/17/23/30%HP BoostEach stack lasts for 10 second,7,1000,+30 HP,7%,800
+https://i.imgur.com/Ka2tVF9.png,UT,Kaiken,120 MP,200Shots: 8Shots hit multiple targetsShots pass through obstaclesSlowedon enemies for 2 secondsCooldown:4 seconds,8/12/17/23/30%DEX boostEach stack lasts for 10 second,1–5,1600,+4 ATT+4 DEX,7%,900
+https://i.imgur.com/5hTq71t.png,UT,Labyrinth Dweller’s Sheath,120 MP,350Shots: 1Shots hit multiple targets,10/20/30/40/50%SPD boostEach stack lasts for 15 second,1–7,800,+6 SPD,7%,900
+https://i.imgur.com/lbCI1L0.png,UT,Sheath of Thunderous Rites,90 MP,350-450 (400)Shots: 14Shots hit multiple targetsBlast Damage:450 / 750Blast Radius:4 / 6,-,-,-,+40 HP+4 ATT,7%,950
+https://i.imgur.com/PEE2wln.png,UT,S.H.E.A.T.H.,90 MP,350-450 (400)Shots: 14Shots hit multiple targetsBlast Damage:450 / 750Blast Radius:4 / 6,-,-,-,+40 HP+4 ATT,7%,950
+https://i.imgur.com/sitNKQs.png,UT,Elegant Parasol,150 MP,"200-300 (250)Shots hit multiple targetsShots pass through obstaclesIgnores defense of targetParalyzedon enemies for 3 secondsCooldown:5 secondsBlossoming Power:Release an explosion at the end of each dash dealing 600 base damage, scaling with VIT",10/15/20/25/30%VIT boostEach stack lasts for 10 second,1–7.5,0,+8 ATT+8 VIT,7%,"1,000"
+https://i.imgur.com/RgNhnD1.png,UT,Irradiance Sheath,130 MP,500Shots: 4Shots hit multiple targetsWavy shots,13/17/22/28/35%ATT boostEach stack lasts for 10 second,1–8,1200,+40 HP+5 ATT,8%,"1,000"
+https://i.imgur.com/RxMf9ll.png,ST,Loch Sheath,130 MP,200Shots: 4Shots hit multiple targetsShots pass through obstaclesCooldown:4 secondsOn Dash:Summons Tornado for 8 secondsTornado Shot Damage:50-100,8/12/17/23/30%DEX boostEach stack lasts for 10 second,7,1000,+5 DEX,7%,900
+https://i.imgur.com/2lTd3TJ.png,ST,Pyro Sheath,100 MP,550Shots hit multiple targetsShots pass through obstaclesCooldown:4 secondsOn Third Dash:3 more shotsWith Full Set:Bullets deal 600 damage and travel longer distance,50%DEF boostEach stack lasts for 10 second,2,2200,+5 DEF,7%,900
+https://i.imgur.com/Hep13g8.png,UT,Snowman’s Sheath,125 MP,350–400 (375)Shots: 3,7/11/16/22/29%ATT boostEach stack lasts for 10 second,1–6.5,1400,+6 DEF+20 HP+20 MP,6%,380
+https://i.imgur.com/RdkC4dm.png,UT,An Ancient’s Embrace,100 MP,400ExplosionRadius: 4 squares,8/12/17/23/30%WIS boostEach stack lasts for 10 second,1–6,1200,+5 WIS,6%,700

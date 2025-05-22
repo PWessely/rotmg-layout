@@ -1,0 +1,22 @@
+Image link,Tier,Name,Cost,Invisibility Duration,Other Effects,Stat Bonus,XP Bonus,Feed Power
+//i.imgur.com/EZZo2nl.png,0,Cloak of Shadows,70 MP,5,,,,4
+//i.imgur.com/Og5MRjv.png,1,Cloak of Darkness,80 MP,5,,,,8
+//i.imgur.com/7Zj6lxW.png,2,Cloak of Speed,80 MP,5,,+3 SPD,,15
+//i.imgur.com/PjM3yUA.png,3,Cloak of the Night Thief,90 MP,5,,+5 SPD,1%,34
+//i.imgur.com/zqlh62K.png,4,Cloak of the Red Agent,90 MP,5,,+5 SPD+3 DEX,2%,68
+//i.imgur.com/tfSIkBb.png,5,Cloak of Endless Twilight,90 MP,5,,+5 SPD+4 DEX,4%,139
+//i.imgur.com/vvDokyq.png,6,Cloak of Ghostly Concealment,100 MP,5,,+5 SPD+5 DEX+20 HP+20 MP,6%,380
+//i.imgur.com/hp2lfQt.png,7,Cloak of Nightmares,100 MP,5,,+6 SPD+6 DEX+40 HP+40 MP,8%,570
+//i.imgur.com/WCztONA.png,UT,Mirror Cloak,100 MP,7,Creates a mirror clone andWeakthe user for 7 seconds,,4%,500
+//i.imgur.com/Xqt2Cbq.png,UT,Cloak of the Planewalker,90 MP,3,Teleports to cursor,+15 SPD+4 DEX,6%,750
+//i.imgur.com/5wzATeW.png,UT,Cloak of the Mad God,110 MP,3,Armoredto self for 5 seconds,+6 DEF,6%,950
+//i.imgur.com/CfblKuv.png,UT,Cloak of the Darkened Sun,90 MP,5,HP Boost(+100 HP) on self for 4.5 seconds when used above 550 HP (cooldown: 6 seconds)Restore 20 HP when hit while Invisible above 550 HPRestore 80 HP when hit while Invisible below 550 HP (cooldown: 4 seconds),+3 DEF,7%,700
+//i.imgur.com/V27k4Sz.png,UT,Cloak of Cubic Enigma,100 MP,5,Leaves bursts of damage in your wake while InvisibleDuration: 6 secondsDamage: 600Radius: 4.5 tilesBurst Cooldown: 0.4 seconds,+5 DEF,7%,800
+//i.imgur.com/P4v3VhO.png,UT,Cloak of Refraction,90 MP,5,"Summon: 3 Mirror Images, the outer two orbit the center and fire shots inwards and outwards",+3 DEF+10 SPD,7%,"1,000"
+//i.imgur.com/rUNGXXP.png,UT,Cloak of the Deep,50 MP/s,,"Inhale: While holding down the ability key, drain 50 MP/sec and becomeWeak.Exhale: While holding down the ability key, release a stream of bubbles whilst shooting scaling  with yourLethal StrikeDamage.",+50 MP+5 DEF,7%,"1,000"
+//i.imgur.com/pgSngpE.png,UT,Cloak of Bloody Surprises,95 MP,5,SPD decrease(-40 SPD) on selffor 3 secondsATT boost(+30 ATT) on selffor 3 seconds,+4 DEF+4 VIT,8%,"1,300"
+//i.imgur.com/vzdkbXL.png,ST,Ghastly Drape,85 MP,5,Shoots 6 shotsWith Full Set: InflictingParalyzedto enemies for 2.5 seconds,+5 ATT+3 WIS,7%,950
+//i.imgur.com/oMfuCxt.png,ST,Vampiric Cape,90 MP,5,Healingfor 4 secondsWithSoulcursed Scythe:DEX boost(+10 DEX) on ability use for 4 secondsWithRuthven’s Rosary: Spawns 3 bats summons that circle and deal 60-80 (70) Armor Piercing Damage every 0.4 seconds,+5 SPD,7%,950
+//i.imgur.com/e11lEVq.png,UT,Cloak of Winter,100 MP,5,,+5 SPD+5 DEX+20 HP+20 MP,7%,380
+//i.imgur.com/LB0K4IK.png,UT,Cloak of Eerie Trepidation,95 MP,5,SPD decrease(-40 SPD) on selffor 3 secondsATT boost(+30 ATT) on selffor 3 seconds,+4 DEF+4 VIT,8%,"1,300"
+//i.imgur.com/vzdkbXL.png,ST,Legacy Ghastly Drape,110 MP,5,Speedyto self for 2 seconds,,6%,500

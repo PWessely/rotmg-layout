@@ -1,0 +1,68 @@
+Image link,Tier,Name,Damage (Average),Projectile Image link
+https://i.imgur.com/RXO9NFy.png,0,Shortbow,Main: 15-20 (17.5)Side (2): 5-10 (7.5),https://i.imgur.com/wHAFOAw.png
+https://i.imgur.com/IM9yP0J.png,1,Reinforced Bow,Main:20-25 (22.5)Side (2): 5-10 (7.5),https://i.imgur.com/wHAFOAw.png
+https://i.imgur.com/Wew7oBw.png,2,Hardwood Bow,Main: 25-30 (27.5)Side (2): 5-15 (10),https://i.imgur.com/wHAFOAw.png
+https://i.imgur.com/lrGG4Vj.png,3,Greywood Bow,Main: 30-35 (32.5)Side (2): 5-15 (10),https://i.imgur.com/wHAFOAw.png
+https://i.imgur.com/yJVMlYD.png,4,Ironwood Bow,Main: 35-45 (40)Side (2): 15-20 (17.5),https://i.imgur.com/wHAFOAw.png
+https://i.imgur.com/jv1LGl4.png,5,Fire Bow,Main: 45-55 (50)Side (2): 15-20 (17.5),https://i.imgur.com/wHAFOAw.png
+https://i.imgur.com/H8wxNdo.png,6,Sharpshooter Bow,Main: 55-65 (60)Side (2): 15-20 (17.5),https://i.imgur.com/wHAFOAw.png
+https://i.imgur.com/BKoMGlp.png,7,Redwood Bow,Main: 65-75 (70)Side (2): 20-30 (25),https://i.imgur.com/pW8VMAx.png
+https://i.imgur.com/IF6cb48.png,8,Golden Bow,Main: 85-95 (90)Side (2): 20-30 (25),https://i.imgur.com/wePhzZa.png
+https://i.imgur.com/VrutGFr.png,9,Verdant Bow,Main: 95-105 (100)Side (2): 20-30 (25),https://i.imgur.com/1CsJlfA.png
+https://i.imgur.com/DPRMX44.png,10,Bow of Fey Magic,Main: 105-115 (110)Side (2): 25-35 (30),https://i.imgur.com/hCP0mSE.png
+https://i.imgur.com/6eYLdXj.png,11,Bow of Innocent Blood,Main: 115-125 (120)Side (2): 25-35 (30),https://i.imgur.com/jRvtJ4i.png
+https://i.imgur.com/ARPmplz.png,12,Bow of Covert Havens,Main: 125-135 (130)Side (2): 25-35 (30),https://i.imgur.com/VdG4a9N.png
+https://i.imgur.com/UyGyktA.png,13,Bow of Mystical Energy,Main: 135-145 (140)Side (2): 35-45 (40),https://i.imgur.com/yhFHgAJ.png
+https://i.imgur.com/NAUfUpK.png,14,Bow of Deep Enchantment,Main: 145-155 (150)Side (2): 35-45 (40),https://i.imgur.com/4rapJtz.png
+https://i.imgur.com/e9kBTMN.png,UT,Bramble Bow,30-45 (37.5)Rate of Fire: 120%Shots hit multiple targetsWavy shots,https://i.imgur.com/2AvumlC.png
+https://i.imgur.com/pPYEHGW.png,UT,Butter Bow,15-50 (32.5)Rate of Fire: 120%Shots hit multiple targets,https://i.imgur.com/ZSp1S3u.gif
+https://i.imgur.com/Oej2CEf.png,UT,Baked Bow,15-50 (32.5)Rate of Fire: 120%Shots hit multiple targetsIgnores defense of target,https://i.imgur.com/VqREQwV.png
+https://i.imgur.com/2bAqWdl.png,UT,Cupid’s Bow,Main: 115-125 (120)Side (2): 25-35 (30)Shots hit multiple targets,https://i.imgur.com/8kxzJBy.png
+https://i.imgur.com/06Ez1GP.png,UT,Predator Bow,95-140 (117.5)Rate of Fire: 75%Projectile Speed: 16Shots hit multiple targets,https://i.imgur.com/3p7BiNk.png
+https://i.imgur.com/jNzGW6I.png,UT,Coral Bow,75-95 (85)Rate of Fire: 125%Projectile Speed: 18.5Shots hit multiple targets,https://i.imgur.com/bCdRP43.png
+https://i.imgur.com/3GjgWJy.png,UT,Doom Bow,500-600 (550)Rate of Fire: 33%Projectile Speed: 14Shots hit multiple targets,https://i.imgur.com/XvMbsM4.png
+https://i.imgur.com/HTra5EH.png,UT,Leaf Bow,120-175 (147.5)Rate of Fire: 140%Projectile Speed: 12Wavy shots+5 SPD,https://i.imgur.com/i588IOA.gif
+https://i.imgur.com/LDXA6F8.png,UT,Spider Silk Bow,Main: 180-290 (235)Burst Count:2Burst Delay:1Minimum Burst Delay:0.6Side (2): 10-45 (27.5)Rate of Fire: 130%Shots hit multiple targetsIgnores defense of target+5 ATT,https://i.imgur.com/dZWlDQH.png
+https://i.imgur.com/1cji9i9.png,UT,Thousand Shot,65-130 (97.5)Rate of Fire: 200%Projectile Speed: 16.5Shots hit multiple targetsIgnores defense of target+30 MP,https://i.imgur.com/Mc1xcBR.png
+https://i.imgur.com/PAbHAe3.png,UT,B.O.W.,70-95 (82.5)Rate of Fire: 120%Projectile Speed: 12Shots hit multiple targetsBurst count: 3Acceleration: -20 tiles/sec2after 0.15 secondsMinimum speed: 2,https://i.imgur.com/ldxZ5iL.png
+https://i.imgur.com/L09wXL9.png,UT,Sun’s Judgement,500-600 (550)Rate of Fire: 33%Projectile Speed: 14Shots hit multiple targets,https://i.imgur.com/gjC2In0.png
+https://i.imgur.com/xq24Gx6.png,UT,Blazon Bow,65-130 (97.5)Rate of Fire: 200%Projectile Speed: 16.5Shots hit multiple targetsIgnores defense of target+30 MP,https://i.imgur.com/vUB8y9s.png
+https://i.imgur.com/Ws9TOQI.png,UT,Celestial Recurve,Main:40-65 (52.5)Shots hit multiple targetsShots pass through obstaclesAlternate:30-45 (37.5)Shots hit multiple targetsShots pass through obstaclesIgnores defense of target,https://i.imgur.com/gESs20B.png
+https://i.imgur.com/4l5NPeH.png,UT,Bow of the Void,175-250 (212.5)Rate of Fire: 105%Amplitude: 0.2Frequency: 0.2Shots hit multiple targets,https://i.imgur.com/bZZLMon.png
+https://i.imgur.com/ghOiIDU.png,UT,Warmonger,95-110 (102.5)Rate of Fire: 120%Projectile Speed: 17.1Shots hit multiple targetsShots pass through obstacles+5 VIT,https://i.imgur.com/Hft3saU.png
+https://i.imgur.com/DbmAr9L.png,UT,Makakoyumi,Shot: 800Rate of Fire: 33%Projectile Speed: 30Shots hit multiple targetsShots pass through obstaclesLightning: 20-40 (30)Rate of Fire: 200%Projectile Speed: 14Shots hit multiple targetsIgnores defense of target,https://i.imgur.com/ULkrFb5.png
+https://i.imgur.com/OlrItKn.png,UT,Clockwork Repeater,625-700 (662.5)Rate of Fire: 33%Projectile Speed: 14Shots hit multiple targets,https://i.imgur.com/NqR1Hqj.png
+https://i.imgur.com/Be9SclZ.png,ST,Brilliance Bow,1-10 (5.5)Projectile Speed: 15.9Shots hit multiple targets,https://i.imgur.com/ieSbrn7.png
+https://i.imgur.com/U6AjaHd.png,ST,Nectar Crossfire,Main: 125-135 (130)Projectile Speed: 16Shots hit multiple targetsSide: 80Projectile Speed: 16Amplitude: 0.5Frequency: 3Shots hit multiple targetsIgnores defense of target,https://i.imgur.com/JoLb4Zm.png
+https://i.imgur.com/6sF6tFt.png,ST,Resplendent Bow,250-325 (287.5)Projectile Speed: 15Amplitude: 0.25Frequency: 0.75Rate of Fire: 35%Shots hit multiple targets,https://i.imgur.com/tFvB0TL.png
+https://i.imgur.com/Oa5uakq.png,ST,Bolt Thrower,Main: 110-125 (117.5)Projectile Speed: 16Rate of Fire: 80%Shots hit multiple targetsSub: 80-90 (85)Projectile Speed: 16Rate of Fire: 80%Shots hit multiple targets,https://i.imgur.com/JzG34wL.png
+https://i.imgur.com/XkF71HV.png,ST,Bergenia Bow,160-195 (177.5)Projectile Speed: 15Ignores defense of target,https://i.imgur.com/eMw6Q7z.png
+https://i.imgur.com/RMGYK88.png,ST,Deathless Crossbow,170-205 (180)Projectile Speed: 28Shots hit multiple targets,https://i.imgur.com/78Ymp2J.png
+https://i.imgur.com/iw13Cvs.png,ST,Harmonious Harp,120-145 (132.5)Rate of Fire: 85%Projectile Speed: 5Amplitude: 0.5Frequency: 2Shots hit multiple targets,https://i.imgur.com/80wDUoH.gif
+https://i.imgur.com/3SYNHBh.png,ST,Hailstorm,50-55 (52.5)Rate of Fire: 120%Projectile Speed: 8Amplitude: 0.35Frequency: 0.4Shots hit multiple targetsIgnores defense of target,https://i.imgur.com/Ly2QCGx.png
+https://i.imgur.com/MNh0jNO.png,UT,Precisely Calibrated Stringstick,10-15 (12.5)Rate of Fire: 25%Projectile Speed: 2.5Amplitude: 2Frequency: 2,https://i.imgur.com/zM3wtYw.gif
+https://i.imgur.com/fbcPWJX.png,UT,Robobow,20-30 (25)Rate of Fire: 150%Projectile Speed: 5Shots hit multiple targets,https://i.imgur.com/T6UjB7f.gif
+https://i.imgur.com/rWkeuU1.png,UT,Bow of Nightmares,Main: 115-125 (120)Side (2): 25-35 (30)Shots hit multiple targets,https://i.imgur.com/Vp4sgij.png
+https://i.imgur.com/4bn4Cuz.png,UT,Bow of Eternal Frost,Main: 115-125 (120)Side (2): 25-35 (30)Shots hit multiple targets,https://i.imgur.com/7ztjzsH.gif
+https://i.imgur.com/QpfRHgv.png,UT,Clover Bow,10-30 (20)Rate of Fire: 50%Projectile Speed: 9Amplitude: 3.59Frequency: 0.42Shots hit multiple targets,https://i.imgur.com/dauo3av.png
+https://i.imgur.com/c3miZ2M.png,UT,Icicle Launcher,Main: 125-135 (130)Side (2): 25-35 (30)Shots hit multiple targets,https://i.imgur.com/YEjIrMl.gif
+https://i.imgur.com/bFUYp7V.png,UT,Nail Gun Bow,Main: 125-135 (130)Side (2): 25-35 (30)Shots hit multiple targets+2 VIT,https://i.imgur.com/VRL8Akm.png
+https://i.imgur.com/8D0IYre.png,UT,Bow of the Sky’s Glory,Main: 125-135 (130)Side (2): 25-35 (30)Shots hit multiple targets+2 ATT,https://i.imgur.com/Lq9WIBy.gif
+https://i.imgur.com/xpimOQd.png,UT,Aspirant’s Bow,Main: 110-120 (115)Shots hit multiple targetsSide (2): 35-45 (40)Shots hit multiple targetsIgnores defense of target,https://i.imgur.com/kd7uInY.png
+https://i.imgur.com/ElGEJiw.png,UT,Arctic Bow,75-95 (85)Rate of Fire: 125%Projectile Speed: 18.5Shots hit multiple targets,https://i.imgur.com/RSgni85.png
+https://i.imgur.com/NhighV0.png,UT,Bow of the Morning Star,500-600 (550)Rate of Fire: 33%Projectile Speed: 14Shots hit multiple targets,https://i.imgur.com/mXrHdgT.png
+https://i.imgur.com/0GrIr2c.png,UT,Garland Bow,100-200 (150)Projectile Speed: 6Acceleration: 4Speed Clamp: 20Burst Count: 3Burst Delay: 1.6Minimum Burst Delay: 0.8Rate of Fire: 85%Shots hit multiple targets,https://i.imgur.com/Rltkepx.gif
+https://i.imgur.com/6Gpf7CJ.png,UT,Tectonus,115-170 (142.5)Rate of Fire: 140%Projectile Speed: 12Wavy shots+5 SPD,https://i.imgur.com/RaWe9EK.png
+https://i.imgur.com/04fOl9W.png,UT,Sunny Side Bow,65-130 (97.5)Rate of Fire: 200%Projectile Speed: 16.5Shots hit multiple targetsIgnores defense of target+30 MP,https://i.imgur.com/FPUDZeo.gif
+https://i.imgur.com/jwQRJfL.png,UT,Ignis,Main: 135-145 (140)Side (2): 35-45 (40)Shots hit multiple targets,https://i.imgur.com/Krrn6RR.png
+https://i.imgur.com/dKHj98w.png,UT,Transdimensional Bow,Main: 135-145 (140)Side (2): 35-45 (40)Shots hit multiple targets,https://i.imgur.com/AWhCt3e.png
+https://i.imgur.com/9Xgu6AT.png,UT,Blossom Bow,Main: 135-145 (140)Side (2): 35-45 (40)Shots hit multiple targets,https://i.imgur.com/0wVIIVr.png
+https://i.imgur.com/RMDikDh.png,UT,Ringmater’s Bow,Main: 140-145 (142.5)Side (2): 40-45 (42.5)+3 ATT,https://i.imgur.com/0c80pa9.png
+https://i.imgur.com/BnWw5Vy.png,UT,Warmonger (Rehearsal),85-100 (92.5)Rate of Fire: 120%Projectile Speed: 17.1Shots hit multiple targetsShots pass through obstacles+5 VIT,https://i.imgur.com/Hft3saU.png
+https://i.imgur.com/jwthVWC.png,UT,Hero’s Bow,Main: 135-145 (140)Side (2): 35-45 (40)Shots hit multiple targets,https://i.imgur.com/l22rcC0.png
+https://i.imgur.com/0BL0cCX.png,UT,Blue Falcon,Main: 135-145 (140)Side (2): 35-45 (40)Shots hit multiple targets,https://i.imgur.com/M1dFSbS.png
+https://i.imgur.com/Ee0bxsq.png,ST,Spring Wonder Bow,250-325 (287.5)Projectile Speed: 15Amplitude: 0.25Frequency: 0.75Rate of Fire: 35%Shots hit multiple targets,https://i.imgur.com/TKenbJG.png
+https://i.imgur.com/eq43JTU.png,ST,Silver Revolvers,160-195 (177.5)Projectile Speed: 15Rate of Fire: 90%Ignores defense of target,https://i.imgur.com/MtfCqjb.png
+https://i.imgur.com/VkHv9dV.png,ST,Bone Bow,170-205 (187.5)Projectile Speed: 28Shots hit multiple targets,https://i.imgur.com/esoZ7fr.png
+https://i.imgur.com/eGVHQ9C.png,ST,Electric Guitar,120-145 (132.5)Rate of Fire: 85%Projectile Speed: 5Amplitude: 0.5Frequency: 2Shots hit multiple targets,https://i.imgur.com/U4NIQjB.png
+https://i.imgur.com/1XAf3L4.png,ST,Heartstruck Bow,120-175 (147.5)Rate of Fire: 140%Projectile Speed: 12Wavy shots+5 SPD,https://i.imgur.com/75LjNTL.png

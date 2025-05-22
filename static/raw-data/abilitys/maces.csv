@@ -1,0 +1,25 @@
+Image link,Tier,Name,Summons Image Link,Cost,Damage,Lifetime,Stat Bonus,XP Bonus,Feed Power
+https://i.imgur.com/Sp1fWWH.png,0,Summoning Mace,https://i.imgur.com/J9OVy6N.png,30 MP,25-50 (37.5),9 seconds,,,4
+https://i.imgur.com/RJdleHg.png,1,Ritual Mace,https://i.imgur.com/kb2CiVq.png,45 MP,50-75 (62.5),9.6 seconds,,,8
+https://i.imgur.com/X84jD0L.png,2,Disciple Mace,https://i.imgur.com/axYdAAL.png,60 MP,75-100 (87.5),10.2 seconds,+1 ATT,,15
+https://i.imgur.com/1nSMpe8.png,3,Specialist Mace,https://i.imgur.com/EpXIwHH.png,75 MP,100-125 (112.5),10.8 seconds,+2 ATT,1%,34
+https://i.imgur.com/qEnj6Jw.png,4,Adept Mace,https://i.imgur.com/VkT2OhN.png,90 MP,135-160 (147.5),11.4 seconds,+3 ATT,2%,68
+https://i.imgur.com/OdOkFp2.png,5,Monarch Mace,https://i.imgur.com/4Ds5H6a.png,100 MP,170-195 (182.5),12 seconds,+4 ATT,4%,139
+https://i.imgur.com/1pmGQ5w.png,6,Sovereign Mace,https://i.imgur.com/6jlr8A4.png,110 MP,205-230 (217.5),12.6 seconds,+5 ATT+20 HP+20 MP,6%,380
+https://i.imgur.com/GFHp9LX.png,7,Grandmaster Mace,https://i.imgur.com/Gnx3bOR.png,120 MP,240-265 (252.5),13.2 seconds,+6 ATT+40 HP+40 MP,8%,570
+https://i.imgur.com/5FgJ296.png,UT,Recursion Mace,https://i.imgur.com/g6B9kb1.png,120 MP,145-180 (162.5),10 seconds,,4%,500
+https://i.imgur.com/6KSXzTZ.png,UT,Mace of the Celestial Forest,https://i.imgur.com/zzNkLXn.png,105 MP,VariesShots:3-6Summons one of 4 differentstationarySprite Trees at random,12 seconds,+5 DEX,6%,700
+https://i.imgur.com/J7f2bA9.png,UT,Mechanical Mace,https://i.imgur.com/SNKs5Ww.png,100 MP,200-275 (250)On ability use:Summons a large Oryx EyeLarge Oryx Eye375-525 (450)Cooldown:30 seconds,10.2 seconds,+80 HP,7%,700
+https://i.imgur.com/XPMdiKq.png,UT,Mace of the Depths,https://i.imgur.com/KcNmLn6.png,100 MP,100-200 (150)Explosion:100-200 damage every 0.4 secondsSlowedon enemies for 3 seconds,10 seconds,+6 SPD,7%,800
+https://i.imgur.com/Gy4nB24.png,UT,Crystal Mace,https://i.imgur.com/RnvymTa.png,100 MP,50-70 (60)Shots:5Ignores defense of targetDoes not pierce,10 seconds,+4 SPD+4 WIS,7%,900
+https://i.imgur.com/bFzLQ4N.png,UT,Hivemind Mace,https://i.imgur.com/wAc1PAm.png,130 MP,240-310 (275)Shots:3Orbits the player,10 seconds,+4 DEF+4 DEX,7%,"1,000"
+https://i.imgur.com/HFbMOLi.png,UT,Mace of the Pumpkin Effigy,https://i.imgur.com/KOoUbFb.png,130 MP,70-200 (135)Lures enemies towards summon(s),When inactive: 20 secondsWhen active: 6 seconds,+5 DEF+5 ATT,7%,"1,000"
+https://i.imgur.com/YULX0lC.png,UT,Peacekeeper,https://i.imgur.com/QYcJLSB.png,135 MP,Archer’s Bow:500-600 damage (1 shot)Raider’s Spear:100-150 damage (5 shots)Knight’s Slash:100-250 damage (6 shots)Knight’s Flurry:100-200 damage (3 shots),12 seconds,+30 HP+5 DEX,8%,"1,100"
+https://i.imgur.com/fqNi03h.png,ST,B.O.O.M.,https://i.imgur.com/gp540Zk.gif,150 MP,"150-175 (162.5)Early Prototype:The M.E.R.V. becomes unstable after 5 seconds.Unstable M.E.R.V:Shoots 1/2/3/4 Paralyzing shots thrice, then explodes for 1000/1100/1250/1500 damage in 3/3.5/4/5 squares",7 seconds,+5 ATT,7%,700
+https://i.imgur.com/45s4705.png,ST,Stonemould Mace,https://i.imgur.com/AOGCyhe.png,150 MP,"600-1,000 (800)Stone Golem, orbits the caster, has 1500 HP and 20 DEFReflect attack:Summons only shoot when they are hitShots hit multiple targetsShots pass through obstaclesIgnores defense of target",10 seconds,+5 DEF,7%,900
+https://i.imgur.com/b4amTK7.png,UT,Mace of the North Pole,https://i.imgur.com/k18dZa6.png,110 MP,205-230 (217.5),12.6 seconds,+5 ATT+20 HP+20 MP,7%,380
+https://i.imgur.com/wOL9BDS.png,UT,Dragon Mace,https://i.imgur.com/NV4Tv0n.png,100 MP,50-70 (60)Shots:5Ignores defense of targetDoes not pierce,10 seconds,+4 SPD+4 WIS,7%,900
+https://i.imgur.com/7g3LgHR.png,UT,Peacekeeper (Rehearsal),https://i.imgur.com/QYcJLSB.png,135 MP,Archer’s Bow:400-480 damage (1 shot)Raider’s Spear:80-120 damage (5 shots)Knight’s Slash:80-200 damage (6 shots)Knight’s Flurry:80-160 damage (3 shots),12 seconds,+30 HP+5 DEX,7%,900
+https://i.imgur.com/htBNyJm.png,UT,Incubation Mace,https://i.imgur.com/yOJNLNo.png,135 MP,"300-350 (325)Shots:3Rabbits charge for 2.6 seconds before discharging, twiceDoes not pierce",9.2 seconds,+5 ATT+40 HP,8%,"1,000"
+https://i.imgur.com/QIGVsIx.png,ST,Ghastly Mace,https://i.imgur.com/jgUBkS8.png,150 MP,"150-175 (162.5)Unbearable Presence:The Terrible Specter, unbound from its world, becomes unstable after 5 seconds.Unbearable Presence:Shoots1/2/3/4Paralyzing shots thrice, then explodes for1000/1100/1250/1500damage in3/3.5/4/5squares",7 seconds,+5 ATT,7%,700
+https://i.imgur.com/eXbQ6MU.png,ST,Chocolate Egg Mace,https://i.imgur.com/iZRLLY7.png,150 MP,"600-1,000 (800)Stone Golem, orbits the caster, has 1500 HP and 20 DEFReflect attack:Summons only shoot when they are hitShots hit multiple targetsShots pass through obstaclesIgnores defense of target",10 seconds,+5 DEF,7%,900

@@ -1,0 +1,25 @@
+Image link,Tier,Name,Cost,Base Damage,Damage per WIS>50,Rediction per Target,Base Targets,Stat Bonus,XP Bonus,Feed Power
+https://i.imgur.com/XBaCvMb.png,0,Lightning Scepter,30 MP,80,1.5,8,3 (10),,,5
+https://i.imgur.com/God5kmx.png,1,Discharge Scepter,40 MP,120,2.5,12,4 (10),,,10
+https://i.imgur.com/eacntzC.png,2,Thunderclap Scepter,50 MP,160,4,20,4 (10),,,20
+https://i.imgur.com/ANgqZtV.png,3,Arcblast Scepter,60 MP,200,5,25,5 (10),,1%,45
+https://i.imgur.com/w0XwkMZ.png,4,Cloudflash Scepter,70 MP,240,6,30,5 (10),+1 SPD,2%,90
+https://i.imgur.com/gslGqoL.png,5,Scepter of Skybolts,80 MP,280,7,35,5 (10),+2 SPD,4%,185
+https://i.imgur.com/DIRbsr6.png,6,Scepter of Storms,90 MP,300,8,40,5 (10),+3 SPD+20 HP+20 MP,6%,380
+https://i.imgur.com/gI8eitI.png,7,Scepter of the Firmament,95 MP,320,9,45,5 (10),+4 SPD+40 HP+40 MP,8%,570
+https://i.imgur.com/yk4q1Jx.png,UT,Honey Scepter,70 MP,100,4,0,6 (10),,4%,250
+https://i.imgur.com/rgVD3gT.png,UT,Honey Scepter Supreme,70 MP,100,4,0,15 (10),,7%,500
+https://i.imgur.com/O45xxYH.png,UT,Siege Scepter,110 MP,45060° target coneRange: 6 tiles,10,0,3 (15),,7%,700
+https://i.imgur.com/89fuCh7.png,UT,Scepter of Rust,75 MP,300Weakon enemies for 4 seconds,5.5,25,3 (6),+7 WIS,7%,900
+https://i.imgur.com/4S9VsG7.png,UT,Scepter of Fulmination,70 MP,150Slowedon enemies for 3 seconds,6,30,5 (6),+2 ATT+2 WIS,7%,900
+https://i.imgur.com/fc82s46.png,UT,Cnidaria Rod,90 MP,120,10,Damageincreasesby 150 per target,4 (5),+2 DEX+2 DEF+2 WIS,7%,900
+https://i.imgur.com/SvWphtM.png,UT,Scepter of Devastation,80 MP,20015° target cone,10,20,1 (15),+4 ATT+2 WIS-20 HP-5 VIT,7%,900
+https://i.imgur.com/vKveimG.png,UT,Storm Caller,70 MP,150Slowedon enemies for 3 seconds,6,30,5 (6),+2 ATT+2 WIS,7%,900
+https://i.imgur.com/6IUePZI.png,UT,Tezutsu Hanabi,100 MP,175,7.5,0,5 (7),+50 HP+5 VIT,8%,"1,300"
+https://i.imgur.com/n75lO60.png,ST,Grotesque Scepter,100 MP,935,6,135,3 (13),+4 SPD,7%,700
+https://i.imgur.com/61QpMPk.png,ST,Totem Scepter,120 MP,80-160,0,0,,,7%,750
+https://i.imgur.com/1qwnuhB.png,ST,Lightshow Scepter,125 MP,20045° target cone,6,0,3 (8),,7%,900
+https://i.imgur.com/jhYy5w2.png,UT,Scepter of Sainthood,90 MP,300,8,40,5 (10),+3 SPD+20 HP+20 MP,7%,380
+https://i.imgur.com/oXhC1XL.png,UT,Parrot Skeleton Scepter,90 MP,300,8,40,5 (10),+3 SPD+20 HP+20 MP,7%,380
+https://i.imgur.com/ObnnJzB.png,UT,Eggsponential Scepter,90 MP,120,10,Damageincreasesby 150 per target,4 (5),+2 DEX+2 DEF+2 WIS,7%,900
+https://i.imgur.com/JgOW8pt.png,ST,Lovesick Scepter,125 MP,20045° target cone,6,0,3 (8),,7%,900

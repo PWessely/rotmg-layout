@@ -1,0 +1,25 @@
+Image link,Tier,Name,Cost,Range,Berserk,Speedy,Effect,Stat Bonus,XP Bonus,Feed Power
+https://i.imgur.com/y23fV83.png,0,Combat Helm,60 MP,4.5(6.5),2.5s(4.5s),2.5s(4.5s),,+2 DEF,,5
+https://i.imgur.com/jRRrMof.png,1,Bronze Helm,65 MP,4.5(6.5),3s(5s),2.5s(4.5s),,+3 DEF,,10
+https://i.imgur.com/iYNCa95.png,2,Black Iron Helm,70 MP,4.5(6.5),3s(5s),3s(5s),,+4 DEF,,20
+https://i.imgur.com/p7jOh2O.png,3,Red Iron Helm,75 MP,4.5(6.5),3.5s(5.5s),3s(5s),,+5 DEF,1%,45
+https://i.imgur.com/AUTLnFS.png,4,Steel Helm,80 MP,4.5(6.5),3.5s(5.5s),3.5s(5.5s),,+6 DEF,2%,90
+https://i.imgur.com/vyWyX1b.png,5,Golden Helm,85 MP,4.5(6.5),4s(6s),3.5s(5.5s),,+8 DEF,4%,185
+https://i.imgur.com/vzrYC5J.png,6,Helm of the Great General,90 MP,4.5(6.5),4s(6s),4s(6s),,+10 DEF+20 HP+20 MP,6%,380
+https://i.imgur.com/8P8pY5c.png,7,Helm of the Tribune,95 MP,4.5(6.5),4.5s(6.5s),4s(6s),,+12 DEF+40 HP+40 MP,8%,570
+https://i.imgur.com/4MA63Y1.png,UT,Challenger Helm,50 MP,-,-,-,5 secondsOn self:DazedOn self:Slowed,,4%,500
+https://i.imgur.com/j4B8mAN.png,UT,Amber Encrusted Helmet,70 MP,5,5s,-,-,+6 SPD+6 DEF,5%,350
+https://i.imgur.com/vRwsuLU.png,UT,Bubblegum Bucket,85 MP,-,-,12s,Healingfor 4s,+10 DEF+10 SPD+10 VIT,6%,500
+https://i.imgur.com/Af8QY5N.png,UT,Tipsy Topper,90 MP,4.5(6.5),2.5(4.5),-,"Unstablefor 2.5(4.5) secondsATT boost(+10 ATT),VIT boost(+10 VIT),DEF boost(+10 DEF) for 4 seconds",+6 DEF+6 VIT,6%,800
+https://i.imgur.com/vW9Hygc.png,UT,Helm of Exalted Might,95 MP,5,-,-,"5.5 secondsDEX boost(+30 DEX) for 3 seconds andATT decrease(-15 ATT) for 6 seconds to selfOn ability use, 25% chance to deal a burst of 1000 damage to enemies within 5 sqrsCooldown:6.5s",+10 DEF,7%,700
+https://i.imgur.com/rlxhfqA.png,UT,Hivemaster Helm,80 MP,4,6s,-,4 secondsSummons 3 bees including a red bee thatCurseup to 3 enemies,+6 DEF+6 SPD,7%,"1,000"
+https://i.imgur.com/WVxIOvi.png,UT,Vanguard’s Visage,100 MP,4.5(6.5),3s(5s),-,Fires a sword of projectiles towards your cursorShots hit multiple targetsIgnores defense of targetShots pass through obstaclesShot Range: 5.175 tiles,+9 DEF+4 ATT+4 VIT,8%,"1,100"
+https://i.imgur.com/9ZwaB2b.png,UT,Helm of the Juggernaut,90 MP,4.5(6.5),2.5s(4.5s),-,Armoredfor 2.5s(4.5s),+10 DEF+5 SPD,8%,"1,250"
+https://i.imgur.com/fiBPxFG.png,ST,Burlap Cowl,100 MP,3(5),5s(7s),-,WithHeadless Ted: Gain a 2.5 secondParalyzedeffect within 4.5 squares on activation.,+8 DEF,7%,800
+https://i.imgur.com/8celSNb.png,ST,Helm of Draconic Dominance,90 MP,-,-,-,HP Boost(+125 HP) for 6 secondsShoots 3 fireballs:Damage: 500-650Range: 5.6 tilesShots hit multiple targets,+10 DEF+5 SPD,7%,800
+https://i.imgur.com/6UiNnNB.png,ST,Tricorne of the High Seas,95 MP,4,4s,4s,Cannon Cluster: Fires cannonballs when hit for at least 40 damage.Cooldown: 3s,+7 DEF,7%,950
+https://i.imgur.com/BSAd8oG.png,UT,Helm of the Swift Bunny,85 MP,-,-,12s,Healingfor 4s,+10 DEF+10 SPD+10 VIT,6%,500
+https://i.imgur.com/ePNBUbG.png,UT,Pathfinder’s Helm,90 MP,4.5(6.5),4s(6s),4s(6s),-,+10 DEF+20 HP+20 MP,7%,380
+https://i.imgur.com/NbirX1R.png,UT,Vanguard’s Visage (Rehearsal),100 MP,4.5(6.5),3s(5s),-,Fires a sword of projectiles towards your cursorShots hit multiple targetsIgnores defense of targetShots pass through obstaclesShot Range: 5.175 tiles,+9 DEF+4 ATT+4 VIT,7%,900
+https://i.imgur.com/LJeuiCv.png,UT,Helm of the Jack-o’naut,90 MP,4.5(6.5),2.5s(4.5s),-,Armoredfor 2.5s(4.5s),+10 DEF+5 SPD,8%,"1,250"
+https://i.imgur.com/l1Neycg.png,ST,Beastly Mane,95 MP,4,4s,4s,Moon Rage: Fires cannonballs when hit for at least 40 damage.Cooldown: 3s,+7 DEF,7%,950

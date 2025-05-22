@@ -1,0 +1,28 @@
+Image link,Tier,Name,Cost,Damage,Effect,Range,Stat Bonus,XP Bonus,Feed Power
+https://i.imgur.com/LRqLIFE.png,0,Basic Star,30 MP,150-250(200),+3 DEXSpeedy,10.8,,,4
+https://i.imgur.com/Vdc2PBk.png,1,Four-Point Star,40 MP,350-450(400),+4 DEXSpeedy,10.8,+3 VIT,,8
+https://i.imgur.com/axakPjk.png,2,Spiral Shuriken,50 MP,550-650(600),+4 DEXSpeedy,10.8,+3 VIT,,15
+https://i.imgur.com/ygEHtfK.png,3,Silver Star,60 MP,750-850(800),+5 DEXSpeedy,10.8,+6 VIT,1%,34
+https://i.imgur.com/XGAqXoY.png,4,Wind Circle,70 MP,950-1050(1000),+5 DEXSpeedy,10.8,+6 VIT,2%,68
+https://i.imgur.com/oIGFsxt.png,5,Ice Star,80 MP,1150-1250(1200),+6 DEXSpeedy,10.8,+9 VIT,4%,139
+https://i.imgur.com/DxW5PCb.png,6,Doom Circle,90 MP,1350-1450(1400),+6 DEXSpeedy,10.8,+9 VIT+20 HP+20 MP,6%,380
+https://i.imgur.com/UDZUnHv.png,7,Dynastic Star,100 MP,1550-1650(1600),+7 DEXSpeedy,10.8,+12 VIT+40 HP+40 MP,8%,570
+https://i.imgur.com/rx702CP.png,UT,Spider Shuriken,50 MP,200-300(250),+2 SPDSlowedon enemies for 3 seconds,9,,,170
+https://i.imgur.com/Okrwz58.png,UT,Unshuriken,50 MP,1000,ConfusedShots boomerang,1,,4%,500
+https://i.imgur.com/221K3g6.png,UT,Rage Claws,105 MP,275-375(400),3 + 3 shots (at ± 11.25°)Shots hit multiple targetsShots boomerang,5.62,,7%,700
+https://i.imgur.com/54Pdtyt.png,UT,Hanagasaku,105 MP,325-525(425),Shots:2On Ability Use:Plants a Bud Bomb that explodes after 0.8 secondsBud Damage:1000Bud Range:3.5 tiles,10.4,+4 SPD+9 VIT,7%,900
+https://i.imgur.com/MIf51tv.png,UT,Igneous Starblossom,105 MP,325-525(425),Shots:2On Ability Use:Plants a Igneous Bomb that explodes after 0.8 secondsBomb Damage:1000Bomb Range:3.5 tiles,10.4,+4 SPD+9 VIT,7%,900
+https://i.imgur.com/gGu0xte.png,UT,Storied Blades,80 MP,800-1200(1000),Damagingon selfWhile Damaging and In Combat:Shoot a star every 0.2 secondsAnd Below 75% HP:Shoot 2 stars every 0.2 secondsStars:60-80 damageShots hit multiple targetsCost: 28 MP/second,8,+60 MP-10 SPD,7%,950
+https://i.imgur.com/XhWdsUn.png,UT,Combcutter Kunai,80 MP,800-1200(1000),Damagingon selfWhile Damaging and In Combat:Shoot a kunai every 0.2 secondsAnd Below 75% HP:Shoot 2 kunai every 0.2 secondsKunai:60-80 damageShots hit multiple targetsCost: 28 MP/second,8,+60 MP-10 SPD,7%,950
+https://i.imgur.com/98qG4Er.png,UT,Star of Enlightenment,100 MP,1500-2000(1750),+4 DEXBerserkon selfCost: 24 MP/second,10,+5 DEX-10 SPD,7%,"1,000"
+https://i.imgur.com/n85clBd.png,UT,Overwhelming Axehead,150 MP,325-525 (425),Shots hit multiple targetsIgnores defense of target,14.85,+5 ATT+5 VIT,7%,"1,000"
+https://i.imgur.com/8PCD0np.png,UT,Kageboshi,110 MP,400-600(500),Shots: 4 (8° arc gap)Shots hit multiple targetsShots boomerang,6,+5 DEF+5 SPD,8%,950
+https://i.imgur.com/l0PduTP.png,UT,Ballistic Star,110 MP,350-450(400),Throws 8 parametric starsInner 4 projectiles have half the range of outer and inflictStunnedon enemies fo 3 secondsShots hit multiple targetsIgnores defense of targetShots pass through obstaclesShots are parametricEffect on self:Healingfor 4 seconds,12.5,,8%,"1,300"
+https://i.imgur.com/zZhDQ4t.png,ST,Invocation Scroll,0 MP,72Ignores defense of target88Ignores defense of target,"Yin: Your weapon fires two more bullets towards the center, each dealing 36 armor piercing damage.+15 WISYang: Your weapon fires two more bullets fanning out from the player, each dealing 44 armor piercing damage.+15 WISCost: 60 MP/second",5.53,,7%,950
+https://i.imgur.com/tl3pWVQ.png,ST,Daybreak Chakram,95 MP,400-600 (500),Shots: 3Armored+10 DEFCost: 20 MP/second,5.25,,7%,950
+https://i.imgur.com/6MqqxEs.png,ST,Crystalline Kunai,100 MP,400-500(450),Shots: 3+15 ATTSpeedyon self.Cost: 18 MP/secondRetaliate with 3 kunais when hitKunai Cooldown: 4 seconds.Shots hit multiple targetsIgnores defense of target,11.2,+4 VIT,7%,950
+https://i.imgur.com/xyftoXy.png,UT,Clover Star,30 MP,80-90(85),SpeedyShots are parametricShots hit multiple targets,3,,5%,100
+https://i.imgur.com/vNMTWud.png,UT,Ilex Star,90 MP,1325-1425(1375),+6 DEXSpeedy,15,+9 VIT+20 HP+20 MP,7%,380
+https://i.imgur.com/63Nhf2B.png,UT,Kagebooshi,110 MP,400-600(500),Shots: 4 (8° arc gap)Shots hit multiple targetsShots boomerang,6,+5 DEF+5 SPD,8%,950
+https://i.imgur.com/CT3OBvM.png,ST,Enchanted Chisel,90 MP,950-1900(1425),ArmoredCost: 20 MP/second,5,,7%,950
+https://i.imgur.com/FCMHI6R.png,ST,Eternal Star,100 MP,1500-2000(1750),+4 DEXBerserkon selfCost: 24 MP/second,10,+5 DEX-10 SPD,7%,"1,000"

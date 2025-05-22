@@ -1,0 +1,26 @@
+Image link,Tier,Name,Projectile Image Link,Cost,Shots,Damage,Effect,Stat Bonus,XP Bonus,Feed Power
+https://i.imgur.com/dqX9WWY.png,0,Simple Wakizashi,https://i.imgur.com/1wuMtrv.png,40,2,150-250(400),,,,5
+https://i.imgur.com/ftd8tJw.png,1,Steel Wakizashi,https://i.imgur.com/wpTqBcw.png,50,2,250-350(600),,+1 DEX,,10
+https://i.imgur.com/lKuSTVs.png,2,Crimson Wakizashi,https://i.imgur.com/TzRObUn.png,60,3,200-300(750),,+2 DEX,,20
+https://i.imgur.com/uu1CI4M.png,3,Enforced Wakizashi,https://i.imgur.com/lE6bOg0.png,65,3,300-400(1050),Exposedfor 1s,+3 DEX,1%,45
+https://i.imgur.com/wBTi8fX.png,4,Turquoise Wakizashi,https://i.imgur.com/gz6IUMr.png,70,4,250-350(1200),Exposedfor 2s,+4 DEX,2%,90
+https://i.imgur.com/YittzJR.png,5,Jade-Imbued Wakizashi,https://i.imgur.com/Tpv10tC.png,75,4,300-450(1500),Exposedfor 3s,+5 DEX,4%,185
+https://i.imgur.com/ycLPRDX.png,6,Royal Wakizashi,https://i.imgur.com/MfIuq1n.png,80,4,400-500(1800),Exposedfor 3.5s,+6 DEX+20 HP+20 MP,6%,380
+https://i.imgur.com/v6lWa9t.png,7,Virtuous Wakizashi,https://i.imgur.com/meTfUf8.png,85,4,450-600(2100),Exposedfor 4s,+7 DEX+40 HP+40 MP,8%,570
+https://i.imgur.com/fE1sEZw.png,UT,NSFWakizashi,https://i.imgur.com/mmFZNro.png,60,1,0,On Self:Exposedfor 10s,,4%,500
+https://i.imgur.com/pPz0ttB.png,UT,Ronin’s Wakizashi,https://i.imgur.com/p2tpNdj.png,70,4Gap Angle: 315°Shot Gap: 0.53,200-300(1000),Slowedfor 6s,+4 SPD+4 WIS,5%,500
+https://i.imgur.com/bURNlfK.png,UT,Shadow Serpent Sidearm,https://i.imgur.com/MvVtDes.png,95,3,650-750(2100),Exposedfor 3sSquarepent:Shoots a slithering trail of projectilesSegments:3Seepagefor extended info.,+50 HP+5 VIT,6%,500
+https://i.imgur.com/s8elan2.png,UT,Wakizashi of Eastern Winds,https://i.imgur.com/kpv4mRA.png,80,5Offset Angle: -90°(Shots come from the right)Arc Gap: 8°Gap Angle: 0°Shot Gap: 0.3,260-490(1875),Exposedfor 4.5sAmplitude: 0.42Cast Range: 4.6Shot Range: 5.6,+5 SPD+3 DEX,6%,800
+https://i.imgur.com/gpq6EXr.png,UT,Amaterasu,https://i.imgur.com/oj1glsZ.png,120,8Offset Angles: n * 45°(Shots converge in a circle and return outwards),300-350(2600),Exposedfor 3sCast Range: 5,,7%,700
+https://i.imgur.com/oSQ2Xq5.png,UT,Wakizashi of Crossing Fires,https://i.imgur.com/2NI3ZLO.png,90,2 + 2Offset Angles: ±60°(Shots come from both sides)Gap Angles: ±45°Shot Gap: 0.5,480-600(2160),Exposedfor 3sCast Range: 4Shot Range: 6.4,+4 ATT+2 VIT,7%,"1,000"
+https://i.imgur.com/d6dBKvS.png,UT,Fractured Gemstone Wakizashi,https://i.imgur.com/FaDu1fL.png,100,Summons sentient crystal star orbiting you for 5 secondsCrystal Star: Shoots bursts at nearby enemies deals 250-300 damage per hit,350,Exposedfor 3s,+5 DEF,7%,"1,000"
+https://i.imgur.com/Ot9Xoe5.png,UT,Kogbold Multitool,https://i.imgur.com/tWayJve.png,90,1268,200–250 (2700)450–500 (2850)300–350 (2600),Exposedfor 4sExposedfor 2sExposedfor 2s,+10 DEX for 2s+10 ATT for 2s+10 DEF for 2s,8%,950
+https://i.imgur.com/8MAEM43.png,UT,Sentinel’s Sidearm,https://i.imgur.com/Unz85hd.png,100,Fire 3 swords that pause and target the nearest enemy.Vulnerable: Targets receive 115% damage for 3 seconds after being hit.,"1,000 (3,000)",,+5 ATT+5 DEX,8%,"1,100"
+https://i.imgur.com/a1qsbm7.png,ST,Ryu’s Blade,https://i.imgur.com/rmHVfFU.gif,85,"4+4Offset Angles: 165/195°(Shots come from both sides, converge on player)Gap Angle: 270°Shot Gap: 0.5",125-250(1500),Exposedfor 3.5sCast Range: 3Shot Range: 9.6Ignores defense of targetWavy shots,+2 ATT,7%,850
+https://i.imgur.com/3l7Wxz8.png,ST,Watarimono,https://i.imgur.com/sjotzs8.png,80,2+2Offset Angles: 90/270°(Shots come from both sides)Gap Angle: 0°Shot Gap: 0.5,700-800(3000),Exposedfor 3.5sCast Range: 5Shot Range: 4.2Amplitude: 0.5Frequency: 1Shots pass through obstacles,,7%,850
+https://i.imgur.com/Em6bbdl.png,ST,Sublimation Sidearm,https://i.imgur.com/AhFiAP9.png,90,3Offset Angles: 0°Gap Angle: 270°,100-150(375),Exposedfor 2.8sCast Range: 3.25Shot Range: 6.45,+50 HP,7%,"1,000"
+https://i.imgur.com/0iOLf0D.png,UT,Sakura Wakizashi,https://i.imgur.com/WeSg0H0.png,80,5Offset Angle: -90°(Shots come from the right)Arc Gap: 8°Gap Angle: 0°Shot Gap: 0.3,260-490(1875),Exposedfor 4.5sAmplitude: 0.42Cast Range: 4.6Shot Range: 5.6,+5 SPD+3 DEX,6%,800
+https://i.imgur.com/VKsC7uC.png,UT,Peppermint Wakizashi,https://i.imgur.com/TiKB9oR.png,80,4,400-500(1800),Exposedfor 3.5s,+6 DEX+20 HP+20 MP,7%,380
+https://i.imgur.com/mN3aGBc.png,UT,Esben’s Twisted Heart,https://i.imgur.com/hTWoVAi.png,120,Places a trap that explodes for 150 damage after 1s. Fires 7 converging shots  around the trap,"100-250 (1,225)",,,7%,900
+https://i.imgur.com/6cXc6hR.png,UT,Sentinel’s Sidearm (Rehearsal),https://i.imgur.com/Unz85hd.png,100,Fire 3 swords that pause and target the nearest enemy.,"800 (2,400)",,+5 ATT+5 DEX,7%,900
+https://i.imgur.com/mUFpKmL.png,ST,Sweetcut Wakizashi,https://i.imgur.com/DIH5Qp6.png,100,Summons chocolate that circles around you for 5 secondsValentine’s Chocolate: Shoots bursts at nearby enemies deals 250-300 damage per hit,350,Exposedfor 3s,+5 DEF,7%,"1,000"

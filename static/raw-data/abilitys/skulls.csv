@@ -1,0 +1,26 @@
+Image link,Tier,Name,Cost,Radius,Base Damage,Heal,Defence Ignored,Stat Bonus,XP Bonus,Feed Power
+https://i.imgur.com/uCLuH75.png,0,Necrotic Skull,40 MP,2.5,65,25,,,,4
+https://i.imgur.com/PNf4pIa.png,1,Breathtaker Skull,55 MP,2.75,95,45,+5 HP,5,,8
+https://i.imgur.com/VlOXpxq.png,2,Heartstealer Skull,70 MP,3,140,65,+15 HP,10,,15
+https://i.imgur.com/X0ZIfEp.png,3,Soul Siphon Skull,85 MP,3.25,180,90,+30 HP,15,1%,34
+https://i.imgur.com/xiDxQBA.png,4,Essence Tap Skull,100 MP,3.5,230,100,+45 HP,25,2%,68
+https://i.imgur.com/5RBuR5y.png,5,Lifedrinker Skull,110 MP,3.75,270,105,+60 HP,35,4%,139
+https://i.imgur.com/WvCtWYR.png,6,Bloodsucker Skull,115 MP,3.75,300,110,+90 HP+20 MP,40,6%,380
+https://i.imgur.com/u4AT7VV.png,7,Mindwaster Skull,120 MP,4,320,120,+120 HP+40 MP,45,8%,570
+https://i.imgur.com/E4DjT7x.png,UT,Cracked Crystal Skull,90 MP,4.5,170,50,+50 HP,20,2%,300
+https://i.imgur.com/aYwkLwA.png,UT,Epiphany Skull,100 MP,-,-Summons a mind minion to enlighten foes,-,,-,4%,500
+https://i.imgur.com/Kqp1Cdz.png,UT,Demon Lord’s Skull,120 MP,4,"200On ability use, 100% chance to summon an undead demon minion (200 damage on enemies every 0.6 seconds for 6 seconds)",0,+65 HP,125,7%,700
+https://i.imgur.com/Ytpddcl.png,UT,Skullish Remains of Esben,110 MP,3,260Slowedfor 2.5s,90,+40 HP-3 SPD+4 ATT,30,7%,800
+https://i.imgur.com/gRjcZBA.png,UT,Sealed Crystal Skull,100 MP,5,270,75,+50 HP+4 DEX+4 VIT,70,7%,900
+https://i.imgur.com/SHy3DA5.png,UT,Perennial Cranium,100 MP,5,300Create a perennial plant that lasts 5 seconds,60,+60 HP+4 SPD+4 VIT,40,7%,900
+https://i.imgur.com/ivmU6yl.png,UT,Maw of Malignance,100 MP,5,300Toss a horrific maw that lasts 5 seconds,60,+60 HP+4 SPD+4 VIT,40,7%,900
+https://i.imgur.com/WTPtfYd.png,UT,Brain Cube,135 MP,2.25,"400Summons Brain Cube that explodes 3 times, initially healing and then dealing damage decreasing damage over a wider area.",50,+50 MP+6 DEX,50,7%,"1,000"
+https://i.imgur.com/XSUsjgZ.png,UT,Skull of Endless Torment,110 MP,3.25,250Purifyself on hitting 2 enemiesPurify group on hitting 4 enemies,80,+50 HP+3 DEF+3 DEX,20,7%,"1,000"
+https://i.imgur.com/ctgIxCX.png,UT,Skull of Restless Souls,100 MP,3.75,"Summon Undead skeletons that last for 10 seconds and chases enemies/protects the user, heal 50 HP within 5 squares upon decaying",0,+50 HP+4 DEF+4 ATT,30,7%,"1,000"
+https://i.imgur.com/wXEiGHE.png,UT,Skull of Corrupted Souls,100 MP,2.5,260Cursefor 4s,80,+66 HP+6 VIT,40,7%,"1,300"
+https://i.imgur.com/rfIsInw.png,ST,Cubic Frame,130 MP,-,"-Cubic Resurrection:Summon a decaying cube to aid you in combat.Decaying Cube:Inflicts 175 damage every 0.2 seconds within 4 tiles, reduced by 25 damage every second.Lifetime:4 secondsCooldown:2 seconds",0,+5 DEF,-,6%,850
+https://i.imgur.com/nT3kq3u.png,ST,Ritual Skull,150 MP,3,225-1650Healingwithin circleWith Fang Necklace:Circle givesBerserkWith Soul Gem Amulet:Circle inflictsSlowedCooldown:6 seconds,0,+2 DEX+4 ATT,0,6%,850
+https://i.imgur.com/sI7HjoW.png,ST,Memento Mori,120 MP,3.5,500Damagingto self for 3s,0,+5 VIT+10 ATT,500,7%,900
+https://i.imgur.com/0m3OF8c.png,UT,Skull of Krampus,115 MP,3.75,300,110,+90 HP+20 MP,40,7%,380
+https://i.imgur.com/V8oqk0c.png,UT,Crossbones Skull,115 MP,3.75,300,110,+90 HP+20 MP,40,7%,380
+https://i.imgur.com/PDjlWkY.png,ST,Hooded Skull,120 MP,3.5,500Damagingto self for 3s,0,+5 VIT+10 ATT,500,7%,900

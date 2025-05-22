@@ -1,0 +1,26 @@
+Image link,Tier,Name,Projectile Image Link,Cost,Radius,Damage over Time,Impact Damage,Duration,Stat Bonus,XP Bonus,Feed Power
+https://i.imgur.com/kkaRsxj.png,0,Centipede Poison,https://i.imgur.com/ku6UIdG.png,25 MP,2,120,20,3,,,5
+https://i.imgur.com/c1YyVUz.png,1,Spider Venom,https://i.imgur.com/IqqKUtC.png,40 MP,2.5,250,50,3.2,+1 WIS,,10
+https://i.imgur.com/2yTuYzh.png,2,Pit Viper Poison,https://i.imgur.com/f1WTHS3.png,55 MP,3,380,80,3.5,+1 WIS,,20
+https://i.imgur.com/wntnV3N.png,3,Stingray Poison,https://i.imgur.com/YKJnaf6.png,70 MP,3.5,510,110,3.7,+2 WIS,1%,45
+https://i.imgur.com/rKl5kZ1.png,4,Felwasp Toxin,https://i.imgur.com/5sguupd.png,80 MP,4,640,140,4,+2 WIS,2%,90
+https://i.imgur.com/dFYPpvy.png,5,Nightwing Venom,https://i.imgur.com/YtvTERv.png,90 MP,4.5,770,170,4.3,+3 WIS,4%,185
+https://i.imgur.com/GnMp8Q9.png,6,Baneserpent Poison,https://i.imgur.com/MvcSrFf.png,100 MP,5,900,200,4.5,+3 WIS+20 HP+20 MP,6%,380
+https://i.imgur.com/Ig6IxBQ.png,7,Necrofish Poison,https://i.imgur.com/JPTCrIN.png,110 MP,5.5,1030,230,4.8,+4 WIS+40 HP+40 MP,8%,570
+https://i.imgur.com/CfSE7XR.png,UT,Lightning in a Bottle,https://i.imgur.com/KGXt2Co.png,130 MP,?,-,300,1.8,,4%,500
+https://i.imgur.com/LuZ3Fls.png,UT,Mighty Stein,https://i.imgur.com/7PWN8Hk.png,90 MP,6,570,80,8,+2 DEF+2 ATT,7%,650
+https://i.imgur.com/rvhwPXq.png,UT,Tyrant’s Toxin,https://i.imgur.com/MypbOle.png,150 MP,3 / 2.5,250 / 0,500 / 550,2,+3 ATT+3 DEF-5 WIS,7%,700
+https://i.imgur.com/YTRasiP.png,UT,Murky Toxin,https://i.imgur.com/LsWPGow.png,120 MP,2.5 / 5,900 / 300,150 / 50,3,+3 ATT+3 DEX,7%,800
+https://i.imgur.com/7DI23IS.png,UT,Bottled Medusozoan,https://i.imgur.com/fFB1G2a.png,100 MP,3.5 - 4.5,2250,-,3,+4 DEX+2 DEF,7%,900
+https://i.imgur.com/HM0JDSk.png,UT,Plague Poison,https://i.imgur.com/Wt48fWu.png,90 MP,9,1000,-,10,+4 ATT+4 WIS,7%,"1,000"
+https://i.imgur.com/Aa4eL97.png,UT,Pollen Incendiary,https://i.imgur.com/cH6wiOe.png,120 MP,10,450,600,10,+40 HP-6 VIT-6 WIS,7%,"1,000"
+https://i.imgur.com/jbNizEd.png,UT,Rusted Barrel,https://i.imgur.com/OxCEv7W.png,90 MP,9,800,-,10,+4 ATT+4 WIS,7%,"1,000"
+https://i.imgur.com/ACein9c.png,UT,Crystallised Fang’s Venom,https://i.imgur.com/meg9XGi.png,100 MP,4,500,-,4,+4 ATT+4 DEX,8%,850
+https://i.imgur.com/h1s0g17.png,UT,Polarity Poison,https://i.imgur.com/bt5TFAI.png,120 MP,3,1250 / 450,0 / 450,10,+8 WIS,8%,"1,100"
+https://i.imgur.com/9v5yYVD.png,UT,Pandemic Poison,https://i.imgur.com/reb9TSP.png,90 MP,9.5,1200,-,10,+5 ATT+5 WIS,8%,"1,200"
+https://i.imgur.com/xi8TTaW.png,ST,Makeshift Blowpipe,https://i.imgur.com/hc6w5gW.png,60 MP,-,-,320,-,+6 ATT,6%,850
+https://i.imgur.com/DjK25qQ.png,ST,Parasitic Concoction,https://i.imgur.com/hVQTiN5.png,120 MP,2.67,495,-,3,+2 ATT-2 VIT,7%,850
+https://i.imgur.com/1gr1oS8.png,ST,Virulent Venom,https://i.imgur.com/DHzmV5K.png,100 MP,3,-,700,0,,7%,900
+https://i.imgur.com/uh5xbba.png,UT,Holly Poison,https://i.imgur.com/sST4cCj.png,100 MP,5,700,200,4.5,+3 WIS+20 HP+20 MP,7%,380
+https://i.imgur.com/NcBM8fs.png,UT,Cursed Canopic Jar,https://i.imgur.com/Yw9OPGZ.png,120 MP,2.5 / 5,900 / 300,150 / 50,3,+3 ATT+3 DEX,7%,800
+https://i.imgur.com/YPTQ6gU.png,UT,Polarity Poison (Rehearsal),https://i.imgur.com/bt5TFAI.png,120 MP,3,1000 / 360,0 / 360,10,+8 WIS,7%,900

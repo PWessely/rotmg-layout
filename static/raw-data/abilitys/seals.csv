@@ -1,0 +1,24 @@
+Image link,Tier,Name,Cost,Range,HP Boost,Healing/Damaging Duration,HP Boost Duration,Stat Bonus,XP Bonus,Feed Power
+https://i.imgur.com/jYoZFvx.png,0,Seal of the Initiate,60 MP,4.5(7),10(60),2.5(4.5),2.5(4.5),,,4
+https://i.imgur.com/TedQ5FT.png,1,Seal of the Pilgrim,65 MP,4.5(7),20(70),3(5),2.5(4.5),,,8
+https://i.imgur.com/EoTkHWV.png,2,Seal of the Seeker,70 MP,4.5(7),30(80),3(5),3(5),+2 DEX,,15
+https://i.imgur.com/Akq1Xjm.png,3,Seal of the Aspirant,75 MP,4.5(7),40(90),3.5(5.5),3(5),+2 DEX,1%,34
+https://i.imgur.com/aFrkfEy.png,4,Seal of the Divine,80 MP,4.5(7),50(100),3.5(5.5),3.5(5.5),+3 DEX,2%,68
+https://i.imgur.com/zD4KcQ8.png,5,Seal of the Holy Warrior,85 MP,4.5(7),60(110),4(6),3.5(5.5),+3 DEX,4%,139
+https://i.imgur.com/xRGtewS.png,6,Seal of the Blessed Champion,90 MP,4.5(7),70(120),4(6),4(6),+4 DEX+20 HP+20 MP,6%,380
+https://i.imgur.com/QC6f0pP.png,7,Seal of Invocation,95 MP,4.5(7),80(130),4.5(6.5),4(6),+4 DEX+40 HP+40 MP,8%,570
+https://i.imgur.com/pwRTsoW.png,UT,Seal of Eternal Life,100 MP,-,5,-,-,,4%,500
+https://i.imgur.com/Uvdalnc.png,UT,Sandstone Seal,70 MP,5(7.5),-,5(7),-,+40 HP+3 DEX,5%,350
+https://i.imgur.com/rpYgiBQ.png,UT,Seal of the Battle God,110 MP,5.5,-,5,-,,7%,700
+https://i.imgur.com/YLj6XLl.png,UT,Scholar’s Seal,200 MP,5(7.5),-,3(5),-,+4 SPD+4 DEX,7%,800
+https://i.imgur.com/pXO3kh8.png,UT,Seal of Cubic Conundra,90 MP,4.5(7),-,4(6),-,+50 HP+3 DEF,7%,800
+https://i.imgur.com/pf0121W.png,UT,Doom’s Emblem,90 MP,6.5(5),-,4(6),-,+40 HP+4 DEX+4 VIT,7%,"1,000"
+https://i.imgur.com/YxQsMy1.png,UT,Seal of Blasphemous Prayer,120 MP,5(7.5),-,5(7),-,+4 SPD,8%,900
+https://i.imgur.com/VgiZEvT.png,UT,Marble Seal,135 MP,3,-,3.2 maximum,-,+5 DEF,8%,"1,300"
+https://i.imgur.com/qP0R62n.png,ST,Seal of the Enchanted Forest,115 MP,4.5(7),60(110),-,4(6),+5 DEF+9 ATT+9 WIS,7%,600
+https://i.imgur.com/baSR0zT.png,ST,Abyssal Insignia,140 MP,4.5,-,-,-,+40 HP+5 VIT,7%,900
+https://i.imgur.com/Mlhmplw.png,ST,Symbol of the Lost,200 MP,7,-,-,-,+6 DEF-5 SPD,7%,"1,000"
+https://i.imgur.com/eRvwhB1.png,UT,Advent Seal,90 MP,4.5(7),70(120),4(6),4(6),+4 DEX+20 HP+20 MP,7%,380
+https://i.imgur.com/qP0R62n.png,ST,Legacy Seal of the Enchanted Forest,100 MP,4.5(7),60(110),-,4(6),+2 ATT+5 VIT+5 WIS,7%,500
+https://i.imgur.com/0acFZlA.png,ST,Sacrilege Seal,115 MP,4.5(7),60(110),-,4(6),+5 DEF+9 ATT+9 WIS,7%,600
+https://i.imgur.com/Q4ENgrU.png,ST,Carrot Cake Crest,140 MP,4.5,-,-,-,+40 HP+5 VIT,7%,900

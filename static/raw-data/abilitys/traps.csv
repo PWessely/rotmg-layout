@@ -1,0 +1,27 @@
+Image link,Tier,Name,Cost,Explosion Radius,Damage,Effect,Stat Bonus,XP Bonus,Feed Power
+https://i.imgur.com/zZpw5Js.png,0,Hunting Trap,40 MP,3.5,85,Slowedfor3s,,,4
+https://i.imgur.com/wEtDQXM.png,1,Wilderlands Trap,50 MP,4,140,Slowedfor3.5s,,,8
+https://i.imgur.com/PVkvyuw.png,2,Deepforest Trap,60 MP,4.5,225,Slowedfor4s,,,15
+https://i.imgur.com/IUNXEoQ.png,3,Savage Trap,75 MP,5,320,Slowedfor4.5s,+2 ATT,1%,34
+https://i.imgur.com/tQJ9cwB.png,4,Demonhunter Trap,90 MP,5.5,440,Slowedfor5s,+3 ATT,2%,68
+https://i.imgur.com/9c7MZYN.png,5,Dragonstalker Trap,100 MP,6,525,Slowedfor5.5s,+4 ATT,4%,139
+https://i.imgur.com/Vs5zLp8.png,6,Giantcatcher Trap,105 MP,6.5,610,Slowedfor6s,+5 ATT+20 HP+20 MP,6%,380
+https://i.imgur.com/S7s7W4K.png,7,Depthchaser Trap,110 MP,7,700,Slowedfor6.5s,+6 ATT+40 HP+40 MP,8%,570
+https://i.imgur.com/jMsd4SS.png,UT,Helium Trap,95 MP,1,2000,Throw Time:15s,,4%,500
+https://i.imgur.com/zi0Gc8a.png,UT,Mouse Trap,40 MP,Ally Rat radius: ?,?,Throw an ally rat at your cursor that zaps enemies for 100 damage.Trick Cheese:Spawn a block of cheese lasting 12 seconds.Cheese attracts rats to orbit nearby and can sustain ally rats.Trick Cheese Cooldown:12 seconds,+2 ATT+2 DEX,6%,600
+https://i.imgur.com/4rBV117.png,UT,Sulfuric Stone,100 MP,3,1300,Spawn a Sulfuric Stone that deals 250 impact damage.Deals 1050 damage over 3.0 tiles after 2 seconds have passed.,+25 HP+25 MP,6%,650
+https://i.imgur.com/mQpLQWw.png,UT,Deadly Keg,95 MP,5.5,800,Slowedfor1.6s,+2 ATT+8 VIT,6%,900
+https://i.imgur.com/le6qERv.png,UT,Blacklight Artifice,100 MP,8,1000,"Trap instantly deploys on users’currentpositionTrap Duration:10s50% chanceto wound enemies ensnared withinfive seconds, dealing750 damageover 3 seconds",,7%,700
+https://i.imgur.com/TWsORRd.png,UT,Coral Venom Trap,100 MP,4,600,Paralyzedfor3.5s,+4 SPD+4 DEX,7%,800
+https://i.imgur.com/J0lgclR.png,UT,Cave Dweller Trap,80 MP,Crystal Sentry radius: 8 Tiles,350,Spawns aCrystal Sentryfor5s,+6 ATT,7%,850
+https://i.imgur.com/WCoe58G.png,UT,Rain Maker,68 MP/sec,3,500-550Ignores defense of target,While Key Held and Shooting:Rain falls 4.5 tiles away in the direction of your cursorCooldown:0.4s,+100 MP+6 DEX,7%,"1,000"
+https://i.imgur.com/3gEiYPi.png,UT,Ocular Entrapment,80 MP,3,1000,"Eyebawl Toss:Summon a lingering eyebawl that lasts for 10 secondsUpon repeated throws targeting an Eyebawl, it deals 1000 damage within 6 sqrsEyebawl Damage Cooldown:0.8 secondsEyebawl Toss Cooldown:2 secondsOn enemies:InflictsSlowedfor 3 seconds",+5 DEX+5 WIS,7%,"1,000"
+https://i.imgur.com/utSCqep.png,UT,Mimicry Trap,80 MP,4,50,Creates a centereddecoyfor1 secondDuration:3.5sCooldown:5s,+5 DEX+3 SPD-3 DEF,8%,750
+https://i.imgur.com/k9Dm96S.png,UT,Trap of the Vile Spirit,90 MP,3,1300,Cursefor2 secondsIgnores defense of targetThrow Time:0.5sDuration:5s,+5 ATT+5 SPD,8%,900
+https://i.imgur.com/gCZAhn2.png,ST,Honeytomb Snare,110 MP,6.5,150 (1200 total),Slowedfor1.2 secondseverysecondTrap Duration: 7sCooldown: 3s,,7%,700
+https://i.imgur.com/aW8BWP2.png,ST,Lifebringing Lotus,110 MP,3,0,"Healing,Berserkon groupfor4 seconds",+5 DEX+40 MP,7%,700
+https://i.imgur.com/3aQZ9c7.png,ST,Lightning Rod,100 MP,6,1000,Slowedfor5 secondsCooldown: 2 secondsTrap Duration: 15 seconds,+4 DEX,7%,700
+https://i.imgur.com/pPQY89W.png,UT,Painbow,110 MP,1-4 (Radius 1),10-60 (35) per pulse120-720 (420) total,Cooldown:7s,,4%,100
+https://i.imgur.com/kHvXLPb.png,UT,Greedsnatcher Trap,105 MP,6.5,610,Slowedfor6s,+5 ATT+20 HP+20 MP,7%,380
+https://i.imgur.com/LTubHGN.png,UT,Trap of the Blood Spirit,90 MP,3,1300,Cursefor2 secondsIgnores defense of targetThrow Time:0.5sDuration:5s,+5 ATT+5 SPD,8%,900
+https://i.imgur.com/AT2fs1W.png,ST,Consecrated Trap,110 MP,3,0,"Healing,Berserkon groupfor4 seconds",+5 DEX+40 MP,7%,700

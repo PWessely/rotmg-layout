@@ -1,0 +1,25 @@
+Image link,Tier,Name,Cost,Decoy Duration,Other Effect,Stat Bonus,XP Bonus,Feed Power
+https://i.imgur.com/9Pkitbi.png,0,Decoy Prism,60 MP,3,,,,5
+https://i.imgur.com/WCE1J9Q.png,1,Deception Prism,65 MP,4,,+1 WIS,,10
+https://i.imgur.com/mU87Fxi.png,2,Illusion Prism,70 MP,5,,+2 WIS,,20
+https://i.imgur.com/q3KyyNg.png,3,Hallucination Prism,75 MP,6,,+3 WIS,1%,45
+https://i.imgur.com/CF6D4m3.png,4,Prism of Figments,80 MP,7,,+4 WIS,2%,90
+https://i.imgur.com/GuzQBiT.png,5,Prism of Phantoms,85 MP,8,,+5 WIS,4%,185
+https://i.imgur.com/JFAt0Z2.png,6,Prism of Apparitions,90 MP,9,,+6 WIS+20 HP+20 MP,6%,380
+https://i.imgur.com/9NgTVtG.png,7,Prism of Reveries,95 MP,10,,+7 WIS+40 HP+40 MP,8%,570
+https://i.imgur.com/EKGTaDm.png,UT,Fool’s Prism,70 MP,5,No teleportPlaces a fake white bag on cursor,,4%,500
+https://i.imgur.com/ZMPTyOt.png,UT,Prism of Dancing Swords,95 MP,6,No teleportSummons 2 decoys in opposite directions,+4 ATT+4 SPD+40 HP,7%,750
+https://i.imgur.com/SqbNX3N.png,UT,Prism of Shattered Light,85 MP,6,"No teleportIf used when moving, spawns a moving decoy in the opposite direction of playerATT boost(+15 ATT) on self for 4 seconds when used above 450 HP (cooldown: 6 seconds)Invisible on self for 6 seconds when used below 450 HP (cooldown: 7 seconds)",+6 SPD,7%,700
+https://i.imgur.com/DNNcYb8.png,UT,Prism of Dire Instability,80 MP,2,No teleportDecoy explodesTotal Damage: 3000-4800 (3900),+2 ATT+2 WIS+40 MP,7%,900
+https://i.imgur.com/Wh0Uqt5.png,UT,Echoes Prism,110 MP,4,No teleportSummons Echo Shard that follows your character as you moveDecoys enemies once activeActive Duration:4 secondsAttack Rate:0.1 secondsTotal Damage: 2000-3000 (2500)Ignores defense of target,+40 HP+4 DEF+4 DEX,7%,950
+https://i.imgur.com/FrAxNVC.png,UT,Corsair’s Crown Jewel,110 MP,4,No teleportSummons Crown Jewel that follows your character as you moveDecoys enemies once activeActive Duration:4 secondsAttack Rate:0.1 secondsTotal Damage: 2000-3000 (2500)Ignores defense of target,+40 HP+4 DEF+4 DEX,7%,950
+https://i.imgur.com/7p2zXAF.png,UT,Ghostly Prism,65 MP,2.2,No decoySummons stationary bomb that explodes 6 timesTotal Damage: 1920-2880 (2400),,7%,"1,000"
+https://i.imgur.com/u2dVev5.png,UT,Prismimic,85 MP,2,Creates an expanding ring of 8 decoys,+3 DEX,8%,750
+https://i.imgur.com/ZQTDWH3.png,UT,Gambler’s Fate,90 MP,≥ 2,"No teleportSummons a stationary coin decoyon cursorEach second the coin has a 50% chance to become silverEach second, the silver coin decoy has a 50% chance to disappear",+4 ATT+4 DEX,8%,"1,300"
+https://i.imgur.com/g2atnNN.png,ST,Daevite Progenitor,120 MP,4 (6 with Flames of Genesis),No teleportDecoy fires shots at closest enemies,,7%,900
+https://i.imgur.com/ph7LP18.png,ST,Brain of the Golem,65 MP,7,No teleportSummons a stationary golem decoy that explodesInflictsDazedfor 2 sec within 1.75 tiles,,7%,950
+https://i.imgur.com/WHM3615.png,ST,Accursed Memory,150 MP,,Deal 1000 Damage to enemies within 5 tiles of teleport.Passive effects: Heals 75 HP for each enemy hit.After 3+ Hits on an enemy gainArmoredfor 6 seconds,,7%,"1,000"
+https://i.imgur.com/6yhAly6.png,UT,Heart of Gold Prism,60 MP,4,,,6%,500
+https://i.imgur.com/kAJmgI1.png,UT,Ornamental Prism,90 MP,9,,+6 WIS+20 HP+20 MP,7%,380
+https://i.imgur.com/BLky5tf.png,UT,The Heart of the Dragon,80 MP,2,No teleportDecoy explodesTotal Damage: 3000-4800 (3900),+2 ATT+2 WIS+40 MP,7%,900
+https://i.imgur.com/sAWr9V8.png,ST,Pumpkin Prism,65 MP,7,No teleportSummons a stationary golem decoy that explodesInflictsDazedfor 2 sec within 1.75 tiles,,7%,950

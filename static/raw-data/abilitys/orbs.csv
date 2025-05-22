@@ -1,0 +1,26 @@
+Image link,Tier,Name,Cost,Stasis Duration,Curse Duration,Other Effect,Stat Bonus,XP Bonus,Feed Power
+https://i.imgur.com/ocEsi2z.png,0,Stasis Orb,60 MP,3s,2s(4s),,,,5
+https://i.imgur.com/THMGNSq.png,1,Suspension Orb,65 MP,3.5s,2.5s(4.5s),,,,10
+https://i.imgur.com/xCAf1Lh.png,2,Imprisonment Orb,70 MP,4s,3s(5.5s),,,,20
+https://i.imgur.com/o3lcxd1.png,3,Neutralization Orb,75 MP,4.5s,3.5s(6s),,+1 DEX,1%,45
+https://i.imgur.com/vDkiw5y.png,4,Timelock Orb,80 MP,5s,4s(6.5s),,+2 DEX,2%,90
+https://i.imgur.com/U1vsiyc.png,5,Banishment Orb,85 MP,5.5s,4.5s(7s),,+3 DEX,4%,185
+https://i.imgur.com/FDRA6b5.png,6,Planefetter Orb,90 MP,6s,5s(7.5s),,+4 DEX+20 HP+20 MP,6%,380
+https://i.imgur.com/jsq5zMC.png,7,Dimensiongate Orb,95 MP,6.5s,5.5s(8s),,+5 DEX+40 HP+40 MP,8%,570
+https://i.imgur.com/nuRdcXC.png,UT,Orb of Sweet Demise,90 MP,3s,,InflictsSlowedon enemies for 3.5s(5.5s),,4%,200
+https://i.imgur.com/BWUKpN6.png,UT,Karma Orb,90 MP,6s,,Petrifiedto self: 6s,,4%,500
+https://i.imgur.com/rxdnMsw.png,UT,Enchantment Orb,80 MP,4s,2.5s(4.5s),"Stasis blast of radius 4 centered on player,Cursecentered on cursor",,6%,550
+https://i.imgur.com/dLSVqgP.png,UT,Orb of Aether,110 MP,,,Creates an Aether Trap at target location which inflictsSlowedin radius 4.5 and inflictsParalyzedin radius 2.5Cooldown: 5s,,6%,800
+https://i.imgur.com/GrPUOoz.png,UT,Orb of Conquest,120 MP,,1s / 3s / 5s,"On cursor location, constructs a beacon that damages and curses enemies in three bursts.On ability use,ATT boost(+10 ATT) on self for 5 seconds (cooldown: 30 seconds)Ability use cooldown: 2 seconds",+4 ATT+4 DEX,7%,700
+https://i.imgur.com/M8YDoZj.png,UT,Forbidden Artifact,200 MP,,2s per burst,Summons a controllable Forbidden Orb that releases a burst and a pulse that deal 160 damage each with decreasing frequency.Curseinflicted with every burst,+80 MP,7%,950
+https://i.imgur.com/6bFvA7S.png,UT,Vision of Draconis,200 MP,,2s per burst,Summons a controllable Gaze of Draconis that releases a burst and a pulse that deal 160 damage each with decreasing frequency.Curseinflicted with every burst,+80 MP,7%,950
+https://i.imgur.com/8rmwaES.png,UT,Command Cornea,200 MP,,5.5s(8s),On ability use: consumes ALL of your available MP and Quiets you for a brief duration.Effect on Self:Quietfor 0.4 secondsEffect on Enemies:Cursefor 5.5 secondsCooldown: 5 seconds,+5 DEF+10 WIS,7%,"1,000"
+https://i.imgur.com/Hm2yTCv.png,UT,Orb of Conflict,100 MP,7s,,Speedyto self: 2s (4s)Damagingto self: 2s (4s),+5 ATT+5 DEX,8%,850
+https://i.imgur.com/tXII6S1.png,UT,Primal Arcana,105 MP,,5s,"Your weapon fires two more bullets, each dealing 65-85 damage.Curseinflicted by secondary weapon attack",+8 DEX,8%,"1,200"
+https://i.imgur.com/uhRbCgM.png,ST,Soul of the Bearer,150 MP,6s,,Speedyto self: 2s (4s)Berserkto self: 2s (4s),+20 MP+2 ATT+1 DEX+1 SPD,7%,700
+https://i.imgur.com/Yb2qz84.png,ST,Scorchium Stone,120 MP,2s,5s,Stasis enemies within radius 4 on taking damage below 300 HPOn key press shoots a spread of fire balls toward enemies that inflictsCursefor 5s,,7%,900
+https://i.imgur.com/LmcZIBd.png,ST,Cosmic Astrolabe,180 MP,- / 5s,4s / -,Star Fire:Emit flaming stars for 185-315 damage.Empowerment:Gain additional stars whileEnergized.Teleport to TargetMP decrease(-50 MP) on self for 5 seconds.,,7%,"1,000"
+https://i.imgur.com/qp4Gmh4.png,UT,Snowbound Orb,90 MP,6s,5s(7.5s),,+4 DEX+20 HP+20 MP,7%,380
+https://i.imgur.com/srq7LyB.png,UT,Primal Arcana (Rehearsal),105 MP,,5s,"Your weapon fires two more bullets, each dealing 50-65 damage.Curseinflicted by secondary weapon attack",,7%,900
+https://i.imgur.com/NPxdXi5.png,UT,Orb of Terror,100 MP,7s,,Speedyto self: 2s (4s)Damagingto self: 2s (4s),+5 ATT+5 DEX,8%,850
+https://i.imgur.com/Gn1GBqj.png,ST,Orb of the Sabbath,150 MP,6s,,Speedyto self: 2s (4s)Berserkto self: 2s (4s),+20 MP+2 ATT+1 DEX+1 SPD,7%,700
