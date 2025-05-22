@@ -1,6 +1,5 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import Papa from 'papaparse';
   import ItemDropdown from '$lib/components/ItemDropdown.svelte';
   import StatBar from '$lib/components/StatBar.svelte';
   import StatBox from '$lib/components/StatBox.svelte';
@@ -20,10 +19,11 @@
   let weaponClass = 'Dagger';
   let weaponData = [];
   let loadedWeaponClass = 'Dagger';
-  $: console.log("Bonus changed", bonus);
+  let ringData = data.rings;
   let showArmorDropdown = false;
   let showWeaponDropdown = false;
   let showAbilityDropdown = false;
+  let showRingDropdown = false;
   const itemSlots = ['weapon', 'armor', 'ring', 'ability'];
 
   let selectedItems = {
@@ -146,9 +146,8 @@
         });
       }
 
-      if (slot === 'ability') {
+      if (slot === 'ability' || slot === 'ring') {
         const bonusString = sourceItem['Stat Bonus'] || '';
-        // Match sequences like '+4 DEX', '+20 HP', '+2 ATT', etc.
         const matches = [...bonusString.matchAll(/([+-]?\d+)\s*([A-Z]+)/gi)];
 
         matches.forEach(([_, value, stat]) => {
@@ -157,7 +156,6 @@
             bonus[statKey] += modifier * parseInt(value);
           }
         });
-        console.log('Parsing ability bonus:', bonusString, '→', matches.map(m => m[0]));
       }
 
       // No bonus for weapons
@@ -175,6 +173,7 @@
     if (slot === 'armor') showArmorDropdown = false;
     if (slot === 'weapon') showWeaponDropdown = false;
     if (slot === 'ability') showAbilityDropdown = false;
+    if (slot === 'ring') showRingDropdown = false;
     
   }
 
@@ -310,7 +309,6 @@
         </div>
       </div>
     </div>
-
     <!-- Ability -->
     <div class="relative flex flex-col gap-2">
       <div class="flex items-start gap-4">
@@ -319,7 +317,8 @@
           <ItemWindow
             slot="ability"
             {selectedItems}
-            toggleDropdown={() => showAbilityDropdown = !showAbilityDropdown}
+            toggleDropdown={() => {showAbilityDropdown = !showAbilityDropdown;
+            console.log('clicked')}}
           />
           <ItemInfo slot="ability" {selectedItems} />
           <div class="absolute top-full mt-2 left-0 z-50 w-full">
@@ -333,6 +332,30 @@
         </div>
       </div>
     </div>
+    <!-- Ring -->
+    <div class="relative flex flex-col gap-2">
+      <div class="flex items-start gap-4">
+        <!-- Wrap both the trigger and dropdown in one relative block -->
+        <div class="relative flex items-start gap-4 w-full">
+          <ItemWindow
+            slot="ring"
+            {selectedItems}
+            toggleDropdown={() => {
+              showRingDropdown = !showRingDropdown;
+              console.log('Toggled ring dropdown:', showRingDropdown);
+            }}
+          />
+          <ItemInfo slot="ring" {selectedItems} />
+          <div class="absolute top-full mt-2 left-0 z-50 w-full">
+            <ItemDropdown
+              show={showRingDropdown}
+              items={ringData}
+              label="Ring"
+              onSelect={(item) => selectItem(item, 'ring')}
+            />
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-
 </div>

@@ -5,15 +5,32 @@ import Papa from 'papaparse';
 
 /** @type {import('./$types').PageServerLoad} */
 export async function load() {
-  const filePath = path.resolve('static/raw-data/classes.csv');
-  const fileContent = fs.readFileSync(filePath, 'utf-8');
+  const classFilePath = path.resolve('static/raw-data/classes.csv');
+  const classFileContent = fs.readFileSync(classFilePath, 'utf-8');
 
-  const { data } = Papa.parse(fileContent, {
+  const ringFilePath = path.resolve('static/raw-data/rings/rings.csv');
+  const ringFileContent = fs.readFileSync(ringFilePath, 'utf-8');
+
+  const { data: classData } = Papa.parse(classFileContent, {
+    header: true,
+    skipEmptyLines: true,
+  });
+  const { data: ringDataRaw } = Papa.parse(ringFileContent, {
     header: true,
     skipEmptyLines: true,
   });
 
+  const getTierValue = (tier) => {
+    if (tier === 'UT') return 100;
+    if (tier === 'ST') return 101;
+    const num = parseInt(tier, 10);
+    return isNaN(num) ? 999 : num;
+  };
+
+  const ringData = ringDataRaw.sort((a, b) => getTierValue(a.Tier) - getTierValue(b.Tier));
+
   return {
-    classes: data,
+    classes: classData,
+    rings : ringData,
   };
 }

@@ -50,7 +50,7 @@
   <!-- Stat Selector -->
   <select
     bind:value={bindValue}
-    class="appearance-none p-1 rounded bg-gray-700 text-white w-12 text-center"
+    class="ml-auto appearance-none p-1 rounded bg-gray-700 text-white w-12 text-center"
     style="background-image: none;"
   >
     {#each Array(6) as _, i}

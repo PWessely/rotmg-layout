@@ -1,0 +1,278 @@
+Image link,Tier,Name,Stat Bonus
+https://i.imgur.com/bCQQhVs.png,1,Ring of Health,+30 HP
+https://i.imgur.com/R2QEJGu.png,2,Ring of Greater Health,+60 HP
+https://i.imgur.com/QGzddmU.png,3,Ring of Superior Health,"+80 HP, +10 MP"
+https://i.imgur.com/J8veHO6.png,4,Ring of Paramount Health,"+100 HP, +20 MP"
+https://i.imgur.com/UtoZPR0.png,5,Ring of Exalted Health,"+120 HP, +30 MP"
+https://i.imgur.com/SLc4Sam.png,6,Ring of Unbound Health,"+140 HP, +40 MP"
+https://i.imgur.com/EAjk19O.png,7,Ring of Transcendent Health,"+160 HP, +50 MP"
+https://i.imgur.com/YfL2dh5.png,UT,Ring of Decades,+160 HP
+https://i.imgur.com/Gg6Y8cv.png,UT,The Forgotten Ring,+160 HP
+https://i.imgur.com/nXveBo0.png,ST,Almandine Ring of Wrath,"+140 HP, +40 MP"
+https://i.imgur.com/2XvNPEo.png,UT,Mask of Anubis,"+140 HP, +40 MP"
+https://i.imgur.com/0TIuJzQ.png,UT,Mask of Mucus,"+140 HP, +40 MP"
+https://i.imgur.com/tvjAwjt.png,UT,Emblem of the Empire,"+140 HP, +40 MP"
+https://i.imgur.com/4KsjcR7.png,ST,Ring of Unbound Love,"+140 HP, +40 MP"
+https://i.imgur.com/PouNW9P.png,1,Ring of Magic,+30 MP
+https://i.imgur.com/ZTrLPtl.png,2,Ring of Greater Magic,+60 MP
+https://i.imgur.com/pLDbuJj.png,3,Ring of Superior Magic,"+10 HP, +80 MP"
+https://i.imgur.com/aBlsMCY.png,4,Ring of Paramount Magic,"+20 HP, +100 MP"
+https://i.imgur.com/1FYD8bW.png,5,Ring of Exalted Magic,"+30 HP, +120 MP"
+https://i.imgur.com/JT2HD2j.png,6,Ring of Unbound Magic,"+40 HP, +140 MP"
+https://i.imgur.com/CrUcLYw.png,7,Ring of Transcendent Magic,"+50 HP, +160 MP"
+https://i.imgur.com/lqBRq8w.png,UT,Mask of Lightning,"+40 HP, +140 MP"
+https://i.imgur.com/hefXbkv.png,UT,Mask of Cnidaria,"+40 HP, +140 MP"
+https://i.imgur.com/bigwhY4.png,UT,Amulet of the Great Shaman,"+40 HP, +140 MP"
+https://i.imgur.com/StG2h6C.png,1,Ring of Attack,+3 ATT
+https://i.imgur.com/PLQeOru.png,2,Ring of Greater Attack,+6 ATT
+https://i.imgur.com/E7uDpLI.png,3,Ring of Superior Attack,"+10 HP, +10 MP, +7 ATT"
+https://i.imgur.com/9jy2Z51.png,4,Ring of Paramount Attack,"+20 HP, +20 MP, +8 ATT"
+https://i.imgur.com/WAI3Q6q.png,5,Ring of Exalted Attack,"+30 HP, +30 MP, +9 ATT"
+https://i.imgur.com/xYFrdA4.png,6,Ring of Unbound Attack,"+40 HP, +40 MP, +10 ATT"
+https://i.imgur.com/QJQObUn.png,7,Ring of Transcendent Attack,"+50 HP, +50 MP, +11 ATT"
+https://i.imgur.com/QqszRLk.png,UT,Amulet of Elemental Fire,"+40 HP, +40 MP, +10 ATT"
+https://i.imgur.com/0HRtC6s.png,0,Ring of Minor Defense,"+5 HP, +5 MP, +1 DEF"
+https://i.imgur.com/jWHl5S8.png,1,Ring of Defense,+3 DEF
+https://i.imgur.com/d8r1SpZ.png,2,Ring of Greater Defense,+6 DEF
+https://i.imgur.com/aY930iU.png,3,Ring of Superior Defense,"+10 HP, +10 MP, +7 DEF"
+https://i.imgur.com/8I24fIl.png,4,Ring of Paramount Defense,"+20 HP, +20 MP, +8 DEF"
+https://i.imgur.com/rFarvTi.png,5,Ring of Exalted Defense,"+30 HP, +30 MP, +9 DEF"
+https://i.imgur.com/R1rCvT4.png,6,Ring of Unbound Defense,"+40 HP, +40 MP, +10 DEF"
+https://i.imgur.com/yvN8AmQ.png,7,Ring of Transcendent Defense,"+50 HP, +50 MP, +11 DEF"
+https://i.imgur.com/w7gF8l4.png,UT,Ring of the Burning Sun,"+40 HP, +40 MP, +10 DEF"
+https://i.imgur.com/imvbqHN.png,UT,Amulet of Elemental Earth,"+40 HP, +40 MP, +10 DEF"
+https://i.imgur.com/7POuKUE.png,ST,Tiara of Eggscellent Sturdiness,"+40 HP, +40 MP, +10 DEF"
+https://i.imgur.com/2pCT6SZ.png,1,Ring of Speed,+3 SPD
+https://i.imgur.com/q0ywMmF.png,2,Ring of Greater Speed,+6 SPD
+https://i.imgur.com/zaNSEt3.png,3,Ring of Superior Speed,"+10 HP, +10 MP, +7 SPD"
+https://i.imgur.com/uYbS5Dl.png,4,Ring of Paramount Speed,"+20 HP, +20 MP, +8 SPD"
+https://i.imgur.com/W3DEkCK.png,5,Ring of Exalted Speed,"+30 HP, +30 MP, +9 SPD"
+https://i.imgur.com/WLo1tfC.png,6,Ring of Unbound Speed,"+40 HP, +40 MP, +10 SPD"
+https://i.imgur.com/RQmAXbH.png,7,Ring of Transcendent Speed,"+50 HP, +50 MP, +11 SPD"
+https://i.imgur.com/NK4PB2l.png,1,Ring of Dexterity,+3 DEX
+https://i.imgur.com/jmnSmEX.png,2,Ring of Greater Dexterity,+6 DEX
+https://i.imgur.com/XdzUS8b.png,3,Ring of Superior Dexterity,"+10 HP, +10 MP, +7 DEX"
+https://i.imgur.com/HRardIQ.png,4,Ring of Paramount Dexterity,"+20 HP, +20 MP, +8 DEX"
+https://i.imgur.com/VpeZHmL.png,5,Ring of Exalted Dexterity,"+30 HP, +30 MP, +9 DEX"
+https://i.imgur.com/n0GQR3e.png,6,Ring of Unbound Dexterity,"+40 HP, +40 MP, +10 DEX"
+https://i.imgur.com/fuiftC3.png,7,Ring of Transcendent Dexterity,"+50 HP, +50 MP, +11 DEX"
+https://i.imgur.com/fAMqqdT.png,UT,Amulet of Elemental Air,"+40 HP, +40 MP, +10 DEX"
+https://i.imgur.com/VBqHTh0.png,1,Ring of Vitality,+3 VIT
+https://i.imgur.com/AAnFefa.png,2,Ring of Greater Vitality,+6 VIT
+https://i.imgur.com/hvcD61K.png,3,Ring of Superior Vitality,"+10 HP, +10 MP, +7 VIT"
+https://i.imgur.com/WMQ2ZIV.png,4,Ring of Paramount Vitality,"+20 HP, +20 MP, +8 VIT"
+https://i.imgur.com/60bYnKK.png,5,Ring of Exalted Vitality,"+30 HP, +30 MP, +9 VIT"
+https://i.imgur.com/vUclvB9.png,6,Ring of Unbound Vitality,"+40 HP, +40 MP, +10 VIT"
+https://i.imgur.com/p0qe1Fg.png,7,Ring of Transcendent Vitality,"+50 HP, +50 MP, +11 VIT"
+https://i.imgur.com/xySUd6i.png,UT,Amulet of Elemental Water,"+40 HP, +40 MP, +10 VIT"
+https://i.imgur.com/UdVTMke.png,1,Ring of Wisdom,+3 WIS
+https://i.imgur.com/QpsEOwe.png,2,Ring of Greater Wisdom,+6 WIS
+https://i.imgur.com/hlMINh5.png,3,Ring of Superior Wisdom,"+10 HP, +10 MP, +7 WIS"
+https://i.imgur.com/uXR7DPf.png,4,Ring of Paramount Wisdom,"+20 HP, +20 MP, +8 WIS"
+https://i.imgur.com/mdHNT9W.png,5,Ring of Exalted Wisdom,"+30 HP, +30 MP, +9 WIS"
+https://i.imgur.com/4gWKX78.png,6,Ring of Unbound Wisdom,"+40 HP, +40 MP, +10 WIS"
+https://i.imgur.com/LPT1772.png,7,Ring of Transcendent Wisdom,"+50 HP, +50 MP, +11 WIS"
+https://i.imgur.com/VLrU7Kd.png,UT,Corsair Ring,+20 HP+2 DEF
+https://i.imgur.com/7azhBBW.png,UT,Candy Ring,+10 VIT+10 SPD-100 MP-10 WIS
+https://i.imgur.com/Z1rWlNH.png,UT,Crystal Bone Ring,+4 DEX+4 WIS
+https://i.imgur.com/wqOKIuU.png,UT,Spider’s Eye Ring,+5 VIT+5 DEF
+https://i.imgur.com/lvPfj4Z.png,UT,Snake Eye Ring,+3 ATT+3 SPD
+https://i.imgur.com/Qd37W41.png,UT,Fairy Ring,+3 SPD+3 DEX+3 VIT+3 WIS
+https://i.imgur.com/CUc0xuP.png,UT,Coral Ring,+75 MP+5 SPD+5 WIS
+https://i.imgur.com/GaW3dSH.png,UT,Captain’s Ring,+50 HP+3 ATT+3 DEX
+https://i.imgur.com/SbORs3D.png,UT,Ring of Divine Faith,+40 HP+40 MP+5 VIT+5 WIS
+https://i.imgur.com/fOZY56P.png,UT,Amulet of Dispersion,+40 HP+40 MP+2 ATT+2 DEF+2 SPD+2 DEX+2 VIT+2 WIS
+https://i.imgur.com/CwMs1nv.png,UT,Experimental Ring,+50 HP+50 MP+4 DEF+4 VIT
+https://i.imgur.com/w6uXhF2.png,UT,Locked Reactor,-
+https://i.imgur.com/pnIxkeW.png,UT,Adventurer’s Scarf,+75 HP+7 DEF+5 SPD+5 VIT
+https://i.imgur.com/xRB63q9.png,UT,Amulet of Restoration,+60 HP+60 MP+3 ATT+3 DEF+3 SPD+3 DEX+3 VIT+3 WIS
+https://i.imgur.com/YKRK0PG.png,UT,Faded Heart Scarab,+60 HP
+https://i.imgur.com/NM1rQ38.png,UT,Fractured Hannya,+60 HP
+https://i.imgur.com/1QvUwsT.png,UT,Sunken Fire Opal Ring,+60 HP+5 DEF+5 SPD
+https://i.imgur.com/hIN9shz.png,UT,Esben’s Wedding Ring,+60 HP+60 MP+10 ATT-5 DEF
+https://i.imgur.com/bevUSZ5.png,UT,Ring of the Sphinx,+100 MP+4 DEX+4 ATT
+https://i.imgur.com/fzBe6X1.png,UT,Ring of the Nile,+75 HP+75 MP+4 WIS+4 DEX
+https://i.imgur.com/AGFZBiz.png,UT,Ring of the Pyramid,+100 HP+4 ATT+4 DEF
+https://i.imgur.com/zadQyor.png,UT,Enchanted Ice Shard,+100 MP+4 DEX+4 ATT
+https://i.imgur.com/8el88C7.png,UT,Ring of the Northern Light,+75 HP+75 MP+4 WIS+4 DEX
+https://i.imgur.com/jVNjxV7.png,UT,Frimarra,+100 HP+4 ATT+4 DEF
+https://i.imgur.com/Q0CmiSC.png,UT,Thistleleaf Necklace,+90 HP+5 DEF
+https://i.imgur.com/EMoLtlO.png,UT,Brewer’s Bangle,+100 HP-5 SPD+6 ATT
+https://i.imgur.com/N2dLIwb.png,UT,Ring of Skeletal Specters,+80 HP+3 ATT+7 WIS
+https://i.imgur.com/TeN17x2.png,UT,Crystallised Mist,+60 HP+6 DEF+8 SPD
+https://i.imgur.com/1BMgFOY.png,UT,E.Y.E.,+70 HP+70 MP+5 VIT+5 DEF
+https://i.imgur.com/gBmxoBU.png,UT,Token of Happiness,+100 HP+100 MP+10 WIS
+https://i.imgur.com/yPyBQPO.png,UT,Token of Warmth,+100 HP+100 MP+10 VIT
+https://i.imgur.com/O15RAvc.png,UT,Overclocking Amulet,+8 DEX+8 ATT-8 DEF
+https://i.imgur.com/nRri93R.png,UT,Magical Lodestone,+30 HP+6 ATT+6 DEF+6 SPD+6 DEX
+https://i.imgur.com/1485mxJ.png,UT,Bloodshed Ring,+110 HP+6 DEF+8 WIS
+https://i.imgur.com/L5sYl5P.png,UT,Sourcestone,+110 HP+110 MP+6 SPD
+https://i.imgur.com/qJWkf3N.png,UT,Chancellor’s Cranium,+3 DEX+6 DEF+120 HP
+https://i.imgur.com/4xNYkcz.png,UT,Collector’s Monocle,+140 HP+8 DEX
+https://i.imgur.com/CrLH7X3.png,UT,Divine Coronation,+110 HP+55 MP+8 DEX+5 DEF
+https://i.imgur.com/BtTLj4a.png,UT,Battalion Banner,+90 HP+4 SPD+4 DEX
+https://i.imgur.com/qQXV0jj.png,UT,Exalted God’s Horn,+140 HP+5 DEF
+https://i.imgur.com/r1IZ5AY.png,UT,Bracer of the Guardian,+90 HP+80 MP+4 ATT+9 DEF
+https://i.imgur.com/TYdYHrv.png,UT,The Twilight Gemstone,+110 MP+8 DEF+5 SPD+5 WIS
+https://i.imgur.com/IeKMdLv.png,UT,The Forgotten Crown,+110 HP+6 ATT+6 DEX
+https://i.imgur.com/2YYiVTu.png,UT,Kagenohikari,+100 HP+100 MP+5 VIT+5 WIS
+https://i.imgur.com/ObMdsMS.png,UT,Omnipotence Ring,+90 HP+90 MP+4 ATT+5 DEF+5 SPD+4 DEX+6 VIT+6 WIS
+https://i.imgur.com/hrmQLfs.png,UT,Chrysalis of Eternity,+120 HP+7 ATT+7 DEX
+https://i.imgur.com/kprOPN1.png,ST,First Mate’s Hook,+10 HP+1 ATT+1 DEX
+https://i.imgur.com/soOMMR2.png,ST,Ring of the Covetous Heart,+15 HP+50 MP+5 ATT+8 WIS
+https://i.imgur.com/xxjYkO4.png,ST,Geb’s Ring of Wisdom,+25 HP+25 MP+5 VIT+10 WIS
+https://i.imgur.com/HmPWajN.png,ST,Akuma’s Tear,+30 HP+40 MP+3 DEX
+https://i.imgur.com/AEAkWgB.png,ST,Plague Mask,+65 HP+6 DEX+6 WIS
+https://i.imgur.com/1puXzet.png,ST,Spectral Ring of Horrors,+50 MP+2 SPD+2 VIT+2 WIS+2 DEX+3 DEF
+https://i.imgur.com/t9URlJg.png,ST,Ring of Pure Wishes,+45 HP+45 MP+8 DEF
+https://i.imgur.com/hlT6wVA.png,ST,Honey Circlet,+80 HP+4 ATT+4 SPD
+https://i.imgur.com/tr4eB38.png,ST,Ring of Pagan Favor,+60 HP+5 DEF-5 VIT+5 WIS
+https://i.imgur.com/hNhpR41.png,ST,Gothic Bouffant,+60 HP+4 ATT+4 DEX+3 VIT
+https://i.imgur.com/fvDtqga.png,ST,Heavenly Magatama,+80 HP+5 VIT+5 SPD
+https://i.imgur.com/TfFtdgy.png,ST,Ruthven’s Rosary,+80 HP+5 WIS+5 VIT
+https://i.imgur.com/6qEIWTy.png,ST,Omamori,+50 HP+50 MP+5 DEX
+https://i.imgur.com/im6gBaT.png,ST,Amulet of Drakefyre,+115 HP+5 SPD
+https://i.imgur.com/sicn7VI.png,ST,Horrific Claws,+40 HP+50 MP+5 ATT+5 SPD-3 DEX
+https://i.imgur.com/OCiNOBV.png,ST,Revenant Ring,+50 HP+3 ATT+9 VIT
+https://i.imgur.com/yKsWJek.png,ST,Chrysanthemum Corsage,+70 MP+5 SPD+7 DEX
+https://i.imgur.com/ikKZOl7.png,ST,Pernicious Peridot,+150 HP-5 SPD
+https://i.imgur.com/jvBNegz.png,ST,Aquamarine Amulet,+5 DEF+5 VIT+50 HP
+https://i.imgur.com/SLUIzXg.png,ST,Flames of Genesis,+80 HP+8 VIT
+https://i.imgur.com/P65SDWN.png,ST,Alexander’s Band,+80 HP+6 DEX
+https://i.imgur.com/GKGCC2M.png,ST,Firelight Necklace,+50 HP+40 MP+6 ATT
+https://i.imgur.com/ndhMkcx.png,ST,Headless Ted,+90 HP+6 DEX
+https://i.imgur.com/JsFC1ms.png,ST,Targeting Monocular,+50 HP+8 DEF
+https://i.imgur.com/KJY3DNR.png,ST,Interregnum,+75 HP+5 ATT+5 VIT
+https://i.imgur.com/3U1Ks4Q.png,ST,Hivemind Circlet,+100 MP+5 ATT+5 WIS-2 VIT
+https://i.imgur.com/MBaWevS.png,ST,Bloodstone Ring,+120 HP+4 DEF
+https://i.imgur.com/V5BUBrZ.png,ST,Traveler’s Trinket,+70 HP+3 ATT+6 SPD
+https://i.imgur.com/6QKqxuw.png,ST,Eye of the Void,+80 HP+8 DEF
+https://i.imgur.com/AfwHPCC.png,ST,Rusty Cuffs,+70 HP+5 DEF+5 SPD
+https://i.imgur.com/8vGaqis.png,ST,Lucky Grenade,+75 HP+5 DEX
+https://i.imgur.com/cGXdu3q.png,ST,Ring of the Inferno,+75 MP+3 DEF+4 SPD+4 ATT
+https://i.imgur.com/hxd7YhX.png,ST,Radiant Heart,+100 HP+5 ATT
+https://i.imgur.com/TNIvFIf.png,ST,Imperial Keepsake,+55 HP+8 SPD
+https://i.imgur.com/NPA5eZi.png,ST,Performer’s Hat,+77 HP+4 WIS+4 DEX
+https://i.imgur.com/D91rMkO.png,ST,Bolt in a Bottle,+30 MP+6 DEF+4 SPD
+https://i.imgur.com/bTzGnoH.png,ST,Brass Knuckles,+30 HP+7 DEF+6 DEX
+https://i.imgur.com/XtFL74D.png,ST,Heavenly Halo,+70 HP+50 MP+6 WIS
+https://i.imgur.com/NTx7xLN.png,ST,C.O.N.T.R.O.L.L.E.R.,+50 HP+30 MP+5 DEF+5 SPD
+https://i.imgur.com/I521xTT.png,ST,Regal Ring,+1 DEX
+https://i.imgur.com/GpEZlFe.png,ST,Omni-Impotence Ring,-80 HP-80 MP-4 ATT-4 DEF-4 SPD-4 DEX-4 VIT-4 WIS
+https://i.imgur.com/MUrhBEc.png,ST,Cuband,+80 HP+5 DEX
+https://i.imgur.com/iaCR5cv.png,ST,Augur of the Tempest,+75 HP+5 SPD+5 DEX
+https://i.imgur.com/dIOdLFM.png,ST,Defiled Equilibrium,+60 HP+20 MP+5 DEF+5 SPD
+https://i.imgur.com/HL58zOB.png,ST,Jewel of Vengeance,+80 HP+7 DEX
+https://i.imgur.com/fUEyz7a.png,ST,Eye of Divination,-
+https://i.imgur.com/EKcUIYg.png,ST,Frozen Heart,-5 SPD
+https://i.imgur.com/8o6RoCj.png,ST,Legacy’s Pendant,-6 VIT
+https://i.imgur.com/pGNL0ht.png,ST,Mayhem Medallion,+60 HP+6 DEX+6 SPD
+https://i.imgur.com/PcDyaOx.png,ST,Ring of Wrath,+80 HP+6 DEF+5 VIT
+https://i.imgur.com/Qlbtkrg.png,ST,Autarch Amulet,+60 HP+100 MP+7 WIS
+https://i.imgur.com/XU1inL6.png,ST,Steadfast Glyph,+80 HP+40 MP+4 DEF
+https://i.imgur.com/KIM2GLf.png,ST,Alien Core: Corrosion,-
+https://i.imgur.com/YWUuUxP.png,ST,Alien Core: Dark Matter,-
+https://i.imgur.com/xPLOjWl.png,ST,Alien Core: Power,-
+https://i.imgur.com/cl1y4Jh.png,ST,Alien Core: Warp,-
+https://i.imgur.com/vZsjila.png,ST,Gjallarhorn,+60 HP+4 ATT
+https://i.imgur.com/daIBNzB.png,ST,Protective Gloves,+50 HP+6 ATT+4 DEF+4 SPD
+https://i.imgur.com/iU3z5Kn.png,ST,Fang Necklace,+4 ATT+4 DEX+5 VIT
+https://i.imgur.com/rXuHxFT.png,ST,Soul Gem Amulet,+4 ATT+4 DEX+5 VIT
+https://i.imgur.com/NkTCidJ.png,UT,Sunken Ring,+20 HP+2 DEF
+https://i.imgur.com/ymTDT3k.png,UT,Amulet of Superior Attack,+10 HP+10 MP+7 ATT
+https://i.imgur.com/x7nQVLu.png,UT,Amulet of Superior Defense,+10 HP+10 MP+7 DEF
+https://i.imgur.com/9GNPSz0.png,UT,Amulet of Superior Speed,+10 HP+10 MP+7 SPD
+https://i.imgur.com/3yqFt69.png,UT,Amulet of Superior Dexterity,+10 HP+10 MP+7 DEX
+https://i.imgur.com/NjDrV4S.png,UT,Amulet of Superior Vitality,+10 HP+10 MP+7 VIT
+https://i.imgur.com/nBtFF7o.png,UT,Amulet of Superior Wisdom,+10 HP+10 MP+7 WIS
+https://i.imgur.com/jHiqUXX.png,UT,Bronze Medal,+1 SPD+1 DEX+1 VIT
+https://i.imgur.com/aYPLPSA.png,UT,Amulet of Paramount Attack,+20 HP+20 MP+8 ATT
+https://i.imgur.com/U0YxYwa.png,UT,Amulet of Paramount Defense,+20 HP+20 MP+8 DEF
+https://i.imgur.com/TE8ufHg.png,UT,Amulet of Paramount Speed,+20 HP+20 MP+8 SPD
+https://i.imgur.com/bzxhw2y.png,UT,Amulet of Paramount Dexterity,+20 HP+20 MP+8 DEX
+https://i.imgur.com/FBm3Cc3.png,UT,Amulet of Paramount Vitality,+20 HP+20 MP+8 VIT
+https://i.imgur.com/X8xxSUi.png,UT,Amulet of Paramount Wisdom,+20 HP+20 MP+8 WIS
+https://i.imgur.com/uz2wad5.png,UT,Amulet of Exalted Attack,+30 HP+30 MP+9 ATT
+https://i.imgur.com/Z7BBEjJ.png,UT,Amulet of Exalted Defense,+30 HP+30 MP+9 DEF
+https://i.imgur.com/gnZRikf.png,UT,Amulet of Exalted Speed,+30 HP+30 MP+9 SPD
+https://i.imgur.com/dzA1FaI.png,UT,Amulet of Exalted Dexterity,+30 HP+30 MP+9 DEX
+https://i.imgur.com/j55vzok.png,UT,Amulet of Exalted Vitality,+30 HP+30 MP+9 VIT
+https://i.imgur.com/9D1xDS3.png,UT,Amulet of Exalted Wisdom,+30 HP+30 MP+9 WIS
+https://i.imgur.com/XOrFcZE.png,UT,Silver Medal,+2 SPD+2 DEX+2 VIT
+https://i.imgur.com/47fxkVg.png,UT,America Ring,+20 HP+20 MP+1 ATT+1 DEF+1 SPD+1 DEX+1 VIT+1 WIS
+https://i.imgur.com/ugDlMb3.png,UT,Amulet of Unbound Attack,+40 HP+40 MP+10 ATT
+https://i.imgur.com/zZb7dKi.png,UT,Amulet of Unbound Defense,+40 HP+40 MP+10 DEF
+https://i.imgur.com/8bTbNxc.png,UT,Amulet of Unbound Speed,+40 HP+40 MP+10 SPD
+https://i.imgur.com/jWZ81ux.png,UT,Amulet of Unbound Dexterity,+40 HP+40 MP+10 DEX
+https://i.imgur.com/r3J2UEA.png,UT,Amulet of Unbound Vitality,+40 HP+40 MP+10 VIT
+https://i.imgur.com/1YOgJtH.png,UT,Amulet of Unbound Wisdom,+40 HP+40 MP+10 WIS
+https://i.imgur.com/a9ZfCkc.png,UT,Gem of Tenderness,+120 MP+6 WIS
+https://i.imgur.com/B9aJoug.png,UT,Gem of Adoration,+120 HP+6 VIT
+https://i.imgur.com/cHCyPDp.png,UT,Gold Medal,+3 SPD+3 DEX+3 VIT
+https://i.imgur.com/TNDAgxp.png,UT,Soulful Affection,+140 HP+6 VIT+6 WIS
+https://i.imgur.com/QUQtUzP.png,UT,Sweetener Ring,+140 HP+40 MP
+https://i.imgur.com/NBS9rV1.png,UT,Ring Of Radiant Petals,+140 HP+40 MP
+https://i.imgur.com/E2JT41E.png,UT,Amulet of Transcendent Attack,+50 HP+50 MP+11 ATT
+https://i.imgur.com/64q5oFk.png,UT,Amulet of Transcendent Defense,+50 HP+50 MP+11 DEF
+https://i.imgur.com/N8DQ73V.png,UT,Amulet of Transcendent Speed,+50 HP+50 MP+11 SPD
+https://i.imgur.com/7P7Vt8q.png,UT,Amulet of Transcendent Dexterity,+50 HP+50 MP+11 DEX
+https://i.imgur.com/L4uaSbw.png,UT,Amulet of Transcendent Vitality,+50 HP+50 MP+11 VIT
+https://i.imgur.com/BLaJyFw.png,UT,Amulet of Transcendent Wisdom,+50 HP+50 MP+11 WIS
+https://i.imgur.com/oMBVOt5.png,UT,Crystal Key,+50 HP+4 DEF+3 DEX
+https://i.imgur.com/W53SkQM.png,UT,Geb’s Lost Hedjet,+70 HP+70 MP+5 VIT+5 DEF
+https://i.imgur.com/GcyNhWp.png,UT,Abyssal Trophy,+5 ATT+10 SPD+5 DEX
+https://i.imgur.com/6voAkZF.png,UT,Jade Beetle,+60 HP+60 MP+10 SPD+5 DEX
+https://i.imgur.com/uOno0Ya.png,UT,Oryxmas Ornament: Energized,+90 MP+4 SPD+4 DEX
+https://i.imgur.com/c11QRmD.png,UT,Oryxmas Ornament: Weak,+50 HP+50 MP+4 DEF+4 VIT
+https://i.imgur.com/YufaZN7.png,UT,Oryxmas Ornament: Exposed,+90 HP+4 SPD+4 DEX
+https://i.imgur.com/PIihBJi.png,UT,Rusted Mechanism,+8 DEX+8 ATT-8 DEF
+https://i.imgur.com/C66wO28.png,UT,Amulet of Lightning,+70 HP+70 MP+5 SPD
+https://i.imgur.com/TeviMt8.png,UT,Robotic Ring of the Crucible,+100 HP+9 DEX+3 WIS
+https://i.imgur.com/gU1Cydp.png,UT,Shattered Ring of the Crucible,+100 HP+90 MP+9 WIS
+https://i.imgur.com/hy2TSdU.png,UT,Colossal Ring of the Crucible,+120 HP+7 ATT+6 VIT
+https://i.imgur.com/8AjApJO.png,UT,Corrupted Ring of the Crucible,+120 HP+5 DEF+5 VIT
+https://i.imgur.com/R3U2zQp.png,UT,Bracer of the Guardian (Rehearsal),+60 HP+60 MP+4 ATT+4 DEF
+https://i.imgur.com/RaWZDmm.png,UT,The Twilight Gemstone (Rehearsal),+80 MP+4 DEF+3 SPD+3 WIS
+https://i.imgur.com/ClRVIkg.png,UT,Elemental Equilibrium,+80 HP+80 MP
+https://i.imgur.com/ri4rmzS.png,UT,The Forgotten Crown (Rehearsal),+100 HP+4 ATT+4 DEX
+https://i.imgur.com/Gb33mgh.png,UT,His Majesty’s Eminence,+100 HP+5 ATT+5 DEX
+https://i.imgur.com/iXRz4w2.png,UT,Ice Crown,+110 HP+6 ATT+6 DEX
+https://i.imgur.com/oHlSz4G.png,UT,The Golden Forgotten Crown,+110 HP+6 ATT+6 DEX
+https://i.imgur.com/aLz9Gxw.png,UT,Eden’s Embrace,+100 HP+100 MP+10 DEF+10 SPD
+https://i.imgur.com/rSmiXEX.png,ST,Moonstone Ring,+10 HP+1 ATT+1 DEX
+https://i.imgur.com/4xBEZfB.png,ST,Witch’s Brooch,+15 HP+50 MP+5 ATT+8 WIS
+https://i.imgur.com/1puXzet.png,ST,Legacy Spectral Ring of Horrors,+25 HP-2 SPD+4 DEX+4 VIT+4 WIS
+https://i.imgur.com/t9URlJg.png,ST,Legacy Ring of Pure Wishes,+10 HP+10 MP+5 DEF+1 ATT
+https://i.imgur.com/ad5DQeR.png,ST,Legacy Forgotten Ring,+20 HP+10 MP+3 ATT+2 DEF
+https://i.imgur.com/3yn5dkM.png,ST,Pontifex Ring,+60 HP+5 DEF-5 VIT+5 WIS
+https://i.imgur.com/deIZAI1.png,ST,Horned Ring,+45 HP+45 MP+8 DEF
+https://i.imgur.com/oqfXGx9.png,ST,Mala Beads,+80 HP+5 VIT+5 SPD
+https://i.imgur.com/LUla49t.png,ST,Collarbone Collar,+50 HP+3 ATT+9 VIT
+https://i.imgur.com/JTjlV7L.png,ST,Vial of Sustenance,+70 MP+5 SPD+7 DEX
+https://i.imgur.com/Qy3wfph.png,ST,Painted Egg Amulet,+5 DEF+5 VIT+50 HP
+https://i.imgur.com/diHcSFp.png,ST,Grim Goblet,+75 HP+5 ATT+5 VIT
+https://i.imgur.com/B4J5RG2.png,ST,Sun Bathed Straw Hat,+80 HP+8 DEF
+https://i.imgur.com/zBu7RGy.png,ST,Burlap Hat,+70 HP+5 DEF+5 SPD
+https://i.imgur.com/o42oQb9.png,ST,Devil Horn Headband,+77 HP+4 WIS+4 DEX
+https://i.imgur.com/VRJVOlE.png,ST,Diving Weights,+55 HP+8 SPD
+https://i.imgur.com/s7bDFTW.png,ST,Pointy Tail,+70 HP+50 MP+6 WIS
+https://i.imgur.com/gcjWdAn.png,ST,Unresolved Grudge,+50 HP+30 MP+5 DEF+5 SPD
+https://i.imgur.com/W3fEUlp.png,ST,Phantom Pendant,+75 MP+7 DEX+6 DEF
+https://i.imgur.com/3NM81B8.png,ST,Chocolate Bunny Ears,+80 HP+40 MP+4 DEF
+https://i.imgur.com/vRT1qmL.png,ST,Superior Mask of Anubis,+150 HP+40 MP
+https://i.imgur.com/RzOZlIY.png,ST,Superior Mask of Cnidaria,+40 HP+150 MP
+https://i.imgur.com/eQaWDQG.png,ST,Superior Mask of Lightning,+40 HP+150 MP
+https://i.imgur.com/EHtMTiV.png,ST,Superior Mask of Mucus,+150 HP+40 MP
+https://i.imgur.com/bHBHTJV.png,ST,Laborer’s Hard Hat,+40 HP+2 ATT
+https://i.imgur.com/1CoRpYJ.png,ST,Ember of the Daeva,+40 HP+5 VIT
+https://i.imgur.com/PysqS7w.png,ST,Ember of the Void,+4 ATT+3 DEX
+https://i.imgur.com/rtib4TN.png,ST,Loaded Core,-
+https://i.imgur.com/XF8bYOk.png,ST,Ring of the Magus,+60 HP+120 MP+6 WIS
+https://i.imgur.com/8WNmrvf.png,ST,Ring of the Sniper,+60 HP+8 ATT
+https://i.imgur.com/2qVUwsW.png,ST,Ring of the Stalwart,+120 HP+6 DEF
+https://i.imgur.com/Ko9Dmn0.png,ST,Ring of the Swiftblade,+80 HP+6 SPD+6 DEX
+https://i.imgur.com/pdhSV9L.png,ST,Operator’s Hard Hat,+40 HP+4 ATT
+https://i.imgur.com/qOUhtvS.png,ST,Entropy Reactor,-
+https://i.imgur.com/uMaG5vC.png,ST,Ornaments of Unity,-
+https://i.imgur.com/C0UPuZd.png,ST,Foreman’s Hard Hat,+40 HP+6 ATT
+https://i.imgur.com/QKOqRz4.png,ST,Antinomy Artifact,+50 HP+50 MP+3 DEF+5 ATT
