@@ -14,7 +14,7 @@
 
   $: showBonus = bonus[stat] !== 0;
   $: showExalt = exaltStats[stat] > 0;
-  const barColor = stat === 'HP' ? 'bg-green-500' : 'bg-blue-500';
+  const barColor = stat === 'HP' ? 'bg-green-400' : 'bg-blue-500';
   const bgColor = stat === 'HP' ? 'bg-green-200' : 'bg-blue-200';
 </script>
 
@@ -24,7 +24,7 @@
     <div
       class="absolute inset-0 flex items-center justify-center text-sm font-bold"
       class:text-blue-900={!showBonus}
-      class:text-green-400={bonus[stat] > 0}
+      class:text-green-600={bonus[stat] > 0}
       class:text-red-400={bonus[stat] < 0}
     >
       {getTotal()}
@@ -32,7 +32,7 @@
         <span class="ml-1">
           (
           {#if showBonus}
-            <span class={bonus[stat] > 0 ? 'text-green-400' : 'text-red-400'}>
+            <span class={bonus[stat] > 0 ? 'text-green-600' : 'text-red-400'}>
               {bonus[stat] > 0 ? '+' : ''}{bonus[stat]}
             </span>
           {/if}

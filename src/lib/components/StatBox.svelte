@@ -37,7 +37,7 @@
           </span>
         {/if}
         {#if showExalt}
-          {#if showBonus} + {/if}
+          {#if showBonus} <span class="text-white"> </span> {/if}
           <span class="text-blue-400">
             +{exaltStats[stat]}
           </span>

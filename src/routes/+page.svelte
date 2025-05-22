@@ -5,6 +5,7 @@
   import StatBar from '$lib/components/StatBar.svelte';
   import StatBox from '$lib/components/StatBox.svelte';
   import ItemWindow from '$lib/components/ItemWindow.svelte';
+  import ItemInfo from '$lib/components/ItemInfo.svelte';
   import { loadCSV } from '$lib/utils/loadCsv';
   export let data;
   let classes = data.classes;
@@ -85,21 +86,33 @@
 
   $: if (armorClass && armorClass !== loadedArmorClass) {
     loadCSV('armors', armorClass).then(data => {
-      armorData = data;
+      armorData = data.sort((a, b) => {
+        if (a.Tier === 'UT' || a.Tier === 'ST') return 1;
+        if (b.Tier === 'UT' || b.Tier === 'ST') return -1;
+        return parseInt(a.Tier) - parseInt(b.Tier);
+      });
       loadedArmorClass = armorClass;
     });
   }
 
   $: if (ability && ability !== loadedAbility) {
     loadCSV('abilitys', ability).then(data => {
-      abilityData = data;
+      abilityData = data.sort((a, b) => {
+        if (a.Tier === 'UT' || a.Tier === 'ST') return 1;
+        if (b.Tier === 'UT' || b.Tier === 'ST') return -1;
+        return parseInt(a.Tier) - parseInt(b.Tier);
+      });
       loadedAbility = ability;
     });
   }
 
   $: if (weaponClass && weaponClass !== loadedWeaponClass) {
     loadCSV('weapons', weaponClass).then(data => {
-      weaponData = data;
+      weaponData = data.sort((a, b) => {
+        if (a.Tier === 'UT' || a.Tier === 'ST') return 1;
+        if (b.Tier === 'UT' || b.Tier === 'ST') return -1;
+        return parseInt(a.Tier) - parseInt(b.Tier);
+      });
       loadedWeaponClass = weaponClass;
     });
   }
@@ -108,6 +121,7 @@
     if (armorClass) loadCSV('armors', armorClass).then(data => armorData = data);
     if (ability) loadCSV('abilitys', ability).then(data => abilityData = data);
     if (weaponClass) loadCSV('weapons', weaponClass).then(data => weaponData = data);
+    selectedClass = classes[0];
   });
 
   function parseBonusValue(raw) {
@@ -243,49 +257,82 @@
       </div>
     </div>
   </div>
+
   <!-- Right Grid -->
-  <!-- Clickable Armor Box -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <!-- Weapon -->
+    <div class="relative flex flex-col gap-2">
+      <div class="flex items-start gap-4">
+        <!-- Wrap both the trigger and dropdown in one relative block -->
+        <div class="relative flex items-start gap-4 w-full">
+          <!-- Item Button -->
+          <ItemWindow
+            slot="weapon"
+            {selectedItems}
+            toggleDropdown={() => showWeaponDropdown = !showWeaponDropdown}
+          />
 
-  <div class="flex flex-col space-y-4">
-    <ItemWindow
-      slot="weapon"
-      {selectedItems}
-      toggleDropdown={() => showWeaponDropdown = !showWeaponDropdown}
-    />
+          <!-- Item Info -->
+          <ItemInfo slot="weapon" {selectedItems} />
 
-    <ItemWindow
-      slot="armor"
-      {selectedItems}
-      toggleDropdown={() => showArmorDropdown = !showArmorDropdown}
-    />
+          <!-- Dropdown -->
+          <div class="absolute top-full mt-2 left-0 z-50 w-full">
+            <ItemDropdown
+              show={showWeaponDropdown}
+              items={weaponData}
+              label="Weapon"
+              onSelect={(item) => selectItem(item, 'weapon')}
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Armor -->
+    <div class="relative flex flex-col gap-2">
+      <div class="flex items-start gap-4">
+        <!-- Wrap both the trigger and dropdown in one relative block -->
+        <div class="relative flex items-start gap-4 w-full">
+          <ItemWindow
+            slot="armor"
+            {selectedItems}
+            toggleDropdown={() => showArmorDropdown = !showArmorDropdown}
+          />
+          <ItemInfo slot="armor" {selectedItems} />
+        
+          <div class="absolute top-full mt-2 left-0 z-50 w-full">
+            <ItemDropdown
+              show={showArmorDropdown}
+              items={armorData}
+              label="Armor"
+              onSelect={(item) => selectItem(item, 'armor')}
+            />
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <ItemWindow
-      slot="ability"
-      {selectedItems}
-      toggleDropdown={() => showAbilityDropdown = !showAbilityDropdown}
-    />
+    <!-- Ability -->
+    <div class="relative flex flex-col gap-2">
+      <div class="flex items-start gap-4">
+        <!-- Wrap both the trigger and dropdown in one relative block -->
+        <div class="relative flex items-start gap-4 w-full">
+          <ItemWindow
+            slot="ability"
+            {selectedItems}
+            toggleDropdown={() => showAbilityDropdown = !showAbilityDropdown}
+          />
+          <ItemInfo slot="ability" {selectedItems} />
+          <div class="absolute top-full mt-2 left-0 z-50 w-full">
+            <ItemDropdown
+              show={showAbilityDropdown}
+              items={abilityData}
+              label="Ability"
+              onSelect={(item) => selectItem(item, 'ability')}
+            />
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
-
-  <!-- Dropdown Menu -->
-  <ItemDropdown
-    show={showArmorDropdown}
-    items={armorData}
-    label="Armor"
-    onSelect={(item) => selectItem(item, 'armor')}
-  />
-
-  <ItemDropdown
-    show={showWeaponDropdown}
-    items={weaponData}
-    label="Weapon"
-    onSelect={(item) => selectItem(item, 'weapon')}
-  />
-
-  <ItemDropdown
-    show={showAbilityDropdown}
-    items={abilityData}
-    label="Ability"
-    onSelect={(item) => selectItem(item, 'ability')}
-  />
 </div>
