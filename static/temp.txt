@@ -1,0 +1,118 @@
+<html lang ="en">
+<head> </head>
+<body>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th colspan="6" align="center"><b>Unique Enchantments</b>
+        </th></tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th align="center">Enchantment</th>
+            <th align="center">Name</th>
+            <th align="center">Eligible Items</th>
+            <th align="center">Effect(s)</th>
+            <th align="center">Enchantment Labels</th>
+            <th align="center">Incompatible Labels</th>
+        </tr>
+        <tr>
+            <td align="center"><img alt="Shaitan's Might" src="//i.imgur.com/hus6Xs6.png" title="Shaitan's Might" class="img-responsive"></td>
+            <td align="center">Shaitan’s Might</td>
+            <td align="center">ALL</td>
+            <td align="center">+5 ATT</td>
+            <td align="center">SINGLESTAT<br>ATTACK<br>FLATBONUS<br>UNIQUE</td>
+            <td align="center">SINGLESTAT<br>UNIQUE</td>
+        </tr>
+        <tr>
+            <td align="center"><img alt="Sandstone Resilience" src="//i.imgur.com/hus6Xs6.png" title="Sandstone Resilience" class="img-responsive"></td>
+            <td align="center">Sandstone Resilience</td>
+            <td align="center">ALL</td>
+            <td align="center">+5 DEF</td>
+            <td align="center">SINGLESTAT<br>DEFENSE<br>FLATBONUS<br>UNIQUE</td>
+            <td align="center">SINGLESTAT<br>UNIQUE</td>
+        </tr>
+        <tr>
+            <td align="center"><img alt="Pirates Expertise" src="//i.imgur.com/hus6Xs6.png" title="Pirates Expertise" class="img-responsive"></td>
+            <td align="center">Pirate’s Expertise</td>
+            <td align="center">ALL </td>
+            <td align="center">+5 DEX </td>
+            <td align="center">SINGLESTAT<br>DEXTERITY<br>FLATBONUS<br>UNIQUE</td>
+            <td align="center">SINGLESTAT<br>UNIQUE</td>
+        </tr>
+        <tr>
+            <td align="center"><img alt="Mermaid Magic" src="//i.imgur.com/hus6Xs6.png" title="Mermaid Magic" class="img-responsive"></td>
+            <td align="center">Mermaid Magic</td>
+            <td align="center">ALL </td>
+            <td align="center">+65 MP </td>
+            <td align="center">SINGLESTAT<br>MANA<br>FLATBONUS<br>UNIQUE</td>
+            <td align="center">SINGLESTAT<br>UNIQUE</td>
+        </tr>
+        <tr>
+            <td align="center"><img alt="Vampric Lifeforce" src="//i.imgur.com/hus6Xs6.png" title="Vampric Lifeforce" class="img-responsive"></td>
+            <td align="center">Vampric Lifeforce</td>
+            <td align="center">ALL</td>
+            <td align="center">+40 HP</td>
+            <td align="center">SINGLESTAT<br>LIFE<br>FLATBONUS<br>UNIQUE</td>
+            <td align="center">SINGLESTAT<br>UNIQUE</td>
+        </tr>
+        <tr>
+            <td align="center"><img alt="Stheno's Swiftness" src="//i.imgur.com/hus6Xs6.png" title="Stheno's Swiftness" class="img-responsive"></td>
+            <td align="center">Stheno’s Swiftness</td>
+            <td align="center">ALL</td>
+            <td align="center">+8 SPD</td>
+            <td align="center">SINGLESTAT<br>SPEED<br>FLATBONUS<br>UNIQUE</td>
+            <td align="center">SINGLESTAT<br>UNIQUE</td>
+        </tr>
+        <tr>
+            <td align="center"><img alt="Crystalline Vigor" src="//i.imgur.com/hus6Xs6.png" title="Crystalline Vigor" class="img-responsive"></td>
+            <td align="center">Crystalline Vigor</td>
+            <td align="center">ALL </td>
+            <td align="center">+6.6 VIT </td>
+            <td align="center">SINGLESTAT<br>VITALITY<br>FLATBONUS<br>UNIQUE</td>
+            <td align="center">SINGLESTAT<br>UNIQUE</td>
+        </tr>
+        <tr>
+            <td align="center"><img alt="Avalon's Intellect" src="//i.imgur.com/hus6Xs6.png" title="Avalon's Intellect" class="img-responsive"></td>
+            <td align="center">Avalon’s Intellect</td>
+            <td align="center">ALL</td>
+            <td align="center">+6.6 WIS</td>
+            <td align="center">SINGLESTAT<br>WISDOM<br>FLATBONUS<br>UNIQUE</td>
+            <td align="center">SINGLESTAT<br>UNIQUE</td>
+        </tr>
+        <tr>
+            <td align="center"><img alt="Jester's Trick" src="//i.imgur.com/hus6Xs6.png" title="Jester's Trick" class="img-responsive"></td>
+            <td align="center">Jester’s Trick</td>
+            <td align="center">ALL</td>
+            <td align="center">+10 Life/Mana, +1 other Stats</td>
+            <td align="center">DUALSTAT<br>FLATBONUS<br>UNIQUE</td>
+            <td align="center">DUALSTAT<br>UNIQUE</td>
+        </tr>
+        <tr>
+            <td align="center"><img alt="Flurry of Blows" src="//i.imgur.com/hus6Xs6.png" title="Flurry of Blows" class="img-responsive"></td>
+            <td align="center">Flurry of Blows</td>
+            <td align="center">WEAPON</td>
+            <td align="center">+35% Weapon Firerate <br>-20% Weapon Damage</td>
+            <td align="center">DAMAGE<br>TRADEOFF<br>WEAPONFIRERATE<br>UNIQUE</td>
+            <td align="center">WEAPONDAMAGE<br>WEAPONFIRERATE<br>UNIQUE</td>
+        </tr>
+        <tr>
+            <td align="center"><img alt="Overwhelming Strikes" src="//i.imgur.com/hus6Xs6.png" title="Overwhelming Strikes" class="img-responsive"></td>
+            <td align="center">Overwhelming Strikes</td>
+            <td align="center">WEAPON</td>
+            <td align="center">+35% Weapon Damage <br>-20% Weapon Firerate</td>
+            <td align="center">DAMAGE<br>TRADEOFF<br>WEAPONFIRERATE<br>UNIQUE</td>
+            <td align="center">WEAPONDAMAGE<br>WEAPONFIRERATE<br>UNIQUE</td>
+        </tr>
+        <tr>
+            <td align="center"><img alt="Lucky Streak" src="//i.imgur.com/hus6Xs6.png" title="Lucky Streak" class="img-responsive"></td>
+            <td align="center">Lucky Streak</td>
+            <td align="center">RING</td>
+            <td align="center">+3% XP<br>+3% Loot<br>+3% Dust</td>
+            <td align="center">DUALREWARDBONUS<br>UNIQUE</td>
+            <td align="center">DUALREWARDBONUS<br>UNIQUE</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>

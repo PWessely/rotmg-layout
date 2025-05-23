@@ -1,0 +1,13 @@
+Image link,Enchantment Name,Eligible Items,Effect(s) I / II / III / IV,Enchantment Labels,Incompatible Labels
+//i.imgur.com/hus6Xs6.png,Shaitan’s Might,ALL,+5 ATT,SINGLESTAT ATTACK FLATBONUS UNIQUE,SINGLESTAT UNIQUE
+//i.imgur.com/hus6Xs6.png,Sandstone Resilience,ALL,+5 DEF,SINGLESTAT DEFENSE FLATBONUS UNIQUE,SINGLESTAT UNIQUE
+//i.imgur.com/hus6Xs6.png,Pirate’s Expertise,ALL ,+5 DEX ,SINGLESTAT DEXTERITY FLATBONUS UNIQUE,SINGLESTAT UNIQUE
+//i.imgur.com/hus6Xs6.png,Mermaid Magic,ALL ,+65 MP ,SINGLESTAT MANA FLATBONUS UNIQUE,SINGLESTAT UNIQUE
+//i.imgur.com/hus6Xs6.png,Vampric Lifeforce,ALL,+40 HP,SINGLESTAT LIFE FLATBONUS UNIQUE,SINGLESTAT UNIQUE
+//i.imgur.com/hus6Xs6.png,Stheno’s Swiftness,ALL,+8 SPD,SINGLESTAT SPEED FLATBONUS UNIQUE,SINGLESTAT UNIQUE
+//i.imgur.com/hus6Xs6.png,Crystalline Vigor,ALL ,+6.6 VIT ,SINGLESTAT VITALITY FLATBONUS UNIQUE,SINGLESTAT UNIQUE
+//i.imgur.com/hus6Xs6.png,Avalon’s Intellect,ALL,+6.6 WIS,SINGLESTAT WISDOM FLATBONUS UNIQUE,SINGLESTAT UNIQUE
+//i.imgur.com/hus6Xs6.png,Jester’s Trick,ALL,"+10 Life/Mana, +1 other Stats",DUALSTAT FLATBONUS UNIQUE,DUALSTAT UNIQUE
+//i.imgur.com/hus6Xs6.png,Flurry of Blows,WEAPON,+35% Weapon Firerate  -20% Weapon Damage,DAMAGE TRADEOFF WEAPONFIRERATE UNIQUE,WEAPONDAMAGE WEAPONFIRERATE UNIQUE
+//i.imgur.com/hus6Xs6.png,Overwhelming Strikes,WEAPON,+35% Weapon Damage  -20% Weapon Firerate,DAMAGE TRADEOFF WEAPONFIRERATE UNIQUE,WEAPONDAMAGE WEAPONFIRERATE UNIQUE
+//i.imgur.com/hus6Xs6.png,Lucky Streak,RING,+3% XP +3% Loot +3% Dust,DUALREWARDBONUS UNIQUE,DUALREWARDBONUS UNIQUE

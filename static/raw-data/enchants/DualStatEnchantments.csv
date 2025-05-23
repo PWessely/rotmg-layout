@@ -1,0 +1,85 @@
+Image link,Enchantment Name,Eligible Items,Effect(s) I / II / III / IV,Enchantment Labels,Incompatible Labels
+//i.imgur.com/I0DdmsO.png,Attack Defense Bonus,ALL,+.7/1.1/1.5/1.9 ATT +.7/1.1/1.5/1.9 DEF,DUALSTAT ATTACK DEFENSE FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Attack Dexterity Bonus,ALL,+.7/1.1/1.5/1.9 ATT +.7/1.1/1.5/1.9 DEX,DUALSTAT ATTACK DEXTERITY FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Attack Mana Bonus,ALL,+.7/1.1/1.5/1.9 ATT +10/15/20/25 MP,DUALSTAT ATTACK MANA FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Attack Life Bonus,ALL,+.7/1.1/1.5/1.9 ATT +7.5/10/12.5/15 HP,DUALSTAT ATTACK LIFE FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Attack Speed Bonus,ALL,+.7/1.1/1.5/1.9 ATT +1.1/1.7/2.3/2.9 SPD,DUALSTAT ATTACK SPEED FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Attack Vitality Bonus,ALL,+.7/1.1/1.5/1.9 ATT +.9/1.4/1.9/2.4 VIT,DUALSTAT ATTACK VITALITY FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Attack Wisdom Bonus,ALL,+.7/1.1/1.5/1.9 ATT +.9/1.4/1.9/2.4 WIS,DUALSTAT ATTACK WISDOM FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Defense Dexterity Bonus,ALL,+.7/1.1/1.5/1.9 DEF +.7/1.1/1.5/1.9 DEX,DUALSTAT DEFENSE DEXTERITY FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Defense Mana Bonus,ALL,+.7/1.1/1.5/1.9 DEF +10/15/20/25 MP,DUALSTAT DEFENSE MANA FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Defense Life Bonus,ALL,+.7/1.1/1.5/1.9 DEF +7.5/10/12.5/15 HP,DUALSTAT DEFENSE LIFE FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Defense Speed Bonus,ALL,+.7/1.1/1.5/1.9 DEF +1.1/1.7/2.3/2.9 SPD ,DUALSTAT DEFENSE SPEED FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Defense Vitality Bonus,ALL,+.7/1.1/1.5/1.9 DEF +.9/1.4/1.9/2.4 VIT ,DUALSTAT DEFENSE VITALITY FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Defense Wisdom Bonus,ALL,+.7/1.1/1.5/1.9 DEF +.9/1.4/1.9/2.4 WIS,DUALSTAT DEFENSE WISDOM FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Dexterity Mana Bonus,ALL,+.7/1.1/1.5/1.9 DEX +10/15/20/25 MP,DUALSTAT DEXTERITY MANA FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Dexterity Life Bonus,ALL,+.7/1.1/1.5/1.9 DEX +7.5/10/12.5/15 HP,DUALSTAT DEXTERITY LIFE FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Dexterity Speed Bonus,ALL,+.7/1.1/1.5/1.9 DEX +1.1/1.7/2.3/2.9 SPD ,DUALSTAT DEXTERITY SPEED FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Dexterity Vitality Bonus,ALL,+.7/1.1/1.5/1.9 DEX +.9/1.4/1.9/2.4 VIT ,DUALSTAT DEXTERITY VITALITY FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Dexterity Wisdom Bonus,ALL,+.7/1.1/1.5/1.9 DEX +.9/1.4/1.9/2.4 WIS,DUALSTAT DEXTERITY WISDOM FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Mana Life Bonus,ALL,+10/15/20/25 MP +7.5/10/12.5/15 HP,DUALSTAT MANA LIFE FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Mana Speed Bonus,ALL,+10/15/20/25 MP +1.1/1.7/2.3/2.9 SPD,DUALSTAT MANA SPEED FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Mana Vitality Bonus,ALL,+10/15/20/25 MP +.9/1.4/1.9/2.4 VIT,DUALSTAT MANA VITALITY FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Mana Wisdom Bonus,ALL,+10/15/20/25 MP +.9/1.4/1.9/2.4 WIS,DUALSTAT MANA WISDOM FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Life Speed Bonus,ALL,+7.5/10/12.5/15 HP +1.1/1.7/2.3/2.9 SPD,DUALSTAT LIFE SPEED FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Life Vitality Bonus,ALL,+7.5/10/12.5/15 HP +.9/1.4/1.9/2.4 VIT,DUALSTAT LIFE VITALITY FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Life Wisdom Bonus,ALL,+7.5/10/12.5/15 HP +.9/1.4/1.9/2.4 WIS,DUALSTAT LIFE WISDOM FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Speed Vitality Bonus,ALL,+1.1/1.7/2.3/2.9 SPD +.9/1.4/1.9/2.4 VIT ,DUALSTAT SPEED VITALITY FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Speed Wisdom Bonus,ALL,+1.1/1.7/2.3/2.9 SPD +.9/1.4/1.9/2.4 WIS,DUALSTAT SPEED DEFENSE FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Vitality Wisdom Bonus,ALL,+.9/1.4/1.9/2.4 VIT +.9/1.4/1.9/2.4 WIS,DUALSTAT VITALITY WISDOM FLATBONUS,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Attack Defense Tradeoff,ALL,+2/3/4/5 ATT  -1.4/2.2/3/3.8 DEF,DUALSTAT ATTACK DEFENSE TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Attack Dexterity Tradeoff,ALL,+2/3/4/5 ATT  -1.4/2.2/3/3.8 DEX ,DUALSTAT ATTACK DEXTERITY TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Attack Mana Tradeoff,ALL,+2/3/4/5 ATT  -20/30/40/50 MP,DUALSTAT ATTACK MANA TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Attack Life Tradeoff,ALL,+2/3/4/5 ATT  -15/20/25/30 HP,DUALSTAT ATTACK LIFE TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Attack Speed Tradeoff,ALL,+2/3/4/5 ATT  -2.2/3.4/4.6/5.8 SPD,DUALSTAT ATTACK SPEED TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Attack Vitality Tradeoff,ALL,+2/3/4/5 ATT  -1.8/2.8/3.8/4.8 VIT,DUALSTAT ATTACK VITALITY TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Attack Wisdom Tradeoff,ALL,+2/3/4/5 ATT  -1.8/2.8/3.8/4.8 WIS,DUALSTAT ATTACK WISDOM TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Defense Attack Tradeoff,ALL,+2/3/4/5 DEF  -1.4/2.2/3/3.8 ATT,DUALSTAT DEFENSE ATTACK TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Defense Dexterity Tradeoff,ALL,+2/3/4/5 DEF  -1.4/2.2/3/3.8 DEX,DUALSTAT DEFENSE DEXTERITY TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Defense Mana Tradeoff,ALL,+2/3/4/5 DEF  -20/30/40/50 MP,DUALSTAT DEFENSE MANA TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Defense Life Tradeoff,ALL,+2/3/4/5 DEF  -15/20/25/30 HP,DUALSTAT DEFENSE LIFE TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Defense Speed Tradeoff,ALL,+2/3/4/5 DEF  -2.2/3.4/4.6/5.8 SPD,DUALSTAT DEFENSE SPEED TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Defense Vitality Tradeoff,ALL,+2/3/4/5 DEF  -1.8/2.8/3.8/4.8 VIT,DUALSTAT DEFENSE VITALITY TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Defense Wisdom Tradeoff,ALL,+2/3/4/5 DEF  -1.8/2.8/3.8/4.8 WIS,DUALSTAT DEFENSE WISDOM TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Dexterity Attack Tradeoff,ALL,+2/3/4/5 DEX -1.4/2.2/3/3.8 ATT,DUALSTAT DEXTERITY ATTACK TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Dexterity Defense Tradeoff,ALL,+2/3/4/5 DEX -1.4/2.2/3/3.8 DEF,DUALSTAT DEXTERITY  TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Dexterity Mana Tradeoff,ALL,+2/3/4/5 DEX -20/30/40/50 MP,DUALSTAT DEXTERITY MANA TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Dexterity Life Tradeoff,ALL,+2/3/4/5 DEX -15/20/25/30 HP,DUALSTAT DEXTERITY LIFE TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Dexterity Speed Tradeoff,ALL,+2/3/4/5 DEX -2.2/3.4/4.6/5.8 SPD,DUALSTAT DEXTERITY SPEED TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Dexterity Vitality Tradeoff,ALL,+2/3/4/5 DEX -1.8/2.8/3.8/4.8 VIT,DUALSTAT DEXTERITY VITALITY TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Dexterity Wisdom Tradeoff,ALL,+2/3/4/5 DEX -1.8/2.8/3.8/4.8 WIS,DUALSTAT DEXTERITY WISDOM TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Mana Attack Tradeoff,ALL,+30/40/55/65 MP -1.4/2.2/3/3.8 ATT,DUALSTAT MANA ATTACK TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Mana Defense Tradeoff,ALL,+30/40/55/65 MP -1.4/2.2/3/3.8 DEF,DUALSTAT MANA  TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Mana Dexterity Tradeoff,ALL,+30/40/55/65 MP -1.4/2.2/3/3.8 DEX,DUALSTAT MANA DEXTERITY TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Mana Life Tradeoff,ALL,+30/40/55/65 MP -15/20/25/30 HP,DUALSTAT MANA LIFE TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Mana Speed Tradeoff,ALL,+30/40/55/65 MP -2.2/3.4/4.6/5.8 SPD,DUALSTAT MANA SPEED TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Mana Vitality Tradeoff,ALL,+30/40/55/65 MP -1.8/2.8/3.8/4.8 VIT,DUALSTAT MANA VITALITY TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Mana Wisdom Tradeoff,ALL,+30/40/55/65 MP -1.8/2.8/3.8/4.8 WIS,DUALSTAT MANA WISDOM TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Life Attack Tradeoff,ALL,+20/25/35/40 HP -1.4/2.2/3/3.8 ATT ,DUALSTAT LIFE ATTACK TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Life Defense Tradeoff,ALL,+20/25/35/40 HP -1.4/2.2/3/3.8 DEF,DUALSTAT LIFE  TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Life Dexterity Tradeoff,ALL,+20/25/35/40 HP -1.4/2.2/3/3.8 DEX ,DUALSTAT LIFE DEXTERITY TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Life Mana Tradeoff,ALL,+20/25/35/40 HP -20/30/40/50 MP,DUALSTAT LIFE MANA TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Life Speed Tradeoff,ALL,+20/25/35/40 HP -2.2/3.4/4.6/5.8 SPD,DUALSTAT LIFE SPEED TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Life Vitality Tradeoff,ALL,+20/25/35/40 HP -1.8/2.8/3.8/4.8 VIT,DUALSTAT LIFE VITALITY TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Life Wisdom Tradeoff,ALL,+20/25/35/40 HP -1.8/2.8/3.8/4.8 WIS,DUALSTAT LIFE WISDOM TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Speed Attack Tradeoff,ALL,+4/5/7/8 SPD -1.4/2.2/3/3.8 ATT,DUALSTAT SPEED ATTACK TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Speed Defense Tradeoff,ALL,+4/5/7/8 SPD -1.4/2.2/3/3.8 DEF,DUALSTAT SPEED  TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Speed Dexterity Tradeoff,ALL,+4/5/7/8 SPD -1.4/2.2/3/3.8 DEX,DUALSTAT SPEED DEXTERITY TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Speed Mana Tradeoff,ALL,+4/5/7/8 SPD -20/30/40/50 MP,DUALSTAT SPEED MANA TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Speed Life Tradeoff,ALL,+4/5/7/8 SPD -15/20/25/30 HP,DUALSTAT SPEED LIFE TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Speed Vitality Tradeoff,ALL,+4/5/7/8 SPD -1.8/2.8/3.8/4.8 VIT,DUALSTAT SPEED VITALITY TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Speed Wisdom Tradeoff,ALL,+4/5/7/8 SPD -1.8/2.8/3.8/4.8 WIS,DUALSTAT SPEED WISDOM TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Vitality Attack Tradeoff,ALL,+3.6/4.6/5.6/6.6 VIT -1.4/2.2/3/3.8 ATT,DUALSTAT VITALITY ATTACK TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Vitality Defense Tradeoff,ALL,+3.6/4.6/5.6/6.6 VIT -1.4/2.2/3/3.8 DEF,DUALSTAT VITALITY  TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Vitality Dexterity Tradeoff,ALL,+3.6/4.6/5.6/6.6 VIT -1.4/2.2/3/3.8 DEX ,DUALSTAT VITALITY DEXTERITY TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Vitality Mana Tradeoff,ALL,+3.6/4.6/5.6/6.6 VIT -20/30/40/50 MP,DUALSTAT VITALITY MANA TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Vitality Life Tradeoff,ALL,+3.6/4.6/5.6/6.6 VIT -15/20/25/30 HP,DUALSTAT VITALITY LIFE TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Vitality Speed Tradeoff,ALL,+3.6/4.6/5.6/6.6 VIT -2.2/3.4/4.6/5.8 SPD,DUALSTAT VITALITY SPEED TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Vitality Wisdom Tradeoff,ALL,+3.6/4.6/5.6/6.6 VIT -1.8/2.8/3.8/4.8 WIS,DUALSTAT VITALITY WISDOM TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Wisdom Attack Tradeoff,ALL,+3.6/4.6/5.6/6.6 WIS -1.4/2.2/3/3.8 ATT,DUALSTAT WISDOM ATTACK TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Wisdom Defense Tradeoff,ALL,+3.6/4.6/5.6/6.6 WIS -1.4/2.2/3/3.8 DEF,DUALSTAT WISDOM DEFENSE TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Wisdom Dexterity Tradeoff,ALL,+3.6/4.6/5.6/6.6 WIS -1.4/2.2/3/3.8 DEX,DUALSTAT WISDOM DEXTERITY TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Wisdom Mana Tradeoff,ALL,+3.6/4.6/5.6/6.6 WIS -20/30/40/50 MP,DUALSTAT WISDOM MANA TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Wisdom Life Tradeoff,ALL,+3.6/4.6/5.6/6.6 WIS -15/20/25/30 HP,DUALSTAT WISDOM LIFE TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Wisdom Speed Tradeoff,ALL,+3.6/4.6/5.6/6.6 WIS -2.2/3.4/4.6/5.8 SPD,DUALSTAT WISDOM SPEED TRADEOFF,DUALSTAT
+//i.imgur.com/I0DdmsO.png,Wisdom Vitality Tradeoff,ALL,+3.6/4.6/5.6/6.6 WIS -1.8/2.8/3.8/4.8 VIT,DUALSTAT WISDOM VITALITY TRADEOFF,DUALSTAT

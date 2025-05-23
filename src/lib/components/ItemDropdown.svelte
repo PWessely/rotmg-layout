@@ -1,19 +1,14 @@
 <script lang="ts">
-  import { writable, derived } from 'svelte/store';
-
   export let show = false;
-  export let items = [];
+  export let items: any[] = [];
   export let onSelect: (item: any | null) => void;
   export let label = ''; // e.g., 'armor'
 
-  const search = writable('');
+  let searchTerm = '';
 
-  const filteredItems = derived([search], ([$search]) => {
-    const term = $search.toLowerCase();
-    return items.filter(item =>
-      item?.Name?.toLowerCase().includes(term)
-    );
-  });
+  $: filteredItems = items.filter(item =>
+    item?.Name?.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 </script>
 
 {#if show}
@@ -25,7 +20,7 @@
       type="text"
       placeholder="Search..."
       class="col-span-3 p-2 mb-2 rounded bg-gray-700 text-white border border-gray-500 w-full"
-      on:input={(e) => search.set(e.target.value)}
+      bind:value={searchTerm}
     />
 
     <!-- Remove Option -->
@@ -37,7 +32,7 @@
     </button>
 
     <!-- Filtered Item Options -->
-    {#each $filteredItems as item (item.Name)}
+    {#each filteredItems as item (item.Name)}
       <button
         type="button"
         class="relative w-16 h-16 p-0 border-none bg-transparent cursor-pointer hover:scale-105 transition duration-150 ease-in-out focus:outline-none"

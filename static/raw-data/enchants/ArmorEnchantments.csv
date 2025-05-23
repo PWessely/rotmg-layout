@@ -1,0 +1,16 @@
+Image link,Enchantment Name,Eligible Items,Effect(s) I / II / III / IV,Enchantment Labels,Incompatible Labels
+//i.imgur.com/cvKGZ1T.png,Flat Life Regeneration,ARMOR RING ,"Increases Life regen by 4/6/8/10 per second, Doubled while out of combat  ",RECOVERY LIFEREGEN FLATREGEN,LIFEREGEN
+//i.imgur.com/cvKGZ1T.png,Percentage Life Regeneration,ARMOR RING ,"Increases Life regen by .5%/.75%/1%/1.25% of your maximum HP per second, Doubled while out of combat  ",RECOVERY LIFEREGEN PERCENTAGEREGEN,LIFEREGEN
+//i.imgur.com/3vwv7MR.png,OnHit Attack Boost,ARMOR RING ,"50% chance on Hit for atleast 20 Damage, gain +5/6/7/8 ATT for 12 Seconds, 15 Seconds Cooldown",ONHIT ONHITSTAT PROC STATBOOST ATTACK PROCATTACK,ONHITSTAT PROCATTACK
+//i.imgur.com/3vwv7MR.png,OnHit Defense Boost,ARMOR RING ,"50% chance on Hit for atleast 20 Damage, gain +7/8/9/10 DEF for 12 Seconds, 15 Seconds Cooldown",ONHIT ONHITSTAT PROC STATBOOST DEFENSE PROCDEFENSE,ONHITSTAT PROCDEFENSE
+//i.imgur.com/3vwv7MR.png,OnHit Dexterity Boost,ARMOR RING ,"50% chance on Hit for atleast 20 Damage, gain +5/6/7/8 DEX for 12 Seconds, 15 Seconds Cooldown",ONHIT ONHITSTAT PROC STATBOOST DEXTERITY PROCDEXTERITY,ONHITSTAT PROCDEXTERITY
+//i.imgur.com/3vwv7MR.png,OnHit Vitality Boost,ARMOR RING ,"50% chance on Hit for atleast 20 Damage, gain +7/8/9/10 VIT for 12 Seconds, 15 Seconds Cooldown",ONHIT ONHITSTAT PROC STATBOOST VITALITY PROCVITALITY,ONHITSTAT PROCVITALITY
+//i.imgur.com/3vwv7MR.png,OnHit Wisdom Boost,ARMOR RING ,"50% chance on Hit for atleast 20 Damage, gain +7/8/9/10 WIS for 12 Seconds, 15 Seconds Cooldown",ONHIT ONHITSTAT PROC STATBOOST WISDOM PROCWISDOM,ONHITSTAT PROCWISDOM
+//i.imgur.com/3vwv7MR.png,OnHit Heal,ARMOR RING ,"50% chance on Hit for atleast 20 Damage while below 90% HP to heal 20/30/40/50 HP, 15 Seconds Cooldown",RECOVERY ONHIT PROC HEAL,HEAL
+//i.imgur.com/3vwv7MR.png,OnHit Magic,ARMOR RING ,"50% chance on Hit for atleast 20 Damage, gain while below 90% MP to heal 20/30/40/50 MP, 15 Seconds Cooldown",RECOVERY ONHIT PROC MAGIC,MAGIC
+//i.imgur.com/3vwv7MR.png,OnHit Berserk,ARMOR RING ,"20%/25%/30%/35% chance on Hit for atleast 20 Damage, gain Berserk for 4/5/6/7 seconds, 20 Seconds Cooldown",ONHIT PROC BERSERK,BERSERK
+//i.imgur.com/3vwv7MR.png,OnHit Armored,ARMOR RING ,"20%/25%/30%/35% chance on Hit for atleast 20 Damage, gain Armored for 4/5/6/7 seconds, 20 Seconds Cooldown",ONHIT PROC ARMORED,ARMORED
+//i.imgur.com/3vwv7MR.png,OnHit Damaging,ARMOR RING ,"20%/25%/30%/35% chance on Hit for atleast 20 Damage, gain Damaging for 4/5/6/7 seconds, 20 Seconds Cooldown",ONHIT PROC DAMAGING,DAMAGING
+//i.imgur.com/3vwv7MR.png,OnHit Energized,ARMOR RING ,"20%/25%/30%/35% chance on Hit for atleast 20 Damage, gain Energized for 4/5/6/7 seconds, 20 Seconds Cooldown",RECOVERY ONHIT PROC ENERGIZED,ENERGIZED
+//i.imgur.com/3vwv7MR.png,OnHit Healing,ARMOR RING ,"20%/25%/30%/35% chance on Hit for atleast 20 Damage, gain Healing for 4/5/6/7 seconds, 20 Seconds Cooldown",RECOVERY ONHIT PROC HEALING,HEALING
+//i.imgur.com/3vwv7MR.png,OnHit Retaliation,ARMOR RING ,"20%/30%/40%/50% chance on Hit for atleast 20 Damage, Retaliate with a 950/1100/1250/1400 damage projectile, 3 Seconds Cooldown",DAMAGE ONHIT PROC BULLETCREATE,BULLETCREATE

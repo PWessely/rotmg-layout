@@ -1,0 +1,14 @@
+Image link,Enchantment Name,Eligible Items,Effect(s) I / II / III / IV,Enchantment Labels,Incompatible Labels
+//i.imgur.com/qm3jWzf.png,Damage Bonus,WEAPON ,+2%/3%/4%/5% Weapon Damage ,DAMAGE WEAPONDAMAGE,WEAPONDAMAGE WEAPONFIRERATE
+//i.imgur.com/qm3jWzf.png,FireRate Bonus,WEAPON ,+2%/3%/4%/5% Fire Rate ,DAMAGE WEAPONFIRERATE,WEAPONDAMAGE WEAPONFIRERATE
+//i.imgur.com/qm3jWzf.png,Damage Tradeoff,WEAPON ,+5%/7.5%/10%/12.5% Weapon Damage -2%/3%/4%/5% Fire Rate,DAMAGE WEAPONDAMAGE TRADEOFF,WEAPONDAMAGE WEAPONFIRERATE
+//i.imgur.com/qm3jWzf.png,FireRate Tradeoff,WEAPON ,+5%/7.5%/10%/12.5% Fire Rate -2%/3%/4%/5% Weapon Damage,DAMAGE WEAPONFIRERATE TRADEOFF,WEAPONDAMAGE WEAPONFIRERATE
+//i.imgur.com/467Rd3y.png,Projectile Lifetime Bonus,WEAPON ,+4%/6%/8%/10% Projectile Lifetime,WEAPONRANGE LIFETIME,WEAPONRANGE
+//i.imgur.com/467Rd3y.png,Projectile Speed Bonus,WEAPON ,+4%/6%/8%/10% Projectile Speed ,WEAPONRANGE PROJSPEED,WEAPONRANGE
+//i.imgur.com/3vwv7MR.png,OnShoot Attack Boost,WEAPON RING ,"3% chance on Shoot to gain +5/6/7/8 ATT for 6 Seconds, 15 Seconds Cooldown",ONSHOOT ONSHOOTSTAT PROC STATBOOST ATTACK PROCATTACK,ONSHOOTSTAT PROCATTACK
+//i.imgur.com/3vwv7MR.png,OnShoot Defense Boost,WEAPON RING ,"3% chance on Shoot to gain +7/8/9/10 DEF for 6 Seconds, 15 Seconds Cooldown",ONSHOOT ONSHOOTSTAT PROC STATBOOST DEFENSE PROCDEFENSE,ONSHOOTSTAT PROCDEFENSE
+//i.imgur.com/3vwv7MR.png,OnShoot Dexterity Boost,WEAPON RING ,"3% chance on Shoot to gain +5/6/7/8 DEX for 6 Seconds, 15 Seconds Cooldown",ONSHOOT ONSHOOTSTAT PROC STATBOOST DEXTERITY PROCDEXTERITY,ONSHOOTSTAT PROCDEXTERITY
+//i.imgur.com/3vwv7MR.png,OnShoot Vitality Boost,WEAPON RING ,"3% chance on Shoot to gain +7/8/9/10 VIT for 6 Seconds, 15 Seconds Cooldown",ONSHOOT ONSHOOTSTAT PROC STATBOOST VITALITY PROCVITALITY,ONSHOOTSTAT PROCVITALITY
+//i.imgur.com/3vwv7MR.png,OnShoot Wisdom Boost,WEAPON RING ,"3% chance on Shoot to gain +7/8/9/10 WIS for 6 Seconds, 15 Seconds Cooldown",ONSHOOT ONSHOOTSTAT PROC STATBOOST WISDOM PROCWISDOM,ONSHOOTSTAT PROCWISDOM
+//i.imgur.com/3vwv7MR.png,OnShoot Heal,WEAPON RING ,"3% chance on Shoot while below 90% HP to heal 20/30/40/50 HP, 15 Seconds Cooldown",RECOVERY ONSHOOT PROC HEAL,HEAL
+//i.imgur.com/3vwv7MR.png,OnShoot Magic,WEAPON RING ,"3% chance on Shoot while below 90% MP to heal 20/30/40/50 MP, 15 Seconds Cooldown",RECOVERY ONSHOOT PROC MAGIC,MAGIC

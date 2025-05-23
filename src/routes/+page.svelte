@@ -1,44 +1,62 @@
 <script lang="ts">
   import { onMount } from 'svelte';
+  import { writable } from 'svelte/store';
   import ItemDropdown from '$lib/components/ItemDropdown.svelte';
   import StatBar from '$lib/components/StatBar.svelte';
   import StatBox from '$lib/components/StatBox.svelte';
   import ItemWindow from '$lib/components/ItemWindow.svelte';
   import ItemInfo from '$lib/components/ItemInfo.svelte';
   import { loadCSV } from '$lib/utils/loadCsv';
+  import EnchantmentWindow from '$lib/components/EnchantmentWindow.svelte';
   export let data;
   let classes = data.classes;
   let selectedClass = classes[0];
   type StatKey = 'HP' | 'MP' | 'Attack' | 'Defense' | 'Speed' | 'Dexterity' | 'Vitality' | 'Wisdom';
   let armorClass = 'leather-armors';
-  let armorData = [];
-  let loadedArmorClass = 'leather-armors';
+  let armorData = writable<any[]>([]);
   let ability = 'cloaks';
-  let abilityData = [];
-  let loadedAbility = 'cloaks';
+  let abilityData = writable<any[]>([]);
   let weaponClass = 'Dagger';
-  let weaponData = [];
-  let loadedWeaponClass = 'Dagger';
+  let weaponData = writable<any[]>([]);
   let ringData = data.rings;
+  let enchantmentData = data.enchantments;
+  console.log('enchantmentData', enchantmentData);
+
   let showArmorDropdown = false;
   let showWeaponDropdown = false;
   let showAbilityDropdown = false;
   let showRingDropdown = false;
-  const itemSlots = ['weapon', 'armor', 'ring', 'ability'];
-
-  let selectedItems = {
+  type ItemSlot = 'weapon' | 'armor' | 'ring' | 'ability';
+  const itemSlots: ItemSlot[] = ['weapon', 'armor', 'ring', 'ability'];
+  
+  
+  let selectedItems: Record<ItemSlot, any> = {
     weapon: null,
     armor: null,
     ring: null,
     ability: null
   };
 
+  let selectedEnchants = {
+    ability: null,
+    ring: null,
+  };
 
-  function handleChange(event) {
-    selectedClass = classes.find(c => c.Class === event.target.value);
+  function update(slot, enchant) {
+    selectedEnchants[slot] = enchant;
+  }
+
+  function handleChange(event: Event) {
+    const select = event.currentTarget as HTMLSelectElement;
+    selectedClass = classes.find((c: { Class: any; }) => c.Class === select.value);
     armorClass = selectedClass.Armor_ID;
     weaponClass = selectedClass.Weapon_ID;
     ability = selectedClass.Ability;
+    loadCSV('armors', armorClass).then(data => armorData.set(data));
+    loadCSV('abilitys', ability).then(data => abilityData.set(data));
+    loadCSV('weapons', weaponClass).then(data => weaponData.set(data));
+    console.log('ability', ability);
+
     for (const slot of itemSlots) {
       selectItem(null, slot)
     }
@@ -84,65 +102,33 @@
   };
 
 
-  $: if (armorClass && armorClass !== loadedArmorClass) {
-    loadCSV('armors', armorClass).then(data => {
-      armorData = data.sort((a, b) => {
-        if (a.Tier === 'UT' || a.Tier === 'ST') return 1;
-        if (b.Tier === 'UT' || b.Tier === 'ST') return -1;
-        return parseInt(a.Tier) - parseInt(b.Tier);
-      });
-      loadedArmorClass = armorClass;
-    });
-  }
-
-  $: if (ability && ability !== loadedAbility) {
-    loadCSV('abilitys', ability).then(data => {
-      abilityData = data.sort((a, b) => {
-        if (a.Tier === 'UT' || a.Tier === 'ST') return 1;
-        if (b.Tier === 'UT' || b.Tier === 'ST') return -1;
-        return parseInt(a.Tier) - parseInt(b.Tier);
-      });
-      loadedAbility = ability;
-    });
-  }
-
-  $: if (weaponClass && weaponClass !== loadedWeaponClass) {
-    loadCSV('weapons', weaponClass).then(data => {
-      weaponData = data.sort((a, b) => {
-        if (a.Tier === 'UT' || a.Tier === 'ST') return 1;
-        if (b.Tier === 'UT' || b.Tier === 'ST') return -1;
-        return parseInt(a.Tier) - parseInt(b.Tier);
-      });
-      loadedWeaponClass = weaponClass;
-    });
-  }
-
   onMount(() => {
-    if (armorClass) loadCSV('armors', armorClass).then(data => armorData = data);
-    if (ability) loadCSV('abilitys', ability).then(data => abilityData = data);
-    if (weaponClass) loadCSV('weapons', weaponClass).then(data => weaponData = data);
+    if (armorClass) loadCSV('armors', armorClass).then(data => armorData.set(data));
+    if (ability) loadCSV('abilitys', ability).then(data => abilityData.set(data));
+    if (weaponClass) loadCSV('weapons', weaponClass).then(data => weaponData.set(data));
     selectedClass = classes[0];
   });
 
-  function parseBonusValue(raw) {
+  function parseBonusValue(raw: string) {
     if (!raw) return 0;
     const cleaned = raw.replace('+', '').trim();
     const parsed = parseInt(cleaned, 10);
     return isNaN(parsed) ? 0 : parsed;
   }
-
-  function selectItem(item, slot) {
+  function selectItem(item: null, slot: ItemSlot) {
     const previousItem = selectedItems[slot];
 
     // Helper to apply or remove bonuses
-    const applyBonuses = (sourceItem, modifier) => {
+    const applyBonuses = (sourceItem: { [x: string]: string; } | null, modifier: number) => {
       if (!sourceItem) return;
 
       if (slot === 'armor') {
         Object.keys(statMap).forEach((csvStat) => {
           const statKey = statMap[csvStat];
           const value = parseBonusValue(sourceItem[csvStat]);
-          bonus[statKey] += modifier * value;
+          if (statKey in bonus) {
+            bonus[statKey as StatKey] += modifier * value;
+          }
         });
       }
 
@@ -152,8 +138,8 @@
 
         matches.forEach(([_, value, stat]) => {
           const statKey = statMap[stat];
-          if (statKey && bonus[statKey] !== undefined) {
-            bonus[statKey] += modifier * parseInt(value);
+          if (statKey && (bonus as Record<string, number>)[statKey] !== undefined) {
+            bonus[statKey as StatKey] += modifier * parseInt(value);
           }
         });
       }
@@ -168,13 +154,13 @@
     applyBonuses(item, 1);
 
     selectedItems[slot] = item;
+    selectedItems = { ...selectedItems }; // Trigger reactivity
     bonus = { ...bonus }; // Trigger reactivity
 
     if (slot === 'armor') showArmorDropdown = false;
     if (slot === 'weapon') showWeaponDropdown = false;
     if (slot === 'ability') showAbilityDropdown = false;
     if (slot === 'ring') showRingDropdown = false;
-    
   }
 
 
@@ -234,8 +220,7 @@
               {bonus}
               {exaltStats}
               {selectedClass}
-              bind:bindValue={exaltStats[stat]}
-              class="text-sm md:text-base"
+              bind:bindValue={exaltStats[stat as StatKey]}
             />
           {/each}
         </div>
@@ -248,8 +233,7 @@
               {bonus}
               {exaltStats}
               {selectedClass}
-              bind:bindValue={exaltStats[stat]}
-              class="text-sm md:text-base"
+              bind:bindValue={exaltStats[stat as StatKey]}
             />
           {/each}
         </div>
@@ -278,11 +262,42 @@
           <div class="absolute top-full mt-2 left-0 z-50 w-full">
             <ItemDropdown
               show={showWeaponDropdown}
-              items={weaponData}
+              items={$weaponData}
               label="Weapon"
               onSelect={(item) => selectItem(item, 'weapon')}
             />
           </div>
+        </div>
+        <!-- Enchantments -->
+        <div class="grid grid-cols-1 gap-4">
+          <EnchantmentWindow
+            selected={selectedEnchants.ability}
+            enchantments={enchantmentData}
+            slotType="WEAPON"
+            allSelected={Object.values(selectedEnchants).filter(e => e)}
+            onSelect={(e) => update("ability", e)}
+          />
+          <EnchantmentWindow
+            selected={selectedEnchants.ring}
+            enchantments={enchantmentData}
+            slotType="WEAPON"
+            allSelected={Object.values(selectedEnchants).filter(e => e)}
+            onSelect={(e) => update("ring", e)}
+          />
+          <EnchantmentWindow
+            selected={selectedEnchants.ability}
+            enchantments={enchantmentData}
+            slotType="WEAPON"
+            allSelected={Object.values(selectedEnchants).filter(e => e)}
+            onSelect={(e) => update("ability", e)}
+          />
+          <EnchantmentWindow
+            selected={selectedEnchants.ring}
+            enchantments={enchantmentData}
+            slotType="WEAPON"
+            allSelected={Object.values(selectedEnchants).filter(e => e)}
+            onSelect={(e) => update("ring", e)}
+          />
         </div>
       </div>
     </div>
@@ -301,7 +316,7 @@
           <div class="absolute top-full mt-2 left-0 z-50 w-full">
             <ItemDropdown
               show={showArmorDropdown}
-              items={armorData}
+              items={$armorData}
               label="Armor"
               onSelect={(item) => selectItem(item, 'armor')}
             />
@@ -318,13 +333,13 @@
             slot="ability"
             {selectedItems}
             toggleDropdown={() => {showAbilityDropdown = !showAbilityDropdown;
-            console.log('clicked')}}
+            }}
           />
           <ItemInfo slot="ability" {selectedItems} />
           <div class="absolute top-full mt-2 left-0 z-50 w-full">
             <ItemDropdown
               show={showAbilityDropdown}
-              items={abilityData}
+              items={$abilityData}
               label="Ability"
               onSelect={(item) => selectItem(item, 'ability')}
             />
@@ -342,7 +357,6 @@
             {selectedItems}
             toggleDropdown={() => {
               showRingDropdown = !showRingDropdown;
-              console.log('Toggled ring dropdown:', showRingDropdown);
             }}
           />
           <ItemInfo slot="ring" {selectedItems} />

@@ -1,0 +1,12 @@
+Image link,Enchantment Name,Eligible Items,Effect(s) I / II / III / IV,Enchantment Labels,Incompatible Labels
+//i.imgur.com/OzvjBWH.png,MP Cost Reduction,ABILITY ,4%/6%/8%/10% Reduced MP Cost,CASTING MPCOSTREDUCTION,MPCOSTREDUCTION STATMODMULT
+//i.imgur.com/OzvjBWH.png,Stat Mod Multiplier,ABILITY ,Increases Stat Mod value for this ability by +8%/12%/16%/20%,CASTING STATMODMULT,MPCOSTREDUCTION STATMODMULT
+//i.imgur.com/tj3pPHL.png,Flat Mana Regeneration,ABILITY RING ,"Increases Mana regen by 2/3/4/5 per second, Doubled while out of combat",MANAREGEN FLATREGEN,MANAREGEN
+//i.imgur.com/tj3pPHL.png,Percentage Mana Regeneration,ABILITY RING ,"Increases Mana regen by .75%/1%/1.25%/1.5% of your maximum MP per second, Doubled while out of combat",MANAREGEN PERCENTAGEREGEN,MANAREGEN
+//i.imgur.com/3vwv7MR.png,OnAbility Attack Boost,ABILITY RING,"30% chance on Ability Use, gain +5/6/7/8 ATT for 8 Seconds, 15 Seconds Cooldown",ONABILITY ONABILITYSTAT PROC STATBOOST ATTACK PROCATTACK,ONABILITYSTAT PROCATTACK
+//i.imgur.com/3vwv7MR.png,OnAbility Defense Boost,ABILITY RING,"30% chance on Ability Use, gain +7/8/9/10 DEF for 8 Seconds, 15 Seconds Cooldown",ONABILITY ONABILITYSTAT PROC STATBOOST DEFENSE PROCDEFENSE,ONABILITYSTAT PROCDEFENSE
+//i.imgur.com/3vwv7MR.png,OnAbility Dexterity Boost,ABILITY RING ,"30% chance on Ability Use, gain +5/6/7/8 DEX for 8 Seconds, 15 Seconds Cooldown",ONABILITY ONABILITYSTAT PROC STATBOOST DEXTERITY PROCDEXTERITY,ONABILITYSTAT PROCDEXTERITY
+//i.imgur.com/3vwv7MR.png,OnAbility Vitality Boost,ABILITY RING ,"30% chance on Ability Use, gain +7/8/9/10 VIT for 8 Seconds, 15 Seconds Cooldown",ONABILITY ONABILITYSTAT PROC STATBOOST VITALITY PROCVITALITY,ONABILITYSTAT PROCVITALITY
+//i.imgur.com/3vwv7MR.png,OnAbility Wisdom Boost,ABILITY RING,"30% chance on Ability Use, gain +7/8/9/10 WIS for 8 Seconds, 15 Seconds Cooldown",ONABILITY ONABILITYSTAT PROC STATBOOST WISDOM PROCWISDOM,ONABILITYSTAT PROCWISDOM
+//i.imgur.com/3vwv7MR.png,OnAbility Heal,ABILITY RING ,"30% chance on Ability Use, while below 90% HP to heal 20/30/40/50 HP, 15 Seconds Cooldown",RECOVERY ONABILITY PROC HEAL,HEAL
+//i.imgur.com/3vwv7MR.png,OnAbility Magic,ABILITY RING ,"30% chance on Ability Use, while below 90% MP to heal 20/30/40/50 MP, 15 Seconds Cooldown",RECOVERY ONABILITY PROC MAGIC,MAGIC
