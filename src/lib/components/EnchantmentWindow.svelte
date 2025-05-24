@@ -4,11 +4,12 @@
   export let selected: any = null;
   export let enchantments: any[] = [];
   export let slotType: string = ''; // e.g., 'RING', 'ABILITY'
-  export let allSelected: any[] = []; // Other selected enchantments
-  export let onSelect: (e: any | null) => void;
+  export let allSelected: any[] = [];
+  export let onSelect: (e: any | null, tier?: number) => void;
+  export let selectedTiers: Record<string, number> = {};
+  export let setTier: (name: string, tier: number) => void;
 
   let showDropdown = false;
-
   function toggle() {
     showDropdown = !showDropdown;
   }
@@ -30,12 +31,13 @@
     <EnchantmentDropdown
       enchantments={enchantments}
       slotType={slotType}
-      selected={selected}
       allSelected={allSelected}
-      onSelect={(e) => {
-        onSelect(e);
+      onSelect={(e, tier) => {
+        onSelect(e, tier);
         showDropdown = false;
       }}
+      selectedTiers={selectedTiers}
+      setTier={setTier}
     />
   {/if}
 </div>

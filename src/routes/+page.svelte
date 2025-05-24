@@ -20,7 +20,6 @@
   let weaponData = writable<any[]>([]);
   let ringData = data.rings;
   let enchantmentData = data.enchantments;
-  console.log('enchantmentData', enchantmentData);
 
   let showArmorDropdown = false;
   let showWeaponDropdown = false;
@@ -38,13 +37,45 @@
   };
 
   let selectedEnchants = {
-    ability: null,
-    ring: null,
+    weapon : [null, null, null, null],
+    armor: [null, null, null, null], 
+    ring: [null, null, null, null],
+    ability: [null, null, null, null]
   };
 
-  function update(slot, enchant) {
-    selectedEnchants[slot] = enchant;
+  let selectedTiers: Record<string, number> = {};
+
+  function setTier(name: string, tier: number) {
+    selectedTiers = { ...selectedTiers, [name]: tier };
   }
+
+  function parseEffect(effectString: string, tier: number): string {
+    const parts = effectString.split(',');
+    const effectLevels = parts[0]?.split('/') ?? [];
+    const staticText = parts.slice(1).join(',')?.trim();
+    const base = effectLevels[Math.max(0, tier - 1)] ?? '';
+    return [base, staticText].filter(Boolean).join(', ');
+  }
+
+  $: enchantEffects = {} as Record<string, string>;
+  $: console.log('selectedEnchants', enchantEffects);
+
+  for (const slot in selectedEnchants) {
+      (selectedEnchants[slot as ItemSlot] ?? []).forEach((e) => {
+        if (e) {
+          const labels = e["Enchantment Labels"];
+          const isUnique = Array.isArray(labels)
+            ? (labels as string[]).includes("UNIQUE")
+            : typeof labels === "string"
+              ? (labels as string).includes("UNIQUE")
+              : false;
+          const tier = isUnique
+            ? 1
+            : selectedTiers[e["Enchantment Name"]] ?? 1;
+          enchantEffects[e["Enchantment Name"]] = parseEffect(e["Effect(s) I / II / III / IV"], tier);
+        }
+      });
+    }
 
   function handleChange(event: Event) {
     const select = event.currentTarget as HTMLSelectElement;
@@ -55,8 +86,6 @@
     loadCSV('armors', armorClass).then(data => armorData.set(data));
     loadCSV('abilitys', ability).then(data => abilityData.set(data));
     loadCSV('weapons', weaponClass).then(data => weaponData.set(data));
-    console.log('ability', ability);
-
     for (const slot of itemSlots) {
       selectItem(null, slot)
     }
@@ -243,133 +272,109 @@
 
   <!-- Right Grid -->
   <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-    <!-- Weapon -->
-    <div class="relative flex flex-col gap-2">
-      <div class="flex items-start gap-4">
-        <!-- Wrap both the trigger and dropdown in one relative block -->
-        <div class="relative flex items-start gap-4 w-full">
-          <!-- Item Button -->
-          <ItemWindow
-            slot="weapon"
-            {selectedItems}
-            toggleDropdown={() => showWeaponDropdown = !showWeaponDropdown}
-          />
+  <!-- Weapon -->
+<div class="relative flex flex-col gap-2">
+  <!-- Top row: Item + Info -->
+  <div class="flex items-start gap-4">
+    <ItemWindow
+      slot="weapon"
+      {selectedItems}
+      {selectedEnchants}
+      items={$weaponData}
+      onSelect={(item) => selectItem(item, 'weapon')}
+    />
+    <ItemInfo
+      slot="weapon"
+      {selectedItems}
+      {selectedEnchants}
+      {selectedTiers}
+    />
+  </div>
 
-          <!-- Item Info -->
-          <ItemInfo slot="weapon" {selectedItems} />
+  <!-- Bottom row: 2x2 Grid of Enchantments -->
+  <div class="grid grid-cols-2 gap-4">
+    {#each [0, 1, 2, 3] as i}
+      <EnchantmentWindow
+        selected={selectedEnchants.weapon[i]}
+        enchantments={enchantmentData}
+        slotType="WEAPON"
+        allSelected={selectedEnchants.weapon.filter((_, idx) => idx !== i)}
+        onSelect={(e, tier) => {
+          selectedEnchants.weapon[i] = e;
+          if (e && !e["Enchantment Labels"]?.includes("UNIQUE")) {
+            selectedTiers[e["Enchantment Name"]] = tier ?? 1;
+          }
+        }}
+        {selectedTiers}
+        {setTier}
+      />
+    {/each}
+  </div>
+</div>
 
-          <!-- Dropdown -->
-          <div class="absolute top-full mt-2 left-0 z-50 w-full">
-            <ItemDropdown
-              show={showWeaponDropdown}
-              items={$weaponData}
-              label="Weapon"
-              onSelect={(item) => selectItem(item, 'weapon')}
-            />
-          </div>
-        </div>
-        <!-- Enchantments -->
-        <div class="grid grid-cols-1 gap-4">
-          <EnchantmentWindow
-            selected={selectedEnchants.ability}
-            enchantments={enchantmentData}
-            slotType="WEAPON"
-            allSelected={Object.values(selectedEnchants).filter(e => e)}
-            onSelect={(e) => update("ability", e)}
-          />
-          <EnchantmentWindow
-            selected={selectedEnchants.ring}
-            enchantments={enchantmentData}
-            slotType="WEAPON"
-            allSelected={Object.values(selectedEnchants).filter(e => e)}
-            onSelect={(e) => update("ring", e)}
-          />
-          <EnchantmentWindow
-            selected={selectedEnchants.ability}
-            enchantments={enchantmentData}
-            slotType="WEAPON"
-            allSelected={Object.values(selectedEnchants).filter(e => e)}
-            onSelect={(e) => update("ability", e)}
-          />
-          <EnchantmentWindow
-            selected={selectedEnchants.ring}
-            enchantments={enchantmentData}
-            slotType="WEAPON"
-            allSelected={Object.values(selectedEnchants).filter(e => e)}
-            onSelect={(e) => update("ring", e)}
-          />
-        </div>
-      </div>
-    </div>
-    <!-- Armor -->
-    <div class="relative flex flex-col gap-2">
-      <div class="flex items-start gap-4">
-        <!-- Wrap both the trigger and dropdown in one relative block -->
-        <div class="relative flex items-start gap-4 w-full">
-          <ItemWindow
-            slot="armor"
-            {selectedItems}
-            toggleDropdown={() => showArmorDropdown = !showArmorDropdown}
-          />
-          <ItemInfo slot="armor" {selectedItems} />
-        
-          <div class="absolute top-full mt-2 left-0 z-50 w-full">
-            <ItemDropdown
-              show={showArmorDropdown}
-              items={$armorData}
-              label="Armor"
-              onSelect={(item) => selectItem(item, 'armor')}
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Ability -->
-    <div class="relative flex flex-col gap-2">
-      <div class="flex items-start gap-4">
-        <!-- Wrap both the trigger and dropdown in one relative block -->
-        <div class="relative flex items-start gap-4 w-full">
-          <ItemWindow
-            slot="ability"
-            {selectedItems}
-            toggleDropdown={() => {showAbilityDropdown = !showAbilityDropdown;
-            }}
-          />
-          <ItemInfo slot="ability" {selectedItems} />
-          <div class="absolute top-full mt-2 left-0 z-50 w-full">
-            <ItemDropdown
-              show={showAbilityDropdown}
-              items={$abilityData}
-              label="Ability"
-              onSelect={(item) => selectItem(item, 'ability')}
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Ring -->
-    <div class="relative flex flex-col gap-2">
-      <div class="flex items-start gap-4">
-        <!-- Wrap both the trigger and dropdown in one relative block -->
-        <div class="relative flex items-start gap-4 w-full">
-          <ItemWindow
-            slot="ring"
-            {selectedItems}
-            toggleDropdown={() => {
-              showRingDropdown = !showRingDropdown;
-            }}
-          />
-          <ItemInfo slot="ring" {selectedItems} />
-          <div class="absolute top-full mt-2 left-0 z-50 w-full">
-            <ItemDropdown
-              show={showRingDropdown}
-              items={ringData}
-              label="Ring"
-              onSelect={(item) => selectItem(item, 'ring')}
-            />
-          </div>
-        </div>
+
+  <!-- Armor -->
+  <div class="relative flex flex-col gap-2">
+    <div class="flex items-start gap-4">
+      <div class="relative flex items-start gap-4 w-full">
+        <ItemWindow
+          slot="armor"
+          {selectedItems}
+          {selectedEnchants}
+          items={$armorData}
+          onSelect={(item) => selectItem(item,'armor')}
+        />
+        <ItemInfo
+          slot="armor"
+          {selectedItems}
+          {selectedEnchants}
+          {selectedTiers}
+        />
       </div>
     </div>
   </div>
+
+  <!-- Ability -->
+  <div class="relative flex flex-col gap-2">
+    <div class="flex items-start gap-4">
+      <div class="relative flex items-start gap-4 w-full">
+        <ItemWindow
+          slot="ability"
+          {selectedItems}
+          {selectedEnchants}
+          items={$abilityData}
+          onSelect={(item) => selectItem(item,'ability')}
+        />
+        <ItemInfo
+          slot="ability"
+          {selectedItems}
+          {selectedEnchants}
+          {selectedTiers}
+        />
+      </div>
+    </div>
+  </div>
+
+  <!-- Ring -->
+  <div class="relative flex flex-col gap-2">
+    <div class="flex items-start gap-4">
+      <div class="relative flex items-start gap-4 w-full">
+        <ItemWindow
+          slot="ring"
+          {selectedItems}
+          {selectedEnchants}
+          items={ringData}
+          onSelect={(item) => selectItem(item,'ring')}
+        />
+        <ItemInfo
+          slot="ring"
+          {selectedItems}
+          {selectedEnchants}
+          {selectedTiers}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+
 </div>

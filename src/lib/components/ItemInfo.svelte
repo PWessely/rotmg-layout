@@ -1,7 +1,10 @@
 <script lang="ts">
   import { derived } from 'svelte/store';
+
   export let slot: string;
   export let selectedItems: Record<string, any>;
+  export let selectedEnchants: Record<string, (any | null)[]>;
+  export let selectedTiers: Record<string, number> = {};
 
   const statMap: Record<string, string> = {
     ATT: 'Attack',
@@ -29,31 +32,50 @@
     if (tier === 'ST') return { label: 'ST', color: 'text-yellow-400' };
     if (!tier || isNaN(Number(tier))) return { label: 'Unknown', color: 'text-gray-400' };
     return { label: `T${tier}`, color: 'text-white' };
-    };
+  };
+
   $: item = selectedItems?.[slot];
+
   $: bonuses = (() => {
     if (!item) return [];
 
     if (slot === 'armor') {
-        return Object.entries(statMap)
+      return Object.entries(statMap)
         .map(([csvKey, name]) => {
-            const raw = item[csvKey];
-            return raw ? { stat: name, value: raw } : null;
+          const raw = item[csvKey];
+          return raw ? { stat: name, value: raw } : null;
         })
-        .filter(Boolean);
+        .filter((b): b is { stat: string; value: string } => b !== null);
     } else if (slot === 'ability' || slot === 'ring') {
-        return parseStatBonuses(item['Stat Bonus']);
+      return parseStatBonuses(item['Stat Bonus']);
     }
 
     return [];
   })();
+
   $: tier = item ? getTierDisplay(item.Tier) : null;
+
+  // Process enchantment effects
+  $: activeEnchants = selectedEnchants?.[slot]?.filter(Boolean) ?? [];
+
+  $: enchantEffects = activeEnchants.map((enchant) => {
+    const name = enchant?.['Enchantment Name'];
+    const tier = selectedTiers?.[name] ?? 1;
+    const effectKey = "Effect(s) I / II / III / IV";
+    return {
+      name,
+      tier,
+      effect: enchant?.[effectKey] || '(No effect listed)'
+    };
+  });
 </script>
 
 {#if item}
-  <div class="bg-gray-800 text-white rounded p-3 text-sm w-full md:w-64 space-y-2 border border-gray-600">
+  <div class="bg-gray-800 text-white rounded p-3 text-sm w-full md:w-64 space-y-3 border border-gray-600">
     <div class="font-bold text-base">{item.Name}</div>
-    <div class={`font-semibold ${tier.color}`}>{tier.label}</div>
+    {#if tier}
+      <div class={`font-semibold ${tier.color}`}>{tier.label}</div>
+    {/if}
 
     {#if slot === 'ability' && item.Cost}
       <div>
@@ -71,9 +93,21 @@
         </ul>
       </div>
     {/if}
+
+    {#if enchantEffects.length > 0}
+      <div>
+        <div class="font-semibold">Enchant Effects:</div>
+        <ul class="ml-4 list-disc">
+          {#each enchantEffects as effect}
+            <li>
+              <span class="text-fuchsia-400 font-semibold">{effect.name}</span> (Tier {effect.tier}): {effect.effect}
+            </li>
+          {/each}
+        </ul>
+      </div>
+    {/if}
   </div>
-{/if}
-{#if !item}
+{:else}
   <div class="bg-gray-800 text-white rounded p-3 text-sm w-full md:w-64">
     <div class="font-bold text-base">No {slot} selected</div>
   </div>

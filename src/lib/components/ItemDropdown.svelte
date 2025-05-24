@@ -11,9 +11,10 @@
   );
 </script>
 
+
 {#if show}
   <div
-    class="absolute left-0 top-full w-full mt-2 z-10 bg-gray-800 border border-gray-600 rounded p-2 max-h-64 overflow-y-auto grid grid-cols-3 gap-4"
+    class="absolute left-0 top-full w-90 mt-2 z-10 bg-gray-800 border border-gray-600 rounded p-2 max-h-64 overflow-y-auto grid grid-cols-3 gap-4"
   >
     <!-- Search Bar -->
     <input
