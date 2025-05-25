@@ -267,9 +267,9 @@
 
 </script>
 
-<div class="flex flex-grow p-4 gap-4">
+<div class="flex flex-grow bg-gray-800 p-4 gap-4">
   <!-- Left Sidebar -->
-  <div class="w-1/3 bg-gray-800 text-white rounded-xl shadow p-4 flex flex-col justify-between">
+  <div class="w-1/3 bg-gray-800 text-white p-4 flex flex-col justify-between">
     <!-- Class Name -->
     <h2 class="text-xl font-bold mb-2">{selectedClass.Class}</h2>
 
