@@ -78,9 +78,9 @@
 
 
   onMount(() => {
-    if (armorClass) loadCSV('armors', armorClass).then(data => armorData.set(data));
-    if (ability) loadCSV('abilitys', ability).then(data => abilityData.set(data));
-    if (weaponClass) loadCSV('weapons', weaponClass).then(data => weaponData.set(data));
+    if (armorClass) loadCSV('armors', armorClass, fetch).then(data => armorData.set(data));
+    if (ability) loadCSV('abilitys', ability, fetch).then(data => abilityData.set(data));
+    if (weaponClass) loadCSV('weapons', weaponClass, fetch).then(data => weaponData.set(data));
     selectedClass = classes[0];
   });
 
@@ -90,9 +90,9 @@
     armorClass = selectedClass.Armor_ID;
     weaponClass = selectedClass.Weapon_ID;
     ability = selectedClass.Ability;
-    loadCSV('armors', armorClass).then(data => armorData.set(data));
-    loadCSV('abilitys', ability).then(data => abilityData.set(data));
-    loadCSV('weapons', weaponClass).then(data => weaponData.set(data));
+    loadCSV('armors', armorClass, fetch).then(data => armorData.set(data));
+    loadCSV('abilitys', ability, fetch).then(data => abilityData.set(data));
+    loadCSV('weapons', weaponClass, fetch).then(data => weaponData.set(data));
     for (const slot of itemSlots) {
       selectItem(null, slot)
       selectedEnchants[slot] = [null, null, null, null];

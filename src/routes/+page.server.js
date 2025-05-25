@@ -1,21 +1,12 @@
 // src/routes/+page.server.js
 // @ts-ignore
-import fs from 'fs';
-// @ts-ignore
-import path from 'path';
-// @ts-ignore
 import Papa from 'papaparse';
 
 /** @type {import('./$types').PageServerLoad} */
-export async function load() {
-  const classFilePath = path.resolve('src/lib/data/classes.csv');
-  const classFileContent = fs.readFileSync(classFilePath, 'utf-8');
-
-  const ringFilePath = path.resolve('src/lib/data/rings/rings.csv');
-  const ringFileContent = fs.readFileSync(ringFilePath, 'utf-8');
-
-  const enchantFilePath = path.resolve('src/lib/data/enchantments.csv');
-  const enchantFileContent = fs.readFileSync(enchantFilePath, 'utf-8');
+export async function load({ fetch }) {
+  const classFileContent = await (await fetch('/raw-data/classes.csv')).text();
+  const ringFileContent = await (await fetch('/raw-data/rings/rings.csv')).text();
+  const enchantFileContent = await (await fetch('/raw-data/enchantments.csv')).text();
 
   const { data: classData } = Papa.parse(classFileContent, {
     header: true,

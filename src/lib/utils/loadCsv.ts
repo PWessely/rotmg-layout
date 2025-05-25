@@ -1,10 +1,8 @@
 // src/lib/utils/loadCSV.ts
 import Papa from 'papaparse';
-import fs from 'fs';
-import path from 'path';
 
-export async function loadCSV(type: string, fileName: string): Promise<any[]> {
-  const basePath = `src/lib/data/${type}/`;
+export async function loadCSV(type: string, fileName: string, fetch: typeof globalThis.fetch): Promise<any[]> {
+  const basePath = `/raw-data/${type}/`;
 
   if (type === 'weapons') {
     const weaponFilesMap: Record<string, string[]> = {
@@ -19,13 +17,13 @@ export async function loadCSV(type: string, fileName: string): Promise<any[]> {
     const files = weaponFilesMap[fileName] || [];
     const allData: any[] = [];
 
-    for (const file of files) {  
-      const res = path.resolve(basePath + file);
-      const text = fs.readFileSync(res, 'utf-8');
+    for (const file of files) {
+      const res = await fetch(basePath + file);
+      const text = await res.text();
 
       const { data } = Papa.parse(text, {
         header: true,
-        skipEmptyLines: true
+        skipEmptyLines: true,
       });
 
       allData.push(...data);
@@ -33,13 +31,12 @@ export async function loadCSV(type: string, fileName: string): Promise<any[]> {
 
     return allData;
   } else {
-    const path = basePath + `${fileName}.csv`;
-    const res = await fetch(path);
+    const res = await fetch(`${basePath}${fileName}.csv`);
     const text = await res.text();
 
     const { data } = Papa.parse(text, {
       header: true,
-      skipEmptyLines: true
+      skipEmptyLines: true,
     });
 
     return data;
