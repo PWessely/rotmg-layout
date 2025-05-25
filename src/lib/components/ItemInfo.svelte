@@ -1,31 +1,10 @@
 <script lang="ts">
-  import { derived } from 'svelte/store';
+  import { parseStatBonuses, statMap, parseEffect } from '$lib/utils/statUtils';
 
   export let slot: string;
   export let selectedItems: Record<string, any>;
   export let selectedEnchants: Record<string, (any | null)[]>;
-  export let selectedTiers: Record<string, number> = {};
-
-  const statMap: Record<string, string> = {
-    ATT: 'Attack',
-    DEF: 'Defense',
-    SPD: 'Speed',
-    DEX: 'Dexterity',
-    VIT: 'Vitality',
-    WIS: 'Wisdom',
-    HP: 'HP',
-    MP: 'MP'
-  };
-
-  const parseStatBonuses = (bonusString: string | undefined) => {
-    const bonuses: { stat: string; value: string }[] = [];
-    const matches = [...(bonusString || '').matchAll(/([+-]?\d+)\s*([A-Z]+)/gi)];
-    for (const [_, value, stat] of matches) {
-      const name = statMap[stat];
-      if (name) bonuses.push({ stat: name, value });
-    }
-    return bonuses;
-  };
+  export let selectedTiers: Record<string, number | string> = {};
 
   const getTierDisplay = (tier: string | null | undefined) => {
     if (tier === 'UT') return { label: 'UT', color: 'text-fuchsia-500' };
@@ -48,6 +27,8 @@
         .filter((b): b is { stat: string; value: string } => b !== null);
     } else if (slot === 'ability' || slot === 'ring') {
       return parseStatBonuses(item['Stat Bonus']);
+    } else if (slot === 'weapon') {
+      return parseStatBonuses(item['Damage (Average)']);
     }
 
     return [];
@@ -60,22 +41,34 @@
 
   $: enchantEffects = activeEnchants.map((enchant) => {
     const name = enchant?.['Enchantment Name'];
-    const tier = selectedTiers?.[name] ?? 1;
-    const effectKey = "Effect(s) I / II / III / IV";
+    const labels = enchant?.['Enchantment Labels'] ?? '';
+    const isUnique = labels.includes('UNIQUE');
+    const tier = isUnique ? 'Unique' : Number(selectedTiers?.[name] ?? 1);
+
+    const rawEffect = enchant['Effect(s) I / II / III / IV'];
+    const effect = parseEffect(rawEffect, tier);
+
     return {
       name,
       tier,
-      effect: enchant?.[effectKey] || '(No effect listed)'
+      effect
     };
   });
 </script>
 
+
+
 {#if item}
   <div class="bg-gray-800 text-white rounded p-3 text-sm w-full md:w-64 space-y-3 border border-gray-600">
-    <div class="font-bold text-base">{item.Name}</div>
-    {#if tier}
+  {#if tier}
+    <div class="flex justify-between items-center">
+      <div class="font-bold text-base">{item.Name}</div>
       <div class={`font-semibold ${tier.color}`}>{tier.label}</div>
-    {/if}
+    </div>
+  {:else}
+    <div class="font-bold text-base">{item.Name}</div>
+  {/if}
+     
 
     {#if slot === 'ability' && item.Cost}
       <div>
@@ -100,7 +93,13 @@
         <ul class="ml-4 list-disc">
           {#each enchantEffects as effect}
             <li>
-              <span class="text-fuchsia-400 font-semibold">{effect.name}</span> (Tier {effect.tier}): {effect.effect}
+              <span class="text-fuchsia-400 font-semibold">{effect.name}</span>
+              {#if typeof effect.tier === 'number'}
+                (Tier {effect.tier})
+              {:else}
+                ({effect.tier})
+              {/if}
+              : {effect.effect}
             </li>
           {/each}
         </ul>

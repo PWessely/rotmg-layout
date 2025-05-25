@@ -5,9 +5,8 @@
   export let enchantments: any[] = [];
   export let slotType: string = ''; // e.g., 'RING', 'ABILITY'
   export let allSelected: any[] = [];
-  export let onSelect: (e: any | null, tier?: number) => void;
-  export let selectedTiers: Record<string, number> = {};
-  export let setTier: (name: string, tier: number) => void;
+  export let onSelect: (e: any | null, tier: number | string) => void;
+  export let selectedTiers: Record<string, number | string> = {};
 
   let showDropdown = false;
   function toggle() {
@@ -37,7 +36,6 @@
         showDropdown = false;
       }}
       selectedTiers={selectedTiers}
-      setTier={setTier}
     />
   {/if}
 </div>

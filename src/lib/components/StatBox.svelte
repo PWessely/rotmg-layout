@@ -4,15 +4,17 @@
   export let exaltStats: Record<string, number>;
   export let selectedClass: Record<string, any>;
   export let bindValue: number;
+  export let enchantDerivedBonus: Record<string, number>;
+
 
   const getTotal = () => {
-    const base = parseInt(selectedClass[stat]);
-    const extra = bonus[stat];
+    const base = parseFloat(selectedClass[stat]);
+    const extra = (bonus[stat] ?? 0) + (enchantDerivedBonus?.[stat] ?? 0);
     const exaltation = exaltStats[stat] * (stat === 'HP' || stat === 'MP' ? 5 : 1);
-    return base + extra + exaltation;
+    return parseFloat((base + extra + exaltation).toFixed(1));
   };
 
-  $: showBonus = bonus[stat] !== 0;
+  $: showBonus = bonus[stat] + (enchantDerivedBonus?.[stat] ?? 0) !== 0;
   $: showExalt = exaltStats[stat] > 0;
 </script>
 
@@ -24,16 +26,17 @@
   <span
     class="text-center font-bold"
     class:text-white={!showBonus}
-    class:text-green-400={bonus[stat] > 0}
-    class:text-red-400={bonus[stat] < 0}
+    class:text-green-400={(bonus[stat] + (enchantDerivedBonus?.[stat] ?? 0)) > 0}
+    class:text-red-400={(bonus[stat] + (enchantDerivedBonus?.[stat] ?? 0)) < 0}
   >
     {getTotal()}
     {#if showBonus || showExalt}
       <span class="ml-1 text-xs font-normal">
         (
         {#if showBonus}
-          <span class={bonus[stat] > 0 ? 'text-green-400' : 'text-red-400'}>
-            {bonus[stat] > 0 ? '+' : ''}{bonus[stat]}
+          <span class={(bonus[stat] + (enchantDerivedBonus?.[stat] ?? 0)) > 0 ? 'text-green-400' : 'text-red-400'}>
+            {(bonus[stat] + (enchantDerivedBonus?.[stat] ?? 0)) > 0 ? '+' : ''}
+            {(bonus[stat] + (enchantDerivedBonus?.[stat] ?? 0)).toFixed(1)}
           </span>
         {/if}
         {#if showExalt}
@@ -46,6 +49,7 @@
       </span>
     {/if}
   </span>
+
 
   <!-- Stat Selector -->
   <select

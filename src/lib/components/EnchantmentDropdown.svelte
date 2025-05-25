@@ -4,9 +4,8 @@
   export let enchantments: any[] = [];
   export let slotType: string = '';
   export let allSelected: any[] = [];
-  export let onSelect: (e: any | null, tier?: number) => void;
-  export let selectedTiers: Record<string, number> = {};
-  export let setTier: (name: string, tier: number) => void;
+  export let onSelect: (e: any | null, tier?: number | string) => void;
+  export let selectedTiers: Record<string, number | string> = {};
 
   const search = writable('');
 
@@ -51,7 +50,11 @@
     <div class="space-y-1 border-t border-gray-600 pt-2">
       <button
         class="w-full flex items-center space-x-2 p-2 hover:bg-gray-700 rounded transition"
-        on:click={() => onSelect(e, selectedTiers[e["Enchantment Name"]] ?? 1)}
+        on:click={() => {
+          const isUnique = e["Enchantment Labels"]?.includes("UNIQUE");
+          const tier = isUnique ? "Unique" : selectedTiers[e["Enchantment Name"]] ?? 1;
+          onSelect(e, tier);
+        }}
       >
         <img src={e["Image link"]} alt={e["Enchantment Name"]} class="w-8 h-8 object-contain" />
         <div class="flex-1 text-left">
