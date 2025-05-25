@@ -1,8 +1,10 @@
 // src/lib/utils/loadCSV.ts
 import Papa from 'papaparse';
+import fs from 'fs';
+import path from 'path';
 
 export async function loadCSV(type: string, fileName: string): Promise<any[]> {
-  const basePath = `/raw-data/${type}/`;
+  const basePath = `src/lib/data/${type}/`;
 
   if (type === 'weapons') {
     const weaponFilesMap: Record<string, string[]> = {
@@ -17,9 +19,9 @@ export async function loadCSV(type: string, fileName: string): Promise<any[]> {
     const files = weaponFilesMap[fileName] || [];
     const allData: any[] = [];
 
-    for (const file of files) {
-      const res = await fetch(basePath + file);
-      const text = await res.text();
+    for (const file of files) {  
+      const res = path.resolve(basePath + file);
+      const text = fs.readFileSync(res, 'utf-8');
 
       const { data } = Papa.parse(text, {
         header: true,
