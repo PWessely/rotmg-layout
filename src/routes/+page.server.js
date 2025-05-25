@@ -8,13 +8,13 @@ import Papa from 'papaparse';
 
 /** @type {import('./$types').PageServerLoad} */
 export async function load() {
-  const res1 = await fetch('/raw-data/classes.csv');
+  const res1 = await fetch(`/raw-data/classes.csv`);
   const classFileContent = await res1.text();
 
-  const res2 = await fetch('/raw-data/rings/rings.csv');
+  const res2 = await fetch(`/raw-data/rings/rings.csv`);
   const ringFileContent = await res2.text();
 
-  const res3 = await fetch('/raw-data/enchantments.csv');
+  const res3 = await fetch(`/raw-data/enchantments.csv`);
   const enchantFileContent = await res3.text();
 
   const { data: classData } = Papa.parse(classFileContent, {
