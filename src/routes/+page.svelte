@@ -20,6 +20,7 @@
   let weaponData = writable<any[]>([]);
   let ringData = data.rings;
   let enchantmentData = data.enchantments;
+  let changeEnchants = true;
 
   type ItemSlot = 'weapon' | 'armor' | 'ring' | 'ability';
   const itemSlots: ItemSlot[] = ['weapon', 'armor', 'ring', 'ability'];
@@ -93,9 +94,24 @@
     loadCSV('armors', armorClass, fetch).then(data => armorData.set(data));
     loadCSV('abilitys', ability, fetch).then(data => abilityData.set(data));
     loadCSV('weapons', weaponClass, fetch).then(data => weaponData.set(data));
+    if (changeEnchants) {
+      resetEnchants();
+    }
+    resetItems();
+    setExaltation(0);
+  }
+
+  function resetItems() {
     for (const slot of itemSlots) {
-      selectItem(null, slot)
-      selectedEnchants[slot] = [null, null, null, null];
+      selectItem(null, slot);
+    }
+  }
+
+  function resetEnchants() {
+    for (const slot of itemSlots) {
+      for (let i = 0; i < 4; i++) {
+        selectEnchant(null, 1, slot, i); // Default tier is 1
+      }
     }
   }
 
@@ -278,31 +294,18 @@
 
     <!-- Dropdown -->
     <select
-    class="mb-4 p-2 px-4 bg-gray-700 text-white border border-gray-600 rounded-lg shadow-inner focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
-    on:change="{handleChange}">
-    {#each classes as c}
-      <option class="bg-gray-800 text-white" value="{c.Class}">{c.Class}</option>
-    {/each}
-  </select>
+      class="mb-4 p-2 px-4 bg-gray-700 text-white border border-gray-600 rounded-lg shadow-inner focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
+      on:change="{handleChange}">
+      {#each classes as c}
+        <option class="bg-gray-800 text-white" value="{c.Class}">{c.Class}</option>
+      {/each}
+    </select>
 
-    <!-- Exaltation Buttons -->
-    <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
-    <span class="text-white font-semibold">Set Exaltation:</span>
-        <div class="flex gap-2">
-            <button
-            class="bg-gray-800 text-white px-3 py-1 rounded hover:bg-gray-700"
-            on:click={() => setExaltation(0)}
-            >
-            0
-            </button>
-            <button
-            class="bg-gray-800 text-white px-3 py-1 rounded hover:bg-gray-700"
-            on:click={() => setExaltation(5)}
-            >
-            5
-            </button>
-        </div>
-    </div>
+    <!-- Toggle changeEnchants -->
+    <label class="flex items-center mb-4 space-x-2 text-white">
+      <input type="checkbox" bind:checked={changeEnchants} class="form-checkbox h-4 w-4 text-gray-800 border border-gray-600" />
+      <span>Reset Enchants on Class change</span>
+    </label>
 
     <!-- Stats Box -->
     <div class="p-4 rounded-lg space-y-4">
